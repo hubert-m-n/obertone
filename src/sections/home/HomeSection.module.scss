@@ -1,0 +1,120 @@
+@import "../../common/commonStyles.module.scss";
+
+.sectionWrapper {
+  z-index: 1;
+}
+
+.contentWrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  max-width: 800px;
+  padding: 54vh 29px 261px 29px;
+  box-sizing: border-box;
+  color: $white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .homeSectiontitle {
+    color: $white;
+    font-size: 32pt;
+    margin-bottom: 38px;
+    font-variant: small-caps;
+  }
+
+  @media screen and (max-width: 799px) {
+    max-width: 100%;
+  }
+}
+
+.smallText {
+  margin: 0 0 10px 0;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+  @media screen and (max-width: 415px) {
+    margin: 0 0 getVW(10px) 0;
+    font-size: getVW(18px);
+  }
+}
+
+.mediumText {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  @media screen and (max-width: 415px) {
+    font-size: getVW(21px);
+  }
+}
+
+.italicText {
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 8px;
+  font-family: "Jost", sans-serif;
+  font-style: italic;
+  letter-spacing: 0.005em;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  @media screen and (max-width: 415px) {
+    font-size: getVW(21px);
+  }
+}
+
+.sectionBackground {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background: url("../../images/background_1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.ticketsLink {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $white;
+  background-color: #e6d430;
+  opacity: 0.9;
+  font-family: "Jost", sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 48px;
+  padding: 10px 0 25px;
+  transition: opacity 0.25s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 415px) {
+    width: getVW(240px);
+    height: getVW(60px);
+    margin-top: getVW(36px);
+    padding: 0 getVW(25px);
+    font-size: getVW(21px);
+  }
+}
+
+.ticketsLinkLargeText {
+  font-size: 40px;
+}

@@ -1,0 +1,194 @@
+@import "../../common/commonStyles.module.scss";
+
+.header {
+  position: fixed;
+  z-index: 999;
+  background-color: $pink;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 110px;
+  transition: height 0.5s;
+  will-change: height;
+
+  @media screen and (max-width: 999px) {
+    &.collapsed {
+      height: 50px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.headerContent {
+  @media screen and (min-width: 1000px) {
+    display: flex;
+    width: 100%;
+    max-width: 1180px;
+    align-items: flex-end;
+  }
+}
+
+.logo {
+  > svg {
+    height: 66px;
+    width: auto;
+    will-change: height;
+    transition: height 0.5s;
+  }
+
+  @media screen and (max-width: 999px) {
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    margin-left: -53px;
+    transform: translateX(-50%);
+    transition: transform 0.5s;
+
+    &.collapsed {
+      transform: translate(-50%, -7px);
+
+      > svg {
+        height: 42px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    margin-left: 28px;
+
+    > svg {
+      height: 81px;
+    }
+  }
+}
+
+.logoSommermusik {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: $blue1;
+  padding: 8px 10px;
+  transition: padding 0.5s;
+  will-change: padding;
+  text-align: right;
+
+  > svg {
+    height: 40px;
+    width: auto;
+    transition: height 0.5s;
+    will-change: height;
+  }
+
+  @media screen and (max-width: 999px) {
+    &.collapsed {
+      padding: 4px 10px;
+
+      > svg {
+        height: 38px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1180px) {
+    padding: 26px 17px 0 17px;
+    width: 123px;
+    height: 100%;
+    box-sizing: border-box;
+
+    > svg {
+      height: 70px;
+    }
+  }
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-family: "Jost Condensed", sans-serif;
+  color: $white;
+
+  @media screen and (max-width: 999px) {
+    margin-top: 81px;
+    margin-bottom: 11px;
+    font-size: 13px;
+    transition: opacity 0.5s;
+
+    &.collapsed {
+      pointer-events: none;
+      opacity: 0;
+    }
+  }
+
+  .navLink {
+    color: $white;
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 1000px) {
+    flex-grow: 1;
+    margin: 0 48px 16px 48px;
+    font-size: 18px;
+  }
+}
+
+.navSpacer {
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+}
+
+.langSwitch {
+  position: absolute;
+  right: 10px;
+
+  @media screen and (min-width: 1000px) {
+    top: 12px;
+    right: 76px;
+  }
+
+  @media screen and (min-width: 1180px) {
+    right: 143px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    top: auto;
+    bottom: 16px;
+  }
+}
+
+.lang {
+  display: none;
+
+  @media screen and (min-width: 1000px) {
+    display: block;
+  }
+}
+
+.langCompact {
+  display: block;
+
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+}
+
+.navLinkListen {
+  display: none;
+
+  @media screen and (min-width: 1000px) {
+    display: inline-block;
+  }
+}
+
+.navLinkListenCompact {
+  display: inline-block;
+
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+}

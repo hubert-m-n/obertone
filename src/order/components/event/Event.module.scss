@@ -1,0 +1,12 @@
+@import "common/commonStyles.module.scss";
+
+.program {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 36px;
+
+  @media screen and (max-width: 415px) {
+    margin-top: getVW(10px);
+    margin-bottom: getVW(36px);
+  }
+}

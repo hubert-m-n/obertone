@@ -1,0 +1,59 @@
+@import "../../common/commonStyles.module.scss";
+
+.sectionWrapper {
+  //   z-index: 4;
+  z-index: 6;
+  background-color: $white;
+  padding-bottom: 1px;
+}
+
+.content {
+  color: $middleGrey;
+}
+
+.title {
+  padding-top: 150px;
+}
+
+.program {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 93px;
+  font-family: "Jost", sans-serif;
+
+  &:last-child {
+    margin-bottom: 180px;
+  }
+}
+
+.programSection {
+  width: 500px;
+  line-height: 26px;
+  font-size: 18px;
+  color: #49484b;
+}
+
+.programPictureSection {
+  @media screen and (max-width: 1560px) {
+    display: none;
+  }
+}
+
+.programPicture {
+  width: 100%;
+  height: auto;
+}
+
+.programTitle {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.programDescrciption {
+  line-height: 40px;
+}
+
+.programDescrciptionFooter {
+  margin: 26px 0;
+}

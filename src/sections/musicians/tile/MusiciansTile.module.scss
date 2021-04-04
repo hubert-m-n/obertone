@@ -1,0 +1,109 @@
+@import "../../../common/commonStyles.module.scss";
+
+.tile {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 25px 44px 25px;
+
+  @media screen and (max-width: 800px) {
+    margin: 0 0 44px 0;
+  }
+
+  @media screen and (max-width: 415px) {
+    width: 100%;
+    margin: 0 0 getVW(44px) 0;
+  }
+}
+
+.photo {
+  width: 360px;
+
+  @media screen and (max-width: 415px) {
+    width: 100%;
+  }
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0 0 20px;
+  font-family: "Jost", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: $lightGrey;
+
+  @media screen and (max-width: 415px) {
+    padding: getVW(3px) 0 0 getVW(20px);
+    font-size: getVW(21px);
+  }
+}
+
+.infoIcon {
+  height: 36px;
+  cursor: pointer;
+
+  @media screen and (max-width: 415px) {
+    height: getVW(36px);
+  }
+}
+
+.infoWrapper {
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  bottom: 0;
+  transform: translate(20px, 100%);
+  opacity: 0;
+  transition: opacity 0.5s;
+  cursor: text;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  @media screen and (max-width: 415px) {
+    transform: translate(0, 100%);
+  }
+}
+
+.info {
+  position: relative;
+  width: 400px;
+  padding: 22px 16px 16px 16px;
+  box-sizing: border-box;
+  background: rgba(255, 254, 250, 0.95);
+  pointer-events: none;
+  border: 1px solid #aeadb2;
+  border-radius: 2px;
+  font-family: "Jost Semi Condensed", sans-serif;
+  font-size: 18px;
+  color: $middleGrey;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 7px;
+    background-color: #aeadb2;
+    top: -7px;
+    right: 37px;
+  }
+
+  @media screen and (max-width: 415px) {
+    padding: getVW(22px) getVW(16px) getVW(16px) getVW(16px);
+    font-size: getVW(18px);
+    width: 100%;
+
+    &:before {
+      right: getVW(17px);
+    }
+  }
+}
+
+.condensedText {
+  font-family: "Jost Condensed", sans-serif;
+}

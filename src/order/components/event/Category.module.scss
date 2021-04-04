@@ -1,0 +1,120 @@
+@import "common/commonStyles.module.scss";
+
+.container {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 12px;
+
+  @media screen and (max-width: 415px) {
+    margin-bottom: getVW(12px);
+    font-size: getVW(18px);
+  }
+}
+
+.inputWrapper {
+  visibility: hidden;
+
+  &.hasValue {
+    visibility: visible;
+  }
+
+  input {
+    margin-left: 12px;
+    margin-right: 18px;
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    background: #b5bada;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    color: $darkGrey;
+    border-radius: 1px;
+    padding-bottom: 3px;
+
+    @media screen and (max-width: 415px) {
+      width: getVW(50px);
+      height: getVW(40px);
+      margin-left: getVW(12px);
+      margin-right: getVW(18px);
+      padding-left: getVW(10px);
+      font-size: getVW(18px);
+    }
+  }
+}
+
+.category {
+  position: relative;
+  display: flex;
+  width: 80px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  padding-bottom: 3px;
+  font-weight: 700;
+  border: 1px solid $white;
+  border-radius: 1px;
+  cursor: pointer;
+
+  .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .titleWrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  &.soldOut {
+    pointer-events: none;
+    border-color: rgba(266, 254, 250, 0.6);
+
+    .titleWrapper,
+    .background {
+      opacity: 0.2;
+    }
+
+    &:after {
+      content: "Restkarten an der Abendkassa";
+      position: absolute;
+      display: flex;
+      align-items: center;
+      height: 60px;
+      right: -12px;
+      transform: translateX(100%);
+      font-family: "Jost", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+
+      @media screen and (max-width: 415px) {
+        font-size: getVW(18px);
+      }
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    width: getVW(80px);
+    height: getVW(60px);
+    margin-right: getVW(12px);
+  }
+}
+
+.priceWrapper {
+  width: 65px;
+  padding-bottom: 3px;
+
+  &.priceHidden {
+    visibility: hidden;
+  }
+}

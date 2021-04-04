@@ -1,0 +1,151 @@
+@import "../../common/commonStyles.module.scss";
+
+.sectionWrapper {
+  z-index: 5;
+}
+
+.partners {
+  flex-direction: column;
+
+  @media screen and (min-width: 540px) and (max-width: 800px) {
+    padding-left: 138px;
+  }
+}
+
+.partnersFirstSection {
+  width: 1560px;
+  margin: 0 auto;
+  padding-top: calc(109px + 298px);
+
+  a {
+    display: inline-block;
+    width: 400px;
+    margin-right: 180px;
+    margin-bottom: 109px;
+
+    img {
+      width: 100%;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 979px) {
+    max-width: 400px;
+    width: 100%;
+
+    a {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: 980px) and (max-width: 1599px) {
+    width: 980px;
+
+    a:nth-child(2) {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    padding-top: calc(109px + 257px);
+  }
+
+  @media screen and (max-width: 415px) {
+    padding-top: getVW(109px + 257px);
+
+    a {
+      width: getVW(400px);
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+
+      &:last-child {
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+.partnersSecondSection {
+  width: 1560px;
+  margin: 0 auto;
+
+  a {
+    display: inline-block;
+    width: 180px;
+    margin-right: 100px;
+    margin-bottom: 55px;
+
+    img {
+      width: 100%;
+    }
+
+    &:last-child {
+      margin-right: 0;
+      margin-bottom: 160px;
+    }
+  }
+
+  @media screen and (max-width: 1599px) {
+    width: 980px;
+  }
+
+  @media screen and (max-width: 980px) {
+    width: 180px;
+
+    a {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    width: getVW(180px);
+
+    a {
+      width: 100%;
+
+      &:last-child {
+        margin-bottom: getVW(160px);
+      }
+    }
+  }
+}
+
+.sectionBackground {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background: url("../../images/background_3.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: $white;
+  max-width: 100%;
+
+  .subTitle {
+    margin-top: 10px;
+    font-size: 18px;
+
+    @media screen and (max-width: 415px) {
+      margin-top: getVW(10px);
+      font-size: getVW(18px);
+    }
+  }
+
+  @media screen and (min-width: 540px) and (max-width: 800px) {
+    padding-left: 138px;
+  }
+
+  @media screen and (min-width: 800px) {
+    padding-top: 150px;
+  }
+}

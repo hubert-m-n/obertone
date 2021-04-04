@@ -1,0 +1,64 @@
+@import "../../common/commonStyles.module.scss";
+
+.sectionWrapper {
+  position: relative;
+  z-index: 7;
+  background: url("../../images/background_4.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.titleWithBackground {
+  background-color: #aeadb2;
+  font-size: 48px;
+
+  @media screen and (max-width: 800px) {
+    font-size: getVW(48px, 800);
+  }
+}
+
+.aboutSectionContent {
+  display: flex;
+  justify-content: center;
+}
+
+.obertineLink {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 120px;
+  margin-top: 40vh;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $white;
+  background-color: #e6d430;
+  border: 1px solid $white;
+  border-radius: 2px;
+  opacity: 0.9;
+  font-family: "Jost", sans-serif;
+  font-size: 36px;
+  line-height: 32px;
+  transition: opacity 0.25s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 415px) {
+    width: getVW(240px);
+    height: getVW(60px);
+    margin-top: getVW(36px);
+    padding: 0 getVW(25px);
+    font-size: getVW(21px);
+  }
+}
+
+.obertineLinkSmallText {
+  font-size: 24px;
+}

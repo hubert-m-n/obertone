@@ -1,0 +1,50 @@
+.appContainer {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.isReady {
+  opacity: 1;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallaxGroup {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.parallaxLayer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallaxLayerBase {
+  transform: translateZ(0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallaxLayerBack {
+  transform: translateZ(-1px) scale(2);
+}
+
+.intermediateSectionBackground {
+  background: url("../images/background_2.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.intermediateSection {
+  height: 90vh;
+}

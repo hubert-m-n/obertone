@@ -1,0 +1,412 @@
+@import "../common/commonStyles.module.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 29px 100px 29px;
+  color: $white;
+  background-color: $blue;
+
+  input {
+    border-radius: 1px;
+  }
+
+  @media screen and (max-width: 415px) {
+    padding: 0 getVW(29px) getVW(100px) getVW(29px);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+
+  @media screen and (max-width: 800px) {
+    max-width: 100%;
+  }
+}
+
+.sectionTitle {
+  margin: 68px 0 8px 0;
+  font-weight: 500;
+  font-size: 36px;
+
+  @media screen and (max-width: 415px) {
+    margin: getVW(68px) 0 getVW(8px) 0;
+    font-size: getVW(36px);
+  }
+}
+
+.title {
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 134px 29px 72px 29px;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  white-space: nowrap;
+  line-height: 1;
+  text-align: center;
+  color: $white;
+
+  @media screen and (max-width: 800px) {
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  @media screen and (max-width: 415px) {
+    padding: getVW(134px) getVW(29px) getVW(72px) getVW(29px);
+    font-size: getVW(48px);
+  }
+}
+
+.obertoneLink {
+  text-decoration: none;
+  font-size: 18px;
+  color: $white;
+
+  @media screen and (max-width: 415px) {
+    font-size: getVW(18px);
+  }
+}
+
+.disctountTitle {
+  margin: 96px 0 40px 0;
+}
+
+.membershipTitle {
+  margin: 40px 0 24px 0;
+
+  @media screen and (max-width: 415px) {
+    margin: getVW(40px) 0 getVW(24px) 0;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $white;
+  font-size: 18px;
+  font-weight: 700;
+  background: #4752a3;
+  cursor: pointer;
+  padding-bottom: 3px;
+
+  &.selected,
+  &:active {
+    background: #f6921e;
+  }
+
+  @media screen and (max-width: 415px) {
+    font-size: getVW(18px);
+  }
+}
+
+.discountButton,
+.membershipButton {
+  width: 300px;
+  height: 64px;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 415px) {
+    width: getVW(300px);
+    height: getVW(64px);
+    margin-bottom: getVW(16px);
+  }
+}
+
+.membershipButton {
+  margin-bottom: 24px;
+
+  @media screen and (max-width: 415px) {
+    margin-bottom: getVW(24px);
+  }
+}
+
+.membershipDescription {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2;
+
+  @media screen and (max-width: 415px) {
+    font-size: getVW(16px);
+  }
+}
+
+.membershipButton1 {
+  width: 130px;
+  height: 60px;
+  margin-right: 16px;
+
+  @media screen and (max-width: 415px) {
+    width: getVW(130px);
+    height: getVW(60px);
+    margin-right: getVW(16px);
+  }
+}
+
+.membershipButton2 {
+  width: 154px;
+  height: 60px;
+
+  @media screen and (max-width: 415px) {
+    width: getVW(154px);
+    height: getVW(60px);
+  }
+}
+
+.membershipTypeWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.membershipPrice {
+  margin-top: 12px;
+  font-weight: 600;
+
+  @media screen and (max-width: 415px) {
+    margin-top: getVW(12px);
+  }
+}
+
+.membershipTypes {
+  display: flex;
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 415px) {
+    margin-bottom: getVW(30px);
+  }
+}
+
+.contributionInputWrapper {
+  visibility: hidden;
+
+  &.hasValue {
+    visibility: visible;
+  }
+
+  input {
+    margin-left: 12px;
+    margin-right: 18px;
+    width: 65px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    background: #b5bada;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    color: $darkGrey;
+
+    @media screen and (max-width: 415px) {
+      margin-left: getVW(12px);
+      margin-right: getVW(18px);
+      width: getVW(50px);
+      height: getVW(40px);
+      padding-left: getVW(10px);
+      font-size: getVW(18px);
+    }
+  }
+}
+
+.contributionAmountLabel {
+  font-size: 20px;
+  font-weight: 500;
+
+  @media screen and (max-width: 415px) {
+    font-size: getVW(20px);
+  }
+}
+
+.contactInfo {
+  width: 100%;
+  margin-top: 64px;
+}
+
+.contactInfoTitle {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 415px) {
+    margin-bottom: getVW(30px);
+  }
+}
+
+.inputLineWrapper {
+  display: flex;
+  margin-bottom: 12px;
+
+  input {
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 0 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: $darkGrey;
+    background: #eff0f5;
+
+    &.plzInput {
+      width: 98px;
+      margin-right: 13px;
+    }
+
+    &.invalid {
+      background: #dd075a;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    margin-bottom: getVW(12px);
+
+    input {
+      height: getVW(52px);
+      padding: 0 getVW(12px);
+      font-size: getVW(18px);
+
+      &.plzInput {
+        width: getVW(98px);
+        margin-right: getVW(13px);
+      }
+    }
+  }
+}
+
+.contactInfoHint {
+  margin-top: 24px;
+
+  @media screen and (max-width: 415px) {
+    margin-top: getVW(24px);
+  }
+}
+
+.footerText {
+  margin: 64px 0;
+  font-size: 20px;
+  font-weight: 500;
+
+  @media screen and (max-width: 415px) {
+    margin: getVW(64px) 0;
+    font-size: getVW(20px);
+  }
+}
+
+.footerText {
+  margin-top: 64px;
+  font-size: 20px;
+  font-weight: 500;
+
+  @media screen and (max-width: 415px) {
+    margin-top: getVW(64px);
+    font-size: getVW(20px);
+  }
+}
+
+.footerButtonsWrapper {
+  display: flex;
+}
+
+.footerButton {
+  height: 91px;
+
+  @media screen and (max-width: 415px) {
+    height: getVW(91px);
+  }
+}
+
+.redirectButton {
+  width: 135px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 13px;
+  color: $white;
+  text-decoration: none;
+
+  @media screen and (max-width: 415px) {
+    width: getVW(135px);
+    font-size: getVW(13px);
+    margin-right: getVW(13px);
+  }
+}
+
+.confirmButton {
+  width: 157px;
+  font-size: 21px;
+  font-weight: 700;
+
+  @media screen and (max-width: 415px) {
+    width: getVW(157px);
+    font-size: getVW(21px);
+  }
+}
+
+.contactInfoInput {
+  &.invalid {
+    background: #dd075a;
+
+    &::placeholder {
+      color: $white;
+    }
+  }
+}
+
+.confirmationContent {
+  padding-top: 130px;
+  min-height: 100vh;
+
+  .mainText {
+    font-size: 18px;
+    font-weight: 500;
+
+    @media screen and (max-width: 415px) {
+      font-size: getVW(18px);
+    }
+  }
+
+  .confirmationButton {
+    width: 300px;
+    height: 70px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    font-weight: 700;
+
+    @media screen and (max-width: 415px) {
+      width: getVW(300px);
+      height: getVW(70px);
+      margin-bottom: getVW(36px);
+      font-size: getVW(18px);
+    }
+  }
+
+  .orderButton {
+    background: #dd075a;
+    margin-top: 60px;
+
+    @media screen and (max-width: 415px) {
+      margin-top: getVW(60px);
+    }
+  }
+
+  .homeButton {
+    text-decoration: none;
+    background: #f69220;
+    color: $white;
+  }
+}
+
+.whiteLink {
+  text-decoration: none;
+  color: $white;
+}
