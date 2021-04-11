@@ -22,7 +22,7 @@
   justify-content: center;
 }
 
-.obertineLink {
+.obertoneLink {
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -48,17 +48,18 @@
 
   @media screen and (max-width: 500px) {
     width: 100%;
-  }
-
-  @media screen and (max-width: 415px) {
-    width: getVW(240px);
-    height: getVW(60px);
-    margin-top: getVW(36px);
-    padding: 0 getVW(25px);
+    height: 100px;
     font-size: getVW(21px);
+    line-height: getVW(36px);
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
 .obertineLinkSmallText {
   font-size: 24px;
+
+  @media screen and (max-width: 500px) {
+    font-size: getVW(16px);
+  }
 }

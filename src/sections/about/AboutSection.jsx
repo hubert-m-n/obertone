@@ -25,7 +25,7 @@ export default ({ onRef }) => {
         <a
           href="https://www.obertone.at/ueberuns/"
           className={classNames(
-            styles.obertineLink,
+            styles.obertoneLink,
             commonStyles.withRoundedBorder
           )}
         >

@@ -107,14 +107,15 @@
   }
 
   @media screen and (max-width: 415px) {
-    width: getVW(240px);
-    height: getVW(60px);
-    margin-top: getVW(36px);
-    padding: 0 getVW(25px);
     font-size: getVW(21px);
+    line-height: 36px;
   }
 }
 
 .ticketsLinkLargeText {
   font-size: 40px;
+
+  @media screen and (max-width: 415px) {
+    font-size: getVW(40px);
+  }
 }
