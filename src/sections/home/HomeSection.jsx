@@ -77,7 +77,7 @@ export default ({ onRef }) => {
             CHAMBER MUSIC WONDERLAND
           </div>
           <a
-            href="http://www.obertone.at/dabeisein/"
+            href="http://www.obertone.at/test/dabeisein/"
             className={classNames(
               styles.ticketsLink,
               commonStyles.withRoundedBorder

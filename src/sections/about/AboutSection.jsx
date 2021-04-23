@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import classNames from "classnames"
 
 import { SECTION_NAMES } from "common/sectionNames"
@@ -22,8 +23,8 @@ export default ({ onRef }) => {
         Wir machen die OBERTÖNE
       </h2>
       <div className={styles.aboutSectionContent}>
-        <a
-          href="https://www.obertone.at/ueberuns/"
+        <Link
+          to="team"
           className={classNames(
             styles.obertoneLink,
             commonStyles.withRoundedBorder
@@ -33,7 +34,7 @@ export default ({ onRef }) => {
           <div className={styles.obertineLinkSmallText}>
             Die Idee, das Team, die Geschichte, der Club
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   )

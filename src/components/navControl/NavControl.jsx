@@ -1,18 +1,13 @@
-import React, { useRef, useState, useEffect, useCallback } from "react"
+import React from "react"
 import classNames from "classnames"
+
 import { SECTION_NAMES } from "common/sectionNames"
 import { ReactComponent as Logo } from "images/Home_logo.svg"
 import { ReactComponent as LogoSommermusikSmall } from "images/logo_sommermusik_small.svg"
-
+import { langs, langLabels } from "common/localisation"
 import NavLink from "./NavLink"
 
 import styles from "./NavControl.module.scss"
-
-const langs = ["en", "de"]
-const langLabels = {
-  en: "english",
-  de: "deutch",
-}
 
 export default ({ lang, onChangeLang, collapsed }) => {
   const handleChangeLang = () => {
@@ -60,7 +55,7 @@ export default ({ lang, onChangeLang, collapsed }) => {
           <NavLink className={styles.navLink} path={SECTION_NAMES.PARTNERS}>
             <span>Partner &amp; wir</span>
           </NavLink>
-          <NavLink className={styles.navLink} path={SECTION_NAMES.PARTNERS}>
+          <NavLink className={styles.navLink} path={SECTION_NAMES.LISTEN}>
             <span className={styles.navLinkListenCompact}>Hören</span>
             <span className={styles.navLinkListen}>Rein- &amp; Nachhören</span>
             <span></span>

@@ -22,9 +22,9 @@ let freezeHandleSectionChangeTimeout
 
 const NAV_HEADER_HEIGHT = 110
 
-export const easeInOutSin = (t) => (1 + Math.sin(Math.PI * t - Math.PI / 2)) / 2
+const easeInOutSin = (t) => (1 + Math.sin(Math.PI * t - Math.PI / 2)) / 2
 
-const HomePage = () => {
+const HomePage = ({ lang, onChangeLang }) => {
   const history = useHistory()
   const scrollContainerRef = useRef()
   const [scrollAnimation, setScrollAnimation] = useState(null)
@@ -39,7 +39,6 @@ const HomePage = () => {
 
   const [currentSectionName, setCurrentSectionName] = useState()
   const [isReady, setIsReady] = useState()
-  const [lang, setLang] = useState(localStorage.getItem("lang") || "en")
   const [isHeaderCollapsed, setHeaderCollapsed] = useState(false)
   const [currentScrollAmount, setCurrentScrollAmount] = useState(1)
 
@@ -191,7 +190,7 @@ const HomePage = () => {
     <>
       <NavControl
         lang={lang}
-        onChangeLang={setLang}
+        onChangeLang={onChangeLang}
         collapsed={isHeaderCollapsed}
       />
       <div

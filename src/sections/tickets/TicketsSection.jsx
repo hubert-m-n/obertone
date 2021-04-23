@@ -19,7 +19,7 @@ export default ({ onRef }) => (
     </h2>
     <div className={styles.content}>
       <a
-        href="http://www.obertone.at/dabeisein/"
+        href="http://www.obertone.at/test/dabeisein/"
         className={classNames(
           styles.linkButton,
           styles.ticketsPageLink,

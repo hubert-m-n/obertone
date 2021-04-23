@@ -1,0 +1,16 @@
+.imagesSlider {
+  width: 100%;
+  overflow: hidden;
+
+  > div {
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 524px) {
+    display: none;
+  }
+}
+
+.noOffset {
+  transform: translateX(0);
+}

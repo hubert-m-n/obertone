@@ -1,14 +1,19 @@
-import React from "react"
+import React, { useState } from "react"
 import "intersection-observer"
 
 import { useCurrentSection } from "common/utils"
 import HomePage from "home/HomePage"
-import OrderPage from "order/OrderPage"
+import AboutTeamPage from "aboutTeam/AboutTeamPage"
 
 const App = () => {
   const currentSection = useCurrentSection()
+  const [lang, setLang] = useState(localStorage.getItem("lang") || "en")
 
-  return currentSection === "dabeisein" ? <OrderPage /> : <HomePage />
+  return currentSection === "team" ? (
+    <AboutTeamPage lang={lang} onChangeLang={setLang} />
+  ) : (
+    <HomePage lang={lang} onChangeLang={setLang} />
+  )
 }
 
 export default App
