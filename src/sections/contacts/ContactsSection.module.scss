@@ -87,10 +87,22 @@
 .contactsSectionTitle {
   margin-top: 0;
   margin-bottom: 72px;
-  font-size: 48px;
 
-  @media screen and (max-width: 800px) {
-    font-size: getVW(48px, 800);
+  font-size: 48px;
+  padding-top: 72px;
+  padding-bottom: 30px;
+
+  @media screen and (max-width: 1200px) {
+    padding-top: 50px;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 36px;
+    padding-top: 40px;
+  }
+
+  @media screen and (max-width: 414px) {
+    padding: 20px 0;
   }
 }
 

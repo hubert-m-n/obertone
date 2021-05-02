@@ -32,11 +32,28 @@
   line-height: 26px;
   font-size: 18px;
   color: #49484b;
+
+  @media screen and (max-width: 1559px) and (min-width: 1335px) {
+    width: 420px;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: calc(100% - 25px);
+    margin-left: 12px;
+  }
+
+  b {
+    word-break: break-all;
+  }
 }
 
 .programPictureSection {
-  @media screen and (max-width: 1560px) {
+  @media screen and (max-width: 1335px) {
     display: none;
+  }
+
+  @media screen and (max-width: 1559px) {
+    width: 350px;
   }
 }
 

@@ -10,7 +10,7 @@ import commonStyles from "../../common/commonStyles.module.scss"
 export default ({ onRef }) => {
   return (
     <div
-      id={SECTION_NAMES.ABOUT}
+      id={SECTION_NAMES.ABOUT_US}
       ref={onRef}
       className={classNames(commonStyles.sectionWrapper, styles.sectionWrapper)}
     >
@@ -24,7 +24,7 @@ export default ({ onRef }) => {
       </h2>
       <div className={styles.aboutSectionContent}>
         <Link
-          to="team"
+          to="about"
           className={classNames(
             styles.obertoneLink,
             commonStyles.withRoundedBorder

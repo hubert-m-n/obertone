@@ -1,27 +1,32 @@
-<head> </head>
-<body>
-  <iframe
-    frameborder="0"
-    height="2000px"
-    id="tpiframe"
-    onload=' ((typeof parent.document.tpiframeCalled === "undefined") ? parent.document.tpiframeCalled = true : parent.document.getElementById("tpiframe").scrollIntoView()) '
-    scrolling="no"
-    src="https://shop.ticketpay.de/TBG4D381"
-    width="100%"
-  ></iframe>
-  <script>
-    function handleResize() {
-      const iframe = document.getElementById("tpiframe")
-      const iframeHeight = +iframe.height.substr(0, iframe.height.length - 2)
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <iframe
+      frameborder="0"
+      height="2000px"
+      id="tpiframe"
+      onload=' ((typeof parent.document.tpiframeCalled === "undefined") ? parent.document.tpiframeCalled = true : parent.document.getElementById("tpiframe").scrollIntoView()) '
+      scrolling="no"
+      src="https://shop.ticketpay.de/TBG4D381"
+      width="100%"
+    ></iframe>
+    <script>
+      function handleResize() {
+        const iframe = document.getElementById("tpiframe")
+        const iframeHeight = +iframe.height.substr(0, iframe.height.length - 2)
 
-      if (window.innerWidth < 805 && iframeHeight < 2500) {
-        iframe.height = "2500px"
+        if (window.innerWidth < 805 && iframeHeight < 3000) {
+          iframe.height = "3000px"
+        }
+        if (window.innerWidth >= 805 && iframeHeight > 2500) {
+          iframe.height = "2500px"
+        }
       }
-      if (window.innerWidth >= 805 && iframeHeight > 2000) {
-        iframe.height = "2000px"
-      }
-    }
-    window.addEventListener("resize", handleResize)
-    handleResize()
-  </script>
-</body>
+      window.addEventListener("resize", handleResize)
+      handleResize()
+    </script>
+  </body>
+</html>

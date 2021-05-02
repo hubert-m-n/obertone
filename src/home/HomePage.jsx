@@ -30,7 +30,8 @@ const HomePage = ({ lang, onChangeLang }) => {
   const [scrollAnimation, setScrollAnimation] = useState(null)
   const currentSection = useCurrentSection()
   const sectionName =
-    SECTION_NAMES[currentSection.toUpperCase()] || SECTION_NAMES.HOME
+    SECTION_NAMES[currentSection.replace("-", "_").toUpperCase()] ||
+    SECTION_NAMES.HOME
 
   const [sectionRefs, setSectionRefs] = useState({})
   const [shouldHandleHistoryChange, setShouldHandleHistoryChange] = useState(
@@ -53,6 +54,8 @@ const HomePage = ({ lang, onChangeLang }) => {
       const sectionId = target.id || ""
       const prevIntersectionRatio = intersectionRatios[sectionId]
       const intersectionRatio = intersectionRect.height / rootBounds.height
+
+      console.log(sectionId)
 
       if (prevIntersectionRatio < intersectionRatio || !prevIntersectionRatio) {
         freezeHandleSectionChangeTimeout = setTimeout(

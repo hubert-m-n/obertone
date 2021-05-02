@@ -9,7 +9,7 @@ const App = () => {
   const currentSection = useCurrentSection()
   const [lang, setLang] = useState(localStorage.getItem("lang") || "en")
 
-  return currentSection === "team" ? (
+  return currentSection === "about" ? (
     <AboutTeamPage lang={lang} onChangeLang={setLang} />
   ) : (
     <HomePage lang={lang} onChangeLang={setLang} />

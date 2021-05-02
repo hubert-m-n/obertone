@@ -23,6 +23,22 @@
   }
 }
 
+.sommermusikIconSmall {
+  display: none;
+
+  @media screen and (max-width: 1180px) {
+    display: block;
+  }
+}
+
+.sommermusikIcon {
+  display: none;
+
+  @media screen and (min-width: 1181px) {
+    display: block;
+  }
+}
+
 .headerContent {
   @media screen and (min-width: 1000px) {
     display: flex;
@@ -75,6 +91,7 @@
   transition: padding 0.5s;
   will-change: padding;
   text-align: right;
+  @include withBorderRadius();
 
   > svg {
     height: 40px;
@@ -85,7 +102,7 @@
 
   @media screen and (max-width: 999px) {
     &.collapsed {
-      padding: 4px 10px;
+      padding: 6px 10px;
 
       > svg {
         height: 38px;

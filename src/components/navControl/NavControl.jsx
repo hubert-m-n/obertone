@@ -4,6 +4,7 @@ import classNames from "classnames"
 import { SECTION_NAMES } from "common/sectionNames"
 import { ReactComponent as Logo } from "images/Home_logo.svg"
 import { ReactComponent as LogoSommermusikSmall } from "images/logo_sommermusik_small.svg"
+import { ReactComponent as LogoSommermusik } from "images/logo_sommermusik.svg"
 import { langs, langLabels } from "common/localisation"
 import NavLink from "./NavLink"
 
@@ -34,7 +35,8 @@ export default ({ lang, onChangeLang, collapsed }) => {
           })}
           href="http://sommermusik.at"
         >
-          <LogoSommermusikSmall />
+          <LogoSommermusikSmall className={styles.sommermusikIconSmall} />
+          <LogoSommermusik className={styles.sommermusikIcon} />
         </a>
         <div
           className={classNames(styles.navLinks, {
@@ -58,8 +60,6 @@ export default ({ lang, onChangeLang, collapsed }) => {
           <NavLink className={styles.navLink} path={SECTION_NAMES.LISTEN}>
             <span className={styles.navLinkListenCompact}>Hören</span>
             <span className={styles.navLinkListen}>Rein- &amp; Nachhören</span>
-            <span></span>
-            <span>Hören</span>
           </NavLink>
           <div className={styles.navSpacer} />
           <div className={styles.navSpacer} />

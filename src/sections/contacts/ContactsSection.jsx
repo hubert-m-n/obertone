@@ -63,7 +63,7 @@ export default ({ onRef }) => (
             }}
           >
             <svg
-              class="niftybutton-facebook"
+              className="niftybutton-facebook"
               style={{ display: "block", fill: "currentColor" }}
               data-tag="fac"
               data-name="Facebook"
@@ -90,7 +90,7 @@ export default ({ onRef }) => (
             }}
           >
             <svg
-              class="niftybutton-instagram"
+              className="niftybutton-instagram"
               style={{ display: "block", fill: "currentColor" }}
               data-tag="ins"
               data-name="Instagram"
@@ -119,7 +119,7 @@ export default ({ onRef }) => (
             }}
           >
             <svg
-              class="niftybutton-itunes"
+              className="niftybutton-itunes"
               style={{ display: "block", fill: "currentColor" }}
               data-donate="true"
               data-tag="itu"
@@ -147,7 +147,7 @@ export default ({ onRef }) => (
             }}
           >
             <svg
-              class="niftybutton-spotify"
+              className="niftybutton-spotify"
               style={{ display: "block", fill: "currentColor" }}
               data-donate="true"
               data-tag="spo"
@@ -175,7 +175,7 @@ export default ({ onRef }) => (
             }}
           >
             <svg
-              class="niftybutton-youtube"
+              className="niftybutton-youtube"
               style={{ display: "block", fill: "currentColor" }}
               data-donate="true"
               data-tag="you"

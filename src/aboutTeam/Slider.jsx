@@ -23,7 +23,7 @@ export const Slider = ({ images, offsetClass, imageClass }) => {
 
     animatinoTimeout.current = setTimeout(
       () => startAnimation(!hasOffset),
-      hasOffset ? 5000 : 500
+      hasOffset ? 4700 : 100
     )
   }, [])
 
@@ -32,8 +32,6 @@ export const Slider = ({ images, offsetClass, imageClass }) => {
 
     return () => clearInterval(animatinoTimeout.current)
   }, [startAnimation])
-
-  console.log()
 
   return (
     <div className={styles.imagesSlider}>

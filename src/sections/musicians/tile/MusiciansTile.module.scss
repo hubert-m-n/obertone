@@ -18,6 +18,7 @@
 
 .photo {
   width: 360px;
+  @include withBorderRadius();
 
   @media screen and (max-width: 415px) {
     width: 100%;
@@ -106,4 +107,5 @@
 
 .condensedText {
   font-family: "Jost Condensed", sans-serif;
+  letter-spacing: -1px;
 }

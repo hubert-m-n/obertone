@@ -38,7 +38,8 @@ export default ({ onRef }) => (
             15. SEPTEMBER 2021
           </div>
           <div className={styles.programDescrciption}>
-            18 Uhr Bernardisaal, Stift Stams.
+            18 Uhr Bernardisaal,
+            <br />
             <b>piazzolla.gardel.nisinman.chopin.cobian.mozart</b>
           </div>
           <div className={styles.programDescrciptionFooter}>
@@ -84,6 +85,7 @@ export default ({ onRef }) => (
           </div>
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal, Stift Stams.
+            <br />
             <b>piazzolla.gardel.nisinman.chopin.cobian.mozart</b>
           </div>
           <div className={styles.programDescrciptionFooter}>
@@ -129,6 +131,7 @@ export default ({ onRef }) => (
           </div>
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal, Stift Stams.
+            <br />
             <b>piazzolla.gardel.nisinman.chopin.cobian.mozart</b>
           </div>
           <div className={styles.programDescrciptionFooter}>
@@ -174,6 +177,7 @@ export default ({ onRef }) => (
           </div>
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal, Stift Stams.
+            <br />
             <b>piazzolla.gardel.nisinman.chopin.cobian.mozart</b>
           </div>
           <div className={styles.programDescrciptionFooter}>

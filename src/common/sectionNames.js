@@ -4,6 +4,6 @@ export const SECTION_NAMES = {
   PROGRAM: "program",
   TICKETS: "tickets",
   PARTNERS: "partners",
-  ABOUT: "about",
+  ABOUT_US: "about-us",
   LISTEN: "listen",
 }
