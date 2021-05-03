@@ -1,6 +1,8 @@
 import React, { useState, useMemo, useRef, useEffect } from "react"
 import classNames from "classnames"
-import { Link } from "react-router-dom"
+
+import videoSource1 from "./Backgroundvideo.mp4"
+import videoSource2 from "./Backgroundvideo.webm"
 
 import { SECTION_NAMES } from "common/sectionNames"
 
@@ -50,7 +52,12 @@ export default ({ onRef }) => {
           styles.sectionBackground
         )}
         style={pageStyle}
-      />
+      >
+        <video className="videoTag" autoPlay loop muted>
+          <source src={videoSource1} type="video/mp4" />
+          <source src={videoSource2} type="video/webm" />
+        </video>
+      </div>
       <div
         className={classNames(
           parallaxStyles.parallaxLayer,
