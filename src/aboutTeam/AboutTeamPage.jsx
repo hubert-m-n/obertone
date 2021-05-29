@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState, useCallback, useRef } from "react"
 
 import NavControl from "components/navControl/NavControl"
 import Accordion from "components/accordion/Accordion"
@@ -8,27 +8,28 @@ import styles from "./AboutTeam.module.scss"
 
 const AboutTeamPage = ({ lang, onChangeLang }) => {
   const [isHeaderCollapsed, setHeaderCollapsed] = useState(false)
-  const [currentScrollAmount, setCurrentScrollAmount] = useState(1)
+  const currentScrollAmount = useRef(1)
 
-  const handleScroll = (event) => {
-    if (event.deltaY === 0) {
-      return
-    }
+  const handleScroll = useCallback(
+    (event) => {
+      if (event.deltaY === 0) {
+        return
+      }
 
-    if (event.deltaY * currentScrollAmount > 0) {
-      setCurrentScrollAmount(currentScrollAmount + event.deltaY)
-    } else {
-      setCurrentScrollAmount(event.deltaY)
-    }
-  }
+      if (event.deltaY * currentScrollAmount.current > 0) {
+        currentScrollAmount.current += event.deltaY
+      } else {
+        currentScrollAmount.current = event.deltaY
+      }
 
-  useEffect(() => {
-    if (currentScrollAmount > 10 && !isHeaderCollapsed) {
-      setHeaderCollapsed(true)
-    } else if (currentScrollAmount < -10 && isHeaderCollapsed) {
-      setHeaderCollapsed(false)
-    }
-  }, [currentScrollAmount, isHeaderCollapsed])
+      if (currentScrollAmount.current > 10 && !isHeaderCollapsed) {
+        setHeaderCollapsed(true)
+      } else if (currentScrollAmount.current < -10 && isHeaderCollapsed) {
+        setHeaderCollapsed(false)
+      }
+    },
+    [isHeaderCollapsed]
+  )
 
   return (
     <>
@@ -112,8 +113,6 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
             "about/slider-1/2003.jpg",
             "about/slider-1/2004.jpg",
           ]}
-          imageClass={styles.gallery1Image}
-          offsetClass={styles.gallery1WithOffset}
         />
 
         <Accordion
@@ -226,8 +225,6 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
             "about/slider-2/25.jpg",
             "about/slider-2/26.jpg",
           ]}
-          imageClass={styles.gallery2Image}
-          offsetClass={styles.gallery2WithOffset}
         />
 
         <Accordion

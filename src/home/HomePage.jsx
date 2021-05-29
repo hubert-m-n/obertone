@@ -41,7 +41,7 @@ const HomePage = ({ lang, onChangeLang }) => {
   const [currentSectionName, setCurrentSectionName] = useState()
   const [isReady, setIsReady] = useState()
   const [isHeaderCollapsed, setHeaderCollapsed] = useState(false)
-  const [currentScrollAmount, setCurrentScrollAmount] = useState(1)
+  const currentScrollAmount = useRef(1)
 
   const handleIntersection = (intersections) => {
     const visibleIntersection = intersections.find(
@@ -54,8 +54,6 @@ const HomePage = ({ lang, onChangeLang }) => {
       const sectionId = target.id || ""
       const prevIntersectionRatio = intersectionRatios[sectionId]
       const intersectionRatio = intersectionRect.height / rootBounds.height
-
-      console.log(sectionId)
 
       if (prevIntersectionRatio < intersectionRatio || !prevIntersectionRatio) {
         freezeHandleSectionChangeTimeout = setTimeout(
@@ -169,25 +167,26 @@ const HomePage = ({ lang, onChangeLang }) => {
     return () => intersectionObserverRef?.disconnect()
   }, [sectionRefs, isReady])
 
-  const handleScroll = (event) => {
-    if (event.deltaY === 0) {
-      return
-    }
+  const handleScroll = useCallback(
+    (event) => {
+      if (event.deltaY === 0) {
+        return
+      }
 
-    if (event.deltaY * currentScrollAmount > 0) {
-      setCurrentScrollAmount(currentScrollAmount + event.deltaY)
-    } else {
-      setCurrentScrollAmount(event.deltaY)
-    }
-  }
+      if (event.deltaY * currentScrollAmount.current > 0) {
+        currentScrollAmount.current += event.deltaY
+      } else {
+        currentScrollAmount.current = event.deltaY
+      }
 
-  useEffect(() => {
-    if (currentScrollAmount > 10 && !isHeaderCollapsed) {
-      setHeaderCollapsed(true)
-    } else if (currentScrollAmount < -10 && isHeaderCollapsed) {
-      setHeaderCollapsed(false)
-    }
-  }, [currentScrollAmount, isHeaderCollapsed])
+      if (currentScrollAmount.current > 10 && !isHeaderCollapsed) {
+        setHeaderCollapsed(true)
+      } else if (currentScrollAmount.current < -10 && isHeaderCollapsed) {
+        setHeaderCollapsed(false)
+      }
+    },
+    [isHeaderCollapsed]
+  )
 
   return (
     <>

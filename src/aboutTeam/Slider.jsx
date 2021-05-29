@@ -3,43 +3,53 @@ import React, { useEffect, useState, useRef, useCallback } from "react"
 
 import styles from "./Slider.module.scss"
 
-export const Slider = ({ images, offsetClass, imageClass }) => {
-  const animatinoTimeout = useRef(null)
+export const Slider = ({ images }) => {
+  const imageRef = useRef(null)
+  const frameAnimationRef = useRef()
   const [animationParams, setAnimationParams] = useState({
     order: images.map((_, i) => i),
-    containerClassName: styles.noOffset,
+    offset: 0,
   })
 
-  const startAnimation = useCallback((hasOffset) => {
-    hasOffset
-      ? setAnimationParams((prev) => ({
-          ...prev,
-          hasOffset,
-        }))
-      : setAnimationParams((prev) => ({
-          order: [...prev.order.slice(1, prev.order.length), prev.order[0]],
-          hasOffset,
-        }))
+  const animate = useCallback(() => {
+    setAnimationParams(({ order, offset }) => {
+      let newOffset = offset - 0.25
 
-    animatinoTimeout.current = setTimeout(
-      () => startAnimation(!hasOffset),
-      hasOffset ? 4700 : 100
-    )
+      if (newOffset < -imageRef.current.width) {
+        newOffset += imageRef.current.width
+
+        return {
+          order: [...order.slice(1, order.length), order[0]],
+          offset: newOffset,
+        }
+      }
+
+      return {
+        order,
+        offset: newOffset,
+      }
+    })
+
+    frameAnimationRef.current = requestAnimationFrame(animate)
   }, [])
 
   useEffect(() => {
-    animatinoTimeout.current = setTimeout(() => startAnimation(true), 3000)
+    const timeout = setTimeout(
+      () => (frameAnimationRef.current = requestAnimationFrame(animate)),
+      2000
+    )
 
-    return () => clearInterval(animatinoTimeout.current)
-  }, [startAnimation])
+    return () => {
+      clearTimeout(timeout)
+      cancelAnimationFrame(frameAnimationRef.current)
+    }
+  }, [animate])
 
   return (
     <div className={styles.imagesSlider}>
-      <div
-        className={animationParams.hasOffset ? offsetClass : styles.noOffset}
-      >
+      <div style={{ transform: `translateX(${animationParams.offset}px)` }}>
         {animationParams.order.map((i) => (
-          <img className={imageClass} key={images[i]} src={images[i]} />
+          <img ref={imageRef} key={images[i]} src={images[i]} />
         ))}
       </div>
     </div>
