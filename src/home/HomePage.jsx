@@ -115,7 +115,6 @@ const HomePage = ({ lang, onChangeLang }) => {
 
     if (dT >= 1) {
       scrollContainerRef.current.scrollTop = scrollAnimation.to
-      window.test = scrollContainerRef.current
       setScrollAnimation(null)
       cancelAnimationFrame(animationFrame)
 
@@ -167,26 +166,32 @@ const HomePage = ({ lang, onChangeLang }) => {
     return () => intersectionObserverRef?.disconnect()
   }, [sectionRefs, isReady])
 
-  const handleScroll = useCallback(
-    (event) => {
-      if (event.deltaY === 0) {
-        return
-      }
+  const prevPageY = useRef()
 
-      if (event.deltaY * currentScrollAmount.current > 0) {
-        currentScrollAmount.current += event.deltaY
-      } else {
-        currentScrollAmount.current = event.deltaY
-      }
+  const handleScroll = useCallback(() => {
+    if (prevPageY.current === undefined) {
+      prevPageY.current = scrollContainerRef.current.scrollTop
+    }
 
-      if (currentScrollAmount.current > 10 && !isHeaderCollapsed) {
-        setHeaderCollapsed(true)
-      } else if (currentScrollAmount.current < -10 && isHeaderCollapsed) {
-        setHeaderCollapsed(false)
-      }
-    },
-    [isHeaderCollapsed]
-  )
+    const deltaY = scrollContainerRef.current.scrollTop - prevPageY.current
+    prevPageY.current = scrollContainerRef.current.scrollTop
+
+    if (deltaY === 0) {
+      return
+    }
+
+    if (deltaY * currentScrollAmount.current > 0) {
+      currentScrollAmount.current += deltaY
+    } else {
+      currentScrollAmount.current = deltaY
+    }
+
+    if (currentScrollAmount.current > 10 && !isHeaderCollapsed) {
+      setHeaderCollapsed(true)
+    } else if (currentScrollAmount.current < -10 && isHeaderCollapsed) {
+      setHeaderCollapsed(false)
+    }
+  }, [isHeaderCollapsed])
 
   return (
     <>
@@ -199,7 +204,7 @@ const HomePage = ({ lang, onChangeLang }) => {
         className={classNames(styles.appContainer, {
           [styles.isReady]: isReady,
         })}
-        onWheel={handleScroll}
+        onTouchMove={handleScroll}
       >
         <div className={parallaxStyles.parallax} ref={scrollContainerRef}>
           <HomeSection onRef={sectionRefCallback} />

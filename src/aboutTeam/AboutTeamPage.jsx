@@ -9,36 +9,46 @@ import styles from "./AboutTeam.module.scss"
 const AboutTeamPage = ({ lang, onChangeLang }) => {
   const [isHeaderCollapsed, setHeaderCollapsed] = useState(false)
   const currentScrollAmount = useRef(1)
+  const prevPageY = useRef()
+  const scrollContainerRef = useRef()
 
-  const handleScroll = useCallback(
-    (event) => {
-      if (event.deltaY === 0) {
-        return
-      }
+  const handleScroll = useCallback(() => {
+    if (prevPageY.current === undefined) {
+      prevPageY.current = scrollContainerRef.current.scrollTop
+    }
 
-      if (event.deltaY * currentScrollAmount.current > 0) {
-        currentScrollAmount.current += event.deltaY
-      } else {
-        currentScrollAmount.current = event.deltaY
-      }
+    const deltaY = scrollContainerRef.current.scrollTop - prevPageY.current
+    prevPageY.current = scrollContainerRef.current.scrollTop
 
-      if (currentScrollAmount.current > 10 && !isHeaderCollapsed) {
-        setHeaderCollapsed(true)
-      } else if (currentScrollAmount.current < -10 && isHeaderCollapsed) {
-        setHeaderCollapsed(false)
-      }
-    },
-    [isHeaderCollapsed]
-  )
+    if (deltaY === 0) {
+      return
+    }
+
+    if (deltaY * currentScrollAmount.current > 0) {
+      currentScrollAmount.current += deltaY
+    } else {
+      currentScrollAmount.current = deltaY
+    }
+
+    if (currentScrollAmount.current > 10 && !isHeaderCollapsed) {
+      setHeaderCollapsed(true)
+    } else if (currentScrollAmount.current < -10 && isHeaderCollapsed) {
+      setHeaderCollapsed(false)
+    }
+  }, [isHeaderCollapsed])
 
   return (
-    <>
+    <div
+      onTouchMove={handleScroll}
+      ref={scrollContainerRef}
+      className={styles.aboutPageRoot}
+    >
       <NavControl
         lang={lang}
         onChangeLang={onChangeLang}
         collapsed={isHeaderCollapsed}
       />
-      <div className={styles.aboutTeamContainer} onWheel={handleScroll}>
+      <div className={styles.aboutTeamContainer}>
         <Accordion
           visibleContent={
             <>
@@ -266,7 +276,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
           }
         />
       </div>
-    </>
+    </div>
   )
 }
 
