@@ -41,7 +41,7 @@ const HomePage = ({ lang, onChangeLang }) => {
   const [currentSectionName, setCurrentSectionName] = useState()
   const [isReady, setIsReady] = useState()
   const [isHeaderCollapsed, setHeaderCollapsed] = useState(false)
-  const [currentScrollAmount, setCurrentScrollAmount] = useState(1)
+  const currentScrollAmount = useRef(1)
 
   const handleIntersection = (intersections) => {
     const visibleIntersection = intersections.find(
@@ -54,8 +54,6 @@ const HomePage = ({ lang, onChangeLang }) => {
       const sectionId = target.id || ""
       const prevIntersectionRatio = intersectionRatios[sectionId]
       const intersectionRatio = intersectionRect.height / rootBounds.height
-
-      console.log(sectionId)
 
       if (prevIntersectionRatio < intersectionRatio || !prevIntersectionRatio) {
         freezeHandleSectionChangeTimeout = setTimeout(
@@ -117,7 +115,6 @@ const HomePage = ({ lang, onChangeLang }) => {
 
     if (dT >= 1) {
       scrollContainerRef.current.scrollTop = scrollAnimation.to
-      window.test = scrollContainerRef.current
       setScrollAnimation(null)
       cancelAnimationFrame(animationFrame)
 
@@ -169,25 +166,32 @@ const HomePage = ({ lang, onChangeLang }) => {
     return () => intersectionObserverRef?.disconnect()
   }, [sectionRefs, isReady])
 
-  const handleScroll = (event) => {
-    if (event.deltaY === 0) {
+  const prevPageY = useRef()
+
+  const handleScroll = useCallback(() => {
+    if (prevPageY.current === undefined) {
+      prevPageY.current = scrollContainerRef.current.scrollTop
+    }
+
+    const deltaY = scrollContainerRef.current.scrollTop - prevPageY.current
+    prevPageY.current = scrollContainerRef.current.scrollTop
+
+    if (deltaY === 0) {
       return
     }
 
-    if (event.deltaY * currentScrollAmount > 0) {
-      setCurrentScrollAmount(currentScrollAmount + event.deltaY)
+    if (deltaY * currentScrollAmount.current > 0) {
+      currentScrollAmount.current += deltaY
     } else {
-      setCurrentScrollAmount(event.deltaY)
+      currentScrollAmount.current = deltaY
     }
-  }
 
-  useEffect(() => {
-    if (currentScrollAmount > 10 && !isHeaderCollapsed) {
+    if (currentScrollAmount.current > 10 && !isHeaderCollapsed) {
       setHeaderCollapsed(true)
-    } else if (currentScrollAmount < -10 && isHeaderCollapsed) {
+    } else if (currentScrollAmount.current < -10 && isHeaderCollapsed) {
       setHeaderCollapsed(false)
     }
-  }, [currentScrollAmount, isHeaderCollapsed])
+  }, [isHeaderCollapsed])
 
   return (
     <>
@@ -200,7 +204,7 @@ const HomePage = ({ lang, onChangeLang }) => {
         className={classNames(styles.appContainer, {
           [styles.isReady]: isReady,
         })}
-        onWheel={handleScroll}
+        onTouchMove={handleScroll}
       >
         <div className={parallaxStyles.parallax} ref={scrollContainerRef}>
           <HomeSection onRef={sectionRefCallback} />

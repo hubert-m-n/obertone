@@ -31,44 +31,6 @@
   font-size: 14px;
 }
 
-.gallery1Image {
-  height: 130px;
-  width: 126px;
-
-  @media screen and (min-width: 1280px) {
-    height: 260px;
-    width: 252px;
-  }
-}
-
-.gallery1WithOffset {
-  transition: transform, 4.5s ease-in-out;
-  transform: translateX(-126px);
-
-  @media screen and (min-width: 1280px) {
-    transform: translateX(-252px);
-  }
-}
-
-.gallery2Image {
-  height: 130px;
-  width: 50px;
-
-  @media screen and (min-width: 1280px) {
-    height: 260px;
-    width: 100px;
-  }
-}
-
-.gallery2WithOffset {
-  transition: transform, 4.5s ease-in-out;
-  transform: translateX(-50px);
-
-  @media screen and (min-width: 1280px) {
-    transform: translateX(-100px);
-  }
-}
-
 .teamContainer {
   text-align: center;
   padding: 0 20px;
@@ -77,4 +39,10 @@
 .teamPicture {
   width: 100%;
   max-width: 830px;
+}
+
+.aboutPageRoot {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
 }

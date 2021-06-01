@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef, useEffect } from "react"
+import React, { useState, useCallback, useRef, useEffect } from "react"
 import classNames from "classnames"
 
 import videoSource1 from "./Backgroundvideo.mp4"
@@ -11,28 +11,38 @@ import commonStyles from "../../common/commonStyles.module.scss"
 import parallaxStyles from "../../common/parallaxStyles.module.scss"
 
 export default ({ onRef }) => {
-  const resizeTimeout = useRef()
-  const contentRef = useRef()
-  const [contentHeight, setContentHeight] = useState()
+  const [videoStyle, setVideoStyle] = useState({})
+  const [videoRatio, setVideoRatio] = useState(0)
 
-  const pageStyle = useMemo(
-    () =>
-      contentHeight && contentHeight > window.innerHeight
-        ? { height: contentHeight }
-        : {},
-    [contentHeight]
-  )
+  const resizeVideo = (videoRatio) => {
+    const windowWidth = window.innerWidth
+    const windowHeight = window.innerHeight
 
-  const handleWindowResize = () =>
-    setContentHeight(
-      contentRef.current && contentRef.current.getBoundingClientRect().height
-    )
+    if (windowWidth * videoRatio < windowHeight) {
+      setVideoStyle({ height: "100vh" })
+    } else {
+      setVideoStyle({ width: "100vw" })
+    }
+  }
+
+  const handleWindowResize = useCallback(() => {
+    if (!videoRatio) {
+      return
+    }
+
+    resizeVideo(videoRatio)
+  }, [videoRatio])
+
+  const handleLoadedVideoMeta = ({ currentTarget }) => {
+    const ratio = currentTarget.videoHeight / currentTarget.videoWidth
+    setVideoRatio(ratio)
+    resizeVideo(ratio)
+  }
 
   useEffect(() => {
-    resizeTimeout.current = setInterval(handleWindowResize, 250)
-
-    return () => clearTimeout(resizeTimeout.current)
-  }, [])
+    window.addEventListener("resize", handleWindowResize)
+    return () => window.removeEventListener("resize", handleWindowResize)
+  }, [handleWindowResize])
 
   return (
     <div
@@ -43,7 +53,6 @@ export default ({ onRef }) => {
         commonStyles.sectionWrapper,
         styles.sectionWrapper
       )}
-      style={pageStyle}
     >
       <div
         className={classNames(
@@ -51,9 +60,15 @@ export default ({ onRef }) => {
           parallaxStyles.parallaxLayerBack,
           styles.sectionBackground
         )}
-        style={pageStyle}
       >
-        <video className="videoTag" autoPlay loop muted>
+        <video
+          style={videoStyle}
+          className="videoTag"
+          autoPlay
+          loop
+          muted
+          onLoadedMetadata={handleLoadedVideoMeta}
+        >
           <source src={videoSource1} type="video/mp4" />
           <source src={videoSource2} type="video/webm" />
         </video>
@@ -64,7 +79,6 @@ export default ({ onRef }) => {
           parallaxStyles.parallaxLayerBase,
           styles.contentWrapper
         )}
-        style={pageStyle}
       >
         <div
           className={classNames(

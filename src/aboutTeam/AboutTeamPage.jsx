@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState, useCallback, useRef } from "react"
 
 import NavControl from "components/navControl/NavControl"
 import Accordion from "components/accordion/Accordion"
@@ -8,36 +8,47 @@ import styles from "./AboutTeam.module.scss"
 
 const AboutTeamPage = ({ lang, onChangeLang }) => {
   const [isHeaderCollapsed, setHeaderCollapsed] = useState(false)
-  const [currentScrollAmount, setCurrentScrollAmount] = useState(1)
+  const currentScrollAmount = useRef(1)
+  const prevPageY = useRef()
+  const scrollContainerRef = useRef()
 
-  const handleScroll = (event) => {
-    if (event.deltaY === 0) {
+  const handleScroll = useCallback(() => {
+    if (prevPageY.current === undefined) {
+      prevPageY.current = scrollContainerRef.current.scrollTop
+    }
+
+    const deltaY = scrollContainerRef.current.scrollTop - prevPageY.current
+    prevPageY.current = scrollContainerRef.current.scrollTop
+
+    if (deltaY === 0) {
       return
     }
 
-    if (event.deltaY * currentScrollAmount > 0) {
-      setCurrentScrollAmount(currentScrollAmount + event.deltaY)
+    if (deltaY * currentScrollAmount.current > 0) {
+      currentScrollAmount.current += deltaY
     } else {
-      setCurrentScrollAmount(event.deltaY)
+      currentScrollAmount.current = deltaY
     }
-  }
 
-  useEffect(() => {
-    if (currentScrollAmount > 10 && !isHeaderCollapsed) {
+    if (currentScrollAmount.current > 10 && !isHeaderCollapsed) {
       setHeaderCollapsed(true)
-    } else if (currentScrollAmount < -10 && isHeaderCollapsed) {
+    } else if (currentScrollAmount.current < -10 && isHeaderCollapsed) {
       setHeaderCollapsed(false)
     }
-  }, [currentScrollAmount, isHeaderCollapsed])
+  }, [isHeaderCollapsed])
 
   return (
-    <>
+    <div
+      onTouchMove={handleScroll}
+      ref={scrollContainerRef}
+      className={styles.aboutPageRoot}
+    >
       <NavControl
         lang={lang}
         onChangeLang={onChangeLang}
         collapsed={isHeaderCollapsed}
       />
-      <div className={styles.aboutTeamContainer} onWheel={handleScroll}>
+      <div className={styles.aboutTeamContainer}>
         <Accordion
           visibleContent={
             <>
@@ -112,8 +123,6 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
             "about/slider-1/2003.jpg",
             "about/slider-1/2004.jpg",
           ]}
-          imageClass={styles.gallery1Image}
-          offsetClass={styles.gallery1WithOffset}
         />
 
         <Accordion
@@ -226,8 +235,6 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
             "about/slider-2/25.jpg",
             "about/slider-2/26.jpg",
           ]}
-          imageClass={styles.gallery2Image}
-          offsetClass={styles.gallery2WithOffset}
         />
 
         <Accordion
@@ -305,7 +312,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
           }
         />
       </div>
-    </>
+    </div>
   )
 }
 
