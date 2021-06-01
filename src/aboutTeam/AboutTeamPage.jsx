@@ -44,13 +44,13 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p className={styles.aboutTeamSectionHeader}>DIE IDEE</p>
               „Menschen aller Erdteile, Zeiten und Epochen teilen die gleichen
               elementaren Gefühle. Obwohl Ausdrucksformen ständiger Wandlung
-              unterworfen sind, können wir uns noch heute in den antiken Dramen
-              und{" "}
+              unterworfen sind, können wir uns doch noch heute in den antiken
+              Dramen{" "}
             </>
           }
           hiddenContent={
             <>
-              deren Helden wiederfinden. Sogar die Art, wie wir die großen
+              und deren Helden wiederfinden. Sogar die Art, wie wir die großen
               Geschichten der Menschheit weitererzählen, scheint einem uns
               gegebenen Instinkt zu folgen. In der griechischen Tragödie, in
               Puppenspielen für Kinder, in klassischen Symphonien oder in
@@ -262,9 +262,45 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               Künstlerische Leitung: Mariya Nesterovska und Hubert Mittermayer
               Nesterovskiy
               <br />
-              Kozertmanagement: Katharina Seitz
+              Konzertmanagement: Katharina Jeske
               <br />
               Künstlerisches Betriebsbüro: Alena Pardatscher
+            </>
+          }
+        />
+
+        <div className={styles.teamContainer}>
+          <img src="about/team.jpg" className={styles.teamPicture} />
+        </div>
+
+        <Accordion
+          visibleContent={
+            <>
+              <p className={styles.aboutTeamSectionHeader}>
+                CLUB-MITGLIED WERDEN
+              </p>
+              Seien Sie noch näher dran und früher informiert! Das sind die
+              Vorteile einer Mitgliedschaft im OBERTÖNE-Club:
+              <br />
+              <ul>
+                <li> bis 20% Ermäßigung für unsere Konzerte </li>
+                <li> Sonderveranstaltungen</li>
+                exklusiv für Mitglieder
+                <li>
+                  {" "}
+                  Frühzeitige Information über Konzerte, Programme, Künstler
+                </li>
+              </ul>
+              <br />
+              Wenn Sie Interesse an einer Mitgliedschaft haben, bitte schreiben
+              Sie uns ein Email an{" "}
+              <a href="mailto:info@obertone.at">info@obertone.at </a>
+              oder schließen Sie Ihre Mitgliedschaft direkt in unserem
+              Ticketshop ab auf{" "}
+              <a href="https://obertone.at/dabeisein/">
+                www.obertone.at/dabeisein
+              </a>
+              !
             </>
           }
         />

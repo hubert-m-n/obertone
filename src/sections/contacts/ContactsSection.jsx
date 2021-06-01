@@ -22,19 +22,19 @@ export default ({ onRef }) => (
       <img src={albumCoverImage} className={styles.albumCover} alt="listen" />
       <div className={styles.mainSection}>
         Wollen Sie die Musik der OBERTÖNE auch zu Hause oder unterwegs hören?
-        Möchten Sie Emanuel Altenburgers Doku-Film sehen? Hier finden Sie alle
+        Möchten Sie Emanuel Altenburgers Doku-Film sehen? Hier finden Sie bald alle
         Infos über das Bestellen, Laden oder Streamen:
-      </div>
+      </div> 
       <a
-        href="https://www.obertone.at/ueberuns/"
+        href="https://obertone.at/#/media"
         className={classNames(
           styles.assetsLink,
           commonStyles.withRoundedBorder
         )}
-      >
+        >       
         OBERTÖNE@home
         <div className={styles.assetsLinkSmallText}>
-          Live-CDs, Streams, Doku-Film
+          bald hier: Live-CDs, Streams, Doku-Film
         </div>
       </a>
 

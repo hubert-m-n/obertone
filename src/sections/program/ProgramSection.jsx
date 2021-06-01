@@ -40,31 +40,28 @@ export default ({ onRef }) => (
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal,
             <br />
-            <b>piazzolla.gardel.nisinman.chopin.cobian.mozart</b>
+            <b>massenet.nisinman.scarlatti.schumann.brahms&hellip;</b>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Marcelo Nisinman, Nenad Lecic, Dragan
-            Trajkovski.
+            Es spielen Mariya Nesterovska, Nenad Lečić, François Guerrier,
+            Marcelo Nisinman, Rafael Bonavita, Hubert Mittermayer Nesterovskiy,
+            Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> „Bordello 1900“ aus „Histoire du Tango“
+          <b>Jules Massenet:</b> „Bordello 1900“ aus „Histoire du Tango“
           <br />
-          <b>Carlos Gardel/Marcelo Nisinman:</b> „Cuando tu no estas“
+          <b>Marcelo Nisinman, Astor Piazzolla u.&thinsp;a.:</b> Tangomusik für
+          Ensemble
           <br />
-          <b>Astor Piazzolla:</b> „Bordello 1960“ aus „Histoire du Tango“
+          <b>Domenico Scarlatti:</b> Sonaten K&thinsp;41 und K&thinsp;79 für
+          Cembalo solo
           <br />
-          <b>Frederic Chopin:</b> Nocturne op. 27 für Klavier solo
+          (Aus der F.A.E.-Sonate:)
           <br />
-          <b>Juan Carlos Cobián/Marcelo Nisinman:</b> „Los Maredos“
+          <b>Robert Schumann:</b> Intermezzo für Violine und Klavier
           <br />
-          ---
-          <br />
-          <b>Wolfgang A. Mozart:</b> Violinsonate in F-Dur KV 377
-          <b>Léo Ferré/Marcelo Nisinman:</b> „Avec le temps“
-          <b>Salieri/Mozart/Cornetti/Nisinman:</b> „Per la ricuperata salute di
-          Ofelia“
-          <b>Astor Piazzolla:</b> Concierto para Quinteto
+          <b>Johannes Brahms:</b> Scherzo für Violine und Klavier
         </div>
       </div>
       {/* Program 2 */}
@@ -86,31 +83,27 @@ export default ({ onRef }) => (
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal, Stift Stams.
             <br />
-            <b>piazzolla.gardel.nisinman.chopin.cobian.mozart</b>
+            <b>chiabrano.nisinman.piazzolla.barriere.westhoff</b>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Marcelo Nisinman, Nenad Lecic, Dragan
-            Trajkovski.
+            Es spielen Mariya Nesterovska, Marcelo Nisinman, Rafael Bonavita,
+            Nenad Lečić, Hubert Mittermayer Nesterovskiy, François Guerrier, Jan
+            Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> „Bordello 1900“ aus „Histoire du Tango“
+          <b>Gaetano Chiabrano:</b> Sonate in D-Dur für Fagott und B.&thinsp;C.
           <br />
-          <b>Carlos Gardel/Marcelo Nisinman:</b> „Cuando tu no estas“
+          <b>Santiago de Murcia:</b> „Marizápalos“ für Gitarre solo
           <br />
-          <b>Astor Piazzolla:</b> „Bordello 1960“ aus „Histoire du Tango“
+          <b>Astor Piazzolla, Marcelo Nisinman u.&thinsp;a:</b> Tangomusik für
+          Ensemble
           <br />
-          <b>Frederic Chopin:</b> Nocturne op. 27 für Klavier solo
+          <b>Jean-Babtiste Barriere:</b> Sonate Nr.&thinsp;4 (Livré IV) in G-Dur
+          für Violone und Cembalo
           <br />
-          <b>Juan Carlos Cobián/Marcelo Nisinman:</b> „Los Maredos“
-          <br />
-          ---
-          <br />
-          <b>Wolfgang A. Mozart:</b> Violinsonate in F-Dur KV 377
-          <b>Léo Ferré/Marcelo Nisinman:</b> „Avec le temps“
-          <b>Salieri/Mozart/Cornetti/Nisinman:</b> „Per la ricuperata salute di
-          Ofelia“
-          <b>Astor Piazzolla:</b> Concierto para Quinteto
+          <b>Johann P. v. Westhoff:</b> Sonate Nr.&thinsp;3 in d-moll für
+          Violine und B.&thinsp;C.
         </div>
       </div>
       {/* Program 3 */}
@@ -125,38 +118,35 @@ export default ({ onRef }) => (
         </div>
         <div className={styles.programSection}>
           <div className={styles.programTitle}>
-            DONNERSTAG
+            SAMSTAG
             <br />
             18. SEPTEMBER 2021
           </div>
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal, Stift Stams.
             <br />
-            <b>piazzolla.gardel.nisinman.chopin.cobian.mozart</b>
+            <b>rachmaninow.vivaldi.breit.barriere.ponomarew.&shy;platti</b>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Marcelo Nisinman, Nenad Lecic, Dragan
-            Trajkovski.
+            Es spielen Mariya Nesterovska, Leonhard Roczek, Nenad Lečić, Hubert
+            Mittermayer Nesterovskiy, Rafael Bonavita, François Guerrier, Jan
+            Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> „Bordello 1900“ aus „Histoire du Tango“
+          <b>Sergei Rachmaninow:</b> „Trio élégiaque“ Nr.&thinsp;1 in g-moll für
+          Klavier, Violine und Violoncello
           <br />
-          <b>Carlos Gardel/Marcelo Nisinman:</b> „Cuando tu no estas“
+          <b>Antonio Vivaldi:</b> Sonate in B-Dur für Fagott und B.&thinsp;C.
+          RV&thinsp;47
           <br />
-          <b>Astor Piazzolla:</b> „Bordello 1960“ aus „Histoire du Tango“
+          <b>Jean-Babtiste Barriere:</b> Sonata a tre Nr.&thinsp;2 (Livre III)
+          d-moll
           <br />
-          <b>Frederic Chopin:</b> Nocturne op. 27 für Klavier solo
+          <b>Dmitri Ponomarew</b> „Elysium“ und „Three stories from a family
+          album“ aus den „Forget-me-nots" für Violoncello und Klavier
           <br />
-          <b>Juan Carlos Cobián/Marcelo Nisinman:</b> „Los Maredos“
-          <br />
-          ---
-          <br />
-          <b>Wolfgang A. Mozart:</b> Violinsonate in F-Dur KV 377
-          <b>Léo Ferré/Marcelo Nisinman:</b> „Avec le temps“
-          <b>Salieri/Mozart/Cornetti/Nisinman:</b> „Per la ricuperata salute di
-          Ofelia“
-          <b>Astor Piazzolla:</b> Concierto para Quinteto
+          <b>Giovanni B. Platti:</b> Sonata a tre in D-Dur WD&thinsp;681
         </div>
       </div>
       {/* Program 4 */}
@@ -171,38 +161,47 @@ export default ({ onRef }) => (
         </div>
         <div className={styles.programSection}>
           <div className={styles.programTitle}>
-            DONNERSTAG
+            SONNTAG
             <br />
             19. SEPTEMBER 2021
           </div>
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal, Stift Stams.
             <br />
-            <b>piazzolla.gardel.nisinman.chopin.cobian.mozart</b>
+            <b>
+              catala.bertoli.schostakowitsch.kantscheli.&shy;merula.&shy;dubois.&shy;murcia.&shy;bolling
+            </b>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Marcelo Nisinman, Nenad Lecic, Dragan
-            Trajkovski.
+            Es spielen Mariya Nesterovska, Hubert Mittermayer Nesterovskiy,
+            Nenad Lečić, Rafael Bonavita, François Guerrier, Jan Krigovsky,
+            Tobias Steinberger, Chris&nbsp;Norz.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> „Bordello 1900“ aus „Histoire du Tango“
+          <b>Rafael Catalá:</b> „Esperando al minotauro“ (arr. H. Mittermayer
+          Nesterovskiy)
           <br />
-          <b>Carlos Gardel/Marcelo Nisinman:</b> „Cuando tu no estas“
+          <b>Giovanni A. Bertoli:</b> Sonate Nr.&thinsp;6 a-moll für Fagott und
+          B.&thinsp;C.
           <br />
-          <b>Astor Piazzolla:</b> „Bordello 1960“ aus „Histoire du Tango“
+          <b>Dmitri Schostakowitsch:</b> Preludium und Fuge Nr.&thinsp;2 für
+          Klavier solo
           <br />
-          <b>Frederic Chopin:</b> Nocturne op. 27 für Klavier solo
+          <b>Gija Kantscheli:</b> Miniaturen Nr.&thinsp;10, 15 und 13 für
+          Violine und Klavier
           <br />
-          <b>Juan Carlos Cobián/Marcelo Nisinman:</b> „Los Maredos“
+          <b>Tarquinio Merula:</b> aus „Canzoni overo sonate concertate per
+          chiesa e camera" Buch 3, Op.&thinsp;12"
           <br />
-          ---
+          <b>Tobias Steinberger & Chris Norz:</b> „Go ahead“ für zwei
+          Perkussionisten
           <br />
-          <b>Wolfgang A. Mozart:</b> Violinsonate in F-Dur KV 377
-          <b>Léo Ferré/Marcelo Nisinman:</b> „Avec le temps“
-          <b>Salieri/Mozart/Cornetti/Nisinman:</b> „Per la ricuperata salute di
-          Ofelia“
-          <b>Astor Piazzolla:</b> Concierto para Quinteto
+          <b>Pierre-Max Dubois:</b> „Sonatine tango" für Fagott und Klavier
+          <br />
+          <b>Santiago de Murcia:</b> „Bailad Caracoles“
+          <br />
+          <b>Claude Bolling:</b> „Hora“ aus der Suite für Violine und Trio
         </div>
       </div>
     </div>
