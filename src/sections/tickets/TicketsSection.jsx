@@ -28,37 +28,72 @@ export default ({ onRef }) => (
       >
         Tickets hier bestellen
       </a>
+      <br />
+      <br />
+      {/* Tickets Info 1 */}
+      <div className={styles.subtitle}>Entspannt ins Konzert</div>
+      Kaufen Sie gleich hier Ihre Tickets, zahlen bequem mit Sofortüberweisung,
+      Kreditkarte oder PayPal und erhalten direkt Ihr Ticket zum Ausdrucken.
+      Oder lassen Sie es sich auf Wunsch gegen Aufpreis per Post zuschicken.
+      <br />
+      <br />
+      <br />
+      {/* Tickets Info 2 */}
+      <div className={styles.subtitle}>OBERT&Ouml;NE-Pass</div>
+      das volle Erlebnis von 15. bis 19. September 2021
+      <br />
+      <p>
+        Kategorie A: €&nbsp;140,– (Reihe 1–6)
+        <br />
+        Kategorie B: €&nbsp;90,– (Reihe 7–11)
+      </p>
       <div className={styles.subtitle}>Einzeltickets</div>
-      je Konzert: 20. Juni oder 4. 2020
+      je Konzert: 15./&thinsp;16./&thinsp;18./&thinsp;19. September 2021
       <br />
-      Kategorie A: € 45,– (Reihe 1–6)
-      <br />
-      Kategorie B: € 25,– (Reihe 7-11)
-      <br />
-      Kategorie C: € 10,– (Reihe 12)
-      <br />
-      <br />
-      <div className={styles.subtitle}>Sommermusik-Pass</div>
-      Beide Konzerte in der Kat. A: € 80,–
-      <br />
-      Beide Konzerte in der Kat. B: € 40,–
+      <p>
+        Kategorie&nbsp;A: €&nbsp;45,– (Reihe 1–6)
+        <br />
+        Kategorie&nbsp;B: €&nbsp;25,– (Reihe 7–11)
+        <br />
+        Kategorie&nbsp;C: €&nbsp;10,– (Reihe 12)
+      </p>
       <br />
       <br />
+      {/* Tickets Info 3 */}
       <div className={styles.subtitle}>Ermäßigungen</div>
-      OBERTÖNE-Clubmitglieder, Schüler, Studenten bis 30,
-      <br />
-      Menschen mit Handycap: 20% auf jedes Ticket.
-      <br />
-      Mitglieder im Ö1-Club: 10% auf jedes Ticket.
+      <p>
+        &#9679; OBERTÖNE-Clubmitglieder, Schüler, Studenten bis 30,
+        Menschen&nbsp;mit&nbsp;Handycap: 20% auf jedes Ticket.
+        <br />
+        [Rabattcode: „Club"]
+      </p>
+      <p>
+        &#9679; Mitglieder im Ö1-Club: 10% auf jedes Ticket.
+        <br />
+        [Rabattcode: „Ö1-Club"]
+      </p>
+      <p>
+        &#9679; Mitglieder Ö1-Intro: 30% auf jedes Ticket.
+        <br />
+        [Rabattcode: „Ö1-Intro"]
+      </p>
+      <p>
+        Für die Buchung ermäßigter Tickets geben Sie bitte den entsprechenden
+        Rabattcode am Beginn des Ticketshops an! Mit Rabattcode ist für Sie
+        jedes Ticket nur einmal&nbsp;buchbar. <br />
+        Die Berechtigung zur Ermäßigung kann beim Eintritt kontrolliert werden.
+        Bitte nehmen Sie eine entsprechende Bestätigung mit, da ansonsten eine
+        Nachzahlung der Preisdifferenz fällig werden kann.
+      </p>
       <br />
       <br />
       <div className={styles.subtitle}>Mehr Info</div>
-      <a href="tel:+43 681 8133 8493" className={styles.whiteLink}>
-        +43 681 8133 8493
+      <a href="mailto:info@sommermusik.at" className={styles.whiteLink}>
+        info@obertone.at
       </a>
       <br />
-      <a href="mailto:info@sommermusik.at" className={styles.whiteLink}>
-        info@sommermusik.at
+      <a href="tel:+43 512 312 306" className={styles.whiteLink}>
+        +43 512 312 306
       </a>
       <div className={styles.directionsTitle}>
         So kommen Sie nach Stams mit Bahn, Bus oder PKW:

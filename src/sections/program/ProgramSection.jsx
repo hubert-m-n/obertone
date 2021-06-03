@@ -3,10 +3,10 @@ import React from "react"
 import classNames from "classnames"
 
 import { SECTION_NAMES } from "common/sectionNames"
-import Program1Picture from "images/programs/program_1.jpg"
-import Program2Picture from "images/programs/program_2.jpg"
-import Program3Picture from "images/programs/program_3.jpg"
-import Program4Picture from "images/programs/program_4.jpg"
+import Program1Picture from "images/programs/mi.gif"
+import Program2Picture from "images/programs/do.gif"
+import Program3Picture from "images/programs/sa.gif"
+import Program4Picture from "images/programs/so.gif"
 
 import styles from "./ProgramSection.module.scss"
 import commonStyles from "../../common/commonStyles.module.scss"
@@ -33,7 +33,7 @@ export default ({ onRef }) => (
         </div>
         <div className={styles.programSection}>
           <div className={styles.programTitle}>
-            DONNERSTAG
+            MITTWOCH
             <br />
             15. SEPTEMBER 2021
           </div>
@@ -49,7 +49,7 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Jules Massenet:</b> „Bordello 1900“ aus „Histoire du Tango“
+          <b>Jules Massenet:</b> „Valse très lente“
           <br />
           <b>Marcelo Nisinman, Astor Piazzolla u.&thinsp;a.:</b> Tangomusik für
           Ensemble
@@ -140,7 +140,7 @@ export default ({ onRef }) => (
           <b>Antonio Vivaldi:</b> Sonate in B-Dur für Fagott und B.&thinsp;C.
           RV&thinsp;47
           <br />
-          <b>Jean-Babtiste Barriere:</b> Sonata a tre Nr.&thinsp;2 (Livre III)
+          <b>Jean-Baptiste Barriere:</b> Sonata a tre Nr.&thinsp;2 (Livre III)
           d-moll
           <br />
           <b>Dmitri Ponomarew</b> „Elysium“ und „Three stories from a family

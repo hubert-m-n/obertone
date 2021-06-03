@@ -257,7 +257,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
         />
 
         <div className={styles.teamContainer}>
-          <img src="about/team.jpg" className={styles.teamPicture} />
+          <img src="about/Team.jpg" className={styles.teamPicture} />
         </div>
 
         <Accordion
@@ -277,7 +277,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
         />
 
         <div className={styles.teamContainer}>
-          <img src="about/team.jpg" className={styles.teamPicture} />
+          <img src="about/Club.png" className={styles.teamPicture} />
         </div>
 
         <Accordion
@@ -299,6 +299,11 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 </li>
               </ul>
               <br />
+              Jahresbeitrag:
+              <ul>
+                <li>Clubmitglied: ab € 20,–</li>
+                <li>Förderndes Clubmitglied: ab € 100,-</li>
+              </ul>
               Wenn Sie Interesse an einer Mitgliedschaft haben, bitte schreiben
               Sie uns ein Email an{" "}
               <a href="mailto:info@obertone.at">info@obertone.at </a>

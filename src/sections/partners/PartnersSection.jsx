@@ -4,10 +4,11 @@ import classNames from "classnames"
 import PartnerA1Logo from "images/Partner_A1.png"
 import PartnerA2Logo from "images/Partner_A2.png"
 import PartnerA3Logo from "images/Partner_A3.png"
+import PartnerC1Logo from "images/Partner_C1.png"
 import PartnerC2Logo from "images/Partner_C2.png"
 import PartnerC3Logo from "images/Partner_C3.png"
 import PartnerC4Logo from "images/Partner_C4.png"
-import PartnerC5Logo from "images/Partner_C5.png"
+
 import { SECTION_NAMES } from "common/sectionNames"
 
 import styles from "./PartnersSection.module.scss"
@@ -90,17 +91,17 @@ export default ({ onRef }) => {
         </div>
 
         <div className={styles.partnersSecondSection} ref={contentPart2Ref}>
+          <a href="https://www.schwarz.at/">
+            <img src={PartnerC1Logo} />
+          </a>
           <a href="https://www.e-auto.tirol/">
             <img src={PartnerC2Logo} />
           </a>
-          <a href="https://www.hypotirol.com/">
+          <a href="https://www.stams.co.at/">
             <img src={PartnerC3Logo} />
           </a>
-          <a href="https://www.stams.co.at/">
-            <img src={PartnerC4Logo} />
-          </a>
           <a href="https://www.stiftstams.at/">
-            <img src={PartnerC5Logo} />
+            <img src={PartnerC4Logo} />
           </a>
         </div>
       </div>

@@ -22,21 +22,25 @@ export default ({ onRef }) => (
       <img src={albumCoverImage} className={styles.albumCover} alt="listen" />
       <div className={styles.mainSection}>
         Wollen Sie die Musik der OBERTÖNE auch zu Hause oder unterwegs hören?
-        Möchten Sie Emanuel Altenburgers Doku-Film sehen? Hier finden Sie bald alle
-        Infos über das Bestellen, Laden oder Streamen:
-      </div> 
+        Möchten Sie Emanuel Altenburgers Doku-Film sehen? Hier finden Sie bald
+        alle Infos über das Bestellen, Laden oder Streamen:
+      </div>
       <a
         href="https://obertone.at/#/media"
         className={classNames(
           styles.assetsLink,
           commonStyles.withRoundedBorder
         )}
-        >       
+      >
         OBERTÖNE@home
         <div className={styles.assetsLinkSmallText}>
           bald hier: Live-CDs, Streams, Doku-Film
         </div>
       </a>
+      <div className={styles.mainSection}>
+        Folgen Sie uns auch auf Social Media und den Streaming-Plattformen:
+      </div>
+      <br />
 
       <div
         style={{
@@ -214,9 +218,10 @@ export default ({ onRef }) => (
 
       <div className={styles.section}>
         <p>
-          Bildnachweis: Alle Fotos von Mariya Nesterovska (außer „Mariya
-          Nesterovska" von <nobr>Emanuel Altenburger</nobr> und „Sebastian
-          Wienand" von <nobr>Sebastian Wienand</nobr>)
+          Bildnachweis: Bewegte Bilder von Emanuel Altenburger. Fotos: "Unsere
+          Partner" / „Wir machen..." / „Toni Innauer" / von Heinz Zak.
+          Komponistenbilder gemeinfrei. Alle anderen Fotos von Mariya
+          Nesterovska.
           <br />
           Design: Hubert Mittermayer Nesterovskiy
           <br />
