@@ -217,8 +217,8 @@ export default ({ onRef }) => (
         <br />
         Obmann:&ensp;Toni Innauer
         <br />
-        K&uuml;nstlerische Leitung:&ensp;Mariya Nesterovska und Hubert
-        Mittermayer Nesterovskiy
+        K&uuml;nstlerische Leitung:&ensp;Mariya&nbsp;Nesterovska und
+        Hubert&nbsp;Mittermayer&nbsp;Nesterovskiy
         <br />
         Postfach 04, 6029 Innsbruck
         <br />
@@ -230,12 +230,12 @@ export default ({ onRef }) => (
 
       <div className={styles.section}>
         <p>
-          Bildnachweis: Bewegte Bilder von Emanuel Altenburger. Fotos: "Unsere
-          Partner" / „Wir machen..." / „Toni Innauer" / von Heinz Zak.
-          Komponistenbilder gemeinfrei. Alle anderen Fotos von Mariya
-          Nesterovska.
+          Bildnachweis: Bewegte Bilder von Emanuel&nbsp;Altenburger. Fotos:
+          "Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" / von
+          Heinz&nbsp;Zak. Komponistenbilder gemeinfrei. Alle anderen Fotos von
+          Mariya&nbsp;Nesterovska.
           <br />
-          Design: Hubert Mittermayer Nesterovskiy
+          Design: Hubert&nbsp;Mittermayer&nbsp;Nesterovskiy
           <br />
           Programmierung: Andrey Filenko
         </p>
