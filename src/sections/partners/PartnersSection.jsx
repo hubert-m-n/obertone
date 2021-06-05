@@ -84,7 +84,7 @@ export default ({ onRef }) => {
         <h2 className={classNames(commonStyles.title, styles.title)}>
           Unsere Partner
           <div className={styles.subTitle}>
-            machen die Sommermusik erst m&ouml;glich.
+            machen die OBERT&Ouml;NE erst m&ouml;glich.
           </div>
         </h2>
 

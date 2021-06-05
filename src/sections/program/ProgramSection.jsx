@@ -38,7 +38,7 @@ export default ({ onRef }) => (
             15. SEPTEMBER 2021
           </div>
           <div className={styles.programDescrciption}>
-            18 Uhr Bernardisaal,
+            18 Uhr Bernardisaal, Stift Stams
             <br />
             <b>massenet.nisinman.scarlatti.schumann.brahms&hellip;</b>
           </div>
@@ -125,7 +125,7 @@ export default ({ onRef }) => (
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal, Stift Stams.
             <br />
-            <b>rachmaninow.vivaldi.breit.barriere.ponomarew.&shy;platti</b>
+            <b>rachmaninow.vivaldi.breit.ponomarew.platti&hellip;</b>
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Leonhard Roczek, Nenad Lečić, Hubert
@@ -139,6 +139,8 @@ export default ({ onRef }) => (
           <br />
           <b>Antonio Vivaldi:</b> Sonate in B-Dur für Fagott und B.&thinsp;C.
           RV&thinsp;47
+          <br />
+          <b>Bert Breit:</b> Cadenza für Violine solo
           <br />
           <b>Jean-Baptiste Barriere:</b> Sonata a tre Nr.&thinsp;2 (Livre III)
           d-moll
@@ -168,9 +170,7 @@ export default ({ onRef }) => (
           <div className={styles.programDescrciption}>
             18 Uhr Bernardisaal, Stift Stams.
             <br />
-            <b>
-              catala.bertoli.schostakowitsch.kantscheli.&shy;merula.&shy;dubois.&shy;murcia.&shy;bolling
-            </b>
+            <b>shostakovich.merula.kancheli.murcia.dubois&hellip;</b>
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Hubert Mittermayer Nesterovskiy,
@@ -192,7 +192,7 @@ export default ({ onRef }) => (
           Violine und Klavier
           <br />
           <b>Tarquinio Merula:</b> aus „Canzoni overo sonate concertate per
-          chiesa e camera" Buch 3, Op.&thinsp;12"
+          chiesa e camera" Buch 3, Op.&thinsp;12
           <br />
           <b>Tobias Steinberger & Chris Norz:</b> „Go ahead“ für zwei
           Perkussionisten

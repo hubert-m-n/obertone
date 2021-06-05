@@ -101,7 +101,7 @@ export default ({ onRef }) => {
             CHAMBER MUSIC WONDERLAND
           </div>
           <div className={styles.homeSectionSubtitle}>
-            16.–19. September 2021
+            15.&thinsp;&ndash;&thinsp;19. September 2021
           </div>
           <a
             href="http://www.obertone.at/test/dabeisein/"
