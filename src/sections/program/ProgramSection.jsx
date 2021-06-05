@@ -38,9 +38,12 @@ export default ({ onRef }) => (
             15. SEPTEMBER 2021
           </div>
           <div className={styles.programDescrciption}>
-            18 Uhr Bernardisaal, Stift Stams
-            <br />
-            <b>massenet.nisinman.scarlatti.schumann.brahms&hellip;</b>
+            <p>18 Uhr Bernardisaal, Stift Stams</p>
+            <p>
+              <b>
+                massenet.nisinman.scarlatti.schumann.<nobr>brahms</nobr>
+              </b>
+            </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Nenad Lečić, François Guerrier,
@@ -81,9 +84,14 @@ export default ({ onRef }) => (
             16. SEPTEMBER 2021
           </div>
           <div className={styles.programDescrciption}>
-            18 Uhr Bernardisaal, Stift Stams.
-            <br />
-            <b>chiabrano.nisinman.piazzolla.barriere.westhoff</b>
+            <p>18 Uhr Bernardisaal, Stift Stams.</p>
+            <p>
+              <b>
+                chiabrano.murcia.nisinman.<nobr>piazzolla.</nobr>
+                <nobr>barriere.</nobr>
+                <nobr>westhoff</nobr>
+              </b>
+            </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Marcelo Nisinman, Rafael Bonavita,
@@ -123,9 +131,14 @@ export default ({ onRef }) => (
             18. SEPTEMBER 2021
           </div>
           <div className={styles.programDescrciption}>
-            18 Uhr Bernardisaal, Stift Stams.
-            <br />
-            <b>rachmaninow.vivaldi.breit.ponomarew.platti&hellip;</b>
+            <p>18 Uhr Bernardisaal, Stift Stams.</p>
+            <p>
+              <b>
+                rachmaninow.vivaldi.breit.<nobr>barriere.</nobr>
+                <nobr>ponomarew.</nobr>
+                <nobr>platti</nobr>
+              </b>
+            </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Leonhard Roczek, Nenad Lečić, Hubert
@@ -168,9 +181,17 @@ export default ({ onRef }) => (
             19. SEPTEMBER 2021
           </div>
           <div className={styles.programDescrciption}>
-            18 Uhr Bernardisaal, Stift Stams.
-            <br />
-            <b>shostakovich.merula.kancheli.murcia.dubois&hellip;</b>
+            <p>18 Uhr Bernardisaal, Stift Stams.</p>
+            <p>
+              <b>
+                catala.bertoli.schostakowitsch.<nobr>merula.</nobr>
+                <nobr>kantscheli.</nobr>
+                <nobr>merula.</nobr>
+                <nobr>steinberger.norz.</nobr>
+                <nobr>dubois.</nobr>
+                <nobr>murcia.</nobr>murcia.<nobr>dubois</nobr>
+              </b>
+            </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Hubert Mittermayer Nesterovskiy,
