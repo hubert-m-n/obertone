@@ -144,6 +144,14 @@
   .navLink {
     color: $white;
     text-decoration: none;
+
+    &:hover {
+      color: #fef0b9;
+    }
+  }
+
+  .active {
+    color: #fef0b9;
   }
 
   @media screen and (min-width: 1000px) {

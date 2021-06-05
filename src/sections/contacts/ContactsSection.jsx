@@ -25,7 +25,7 @@ export default ({ onRef }) => (
         Möchten Sie Emanuel Altenburgers Doku-Film sehen? Hier finden Sie bald
         alle Infos über das Bestellen, Laden oder Streamen:
       </div>
-      <a
+      {/* <a
         href="https://obertone.at/#/media"
         className={classNames(
           styles.assetsLink,
@@ -36,13 +36,25 @@ export default ({ onRef }) => (
         <div className={styles.assetsLinkSmallText}>
           bald hier: Live-CDs, Streams, Doku-Film
         </div>
-      </a>
+      </a> */}
+      <div
+        className={classNames(
+          styles.assetsLink,
+          commonStyles.withRoundedBorder
+        )}
+      >
+        OBERTÖNE@home
+        <div className={styles.assetsLinkSmallText}>
+          bald hier: Live-CDs, Streams, Doku-Film
+        </div>
+      </div>
       <div className={styles.mainSection}>
         Folgen Sie uns auch auf Social Media und den Streaming-Plattformen:
       </div>
       <br />
 
       <div
+        className={styles.socialLinks}
         style={{
           display: "flex",
           justifyContent: "center",

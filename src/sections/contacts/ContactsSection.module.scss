@@ -152,3 +152,13 @@
     font-size: getVW(16px);
   }
 }
+
+.socialLinks {
+  a {
+    opacity: 0.9;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

@@ -61,17 +61,20 @@ export default ({ onRef }) => {
           styles.sectionBackground
         )}
       >
-        <video
-          style={videoStyle}
-          className="videoTag"
-          autoPlay
-          loop
-          muted
-          onLoadedMetadata={handleLoadedVideoMeta}
-        >
-          <source src={videoSource1} type="video/mp4" />
-          <source src={videoSource2} type="video/webm" />
-        </video>
+        <div className={styles.videoWrapper}>
+          <div className={styles.videoOverlay}></div>
+          <video
+            style={videoStyle}
+            className="videoTag"
+            autoPlay
+            loop
+            muted
+            onLoadedMetadata={handleLoadedVideoMeta}
+          >
+            <source src={videoSource1} type="video/mp4" />
+            <source src={videoSource2} type="video/webm" />
+          </video>
+        </div>
       </div>
       <div
         className={classNames(
@@ -94,8 +97,11 @@ export default ({ onRef }) => {
               styles.intermediateSectionBackground
             )}
           />
-          <div className={styles.homeSectiontitle}>
+          <div className={styles.homeSectionTitle}>
             CHAMBER MUSIC WONDERLAND
+          </div>
+          <div className={styles.homeSectionSubtitle}>
+            16.–19. September 2021
           </div>
           <a
             href="http://www.obertone.at/test/dabeisein/"

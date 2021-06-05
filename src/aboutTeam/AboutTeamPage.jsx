@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useRef } from "react"
+import classNames from "classnames"
 
 import NavControl from "components/navControl/NavControl"
 import Accordion from "components/accordion/Accordion"
@@ -128,7 +129,10 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
         <Accordion
           visibleContent={
             <>
-              <p className={styles.aboutTeamSectionHeader}>
+              <p
+                className={styles.aboutTeamSectionHeader}
+                style={{ maxWidth: "345px" }}
+              >
                 WAS BISHER GESCHAH
               </p>
               <p>
@@ -283,7 +287,12 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
         <Accordion
           visibleContent={
             <>
-              <p className={styles.aboutTeamSectionHeader}>
+              <p
+                className={classNames(
+                  styles.aboutTeamSectionHeader,
+                  styles.clubLink
+                )}
+              >
                 CLUB-MITGLIED WERDEN
               </p>
               Seien Sie noch näher dran und früher informiert! Das sind die

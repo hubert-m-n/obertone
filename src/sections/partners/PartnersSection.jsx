@@ -1,9 +1,16 @@
 import React, { useState, useMemo, useRef } from "react"
 import classNames from "classnames"
 
-import PartnerA1Logo from "images/Partner_A1.png"
-import PartnerA2Logo from "images/Partner_A2.png"
-import PartnerA3Logo from "images/Partner_A3.png"
+// import PartnerA1Logo from "images/Partner_A1.png"
+// import PartnerA2Logo from "images/Partner_A2.png"
+// import PartnerA3Logo from "images/Partner_A3.png"
+
+import PartnerB1Logo from "images/Partner_B1.png"
+import PartnerB2Logo from "images/Partner_B2.png"
+import PartnerB3Logo from "images/Partner_B3.png"
+import PartnerB4Logo from "images/Partner_B4.png"
+import PartnerB5Logo from "images/Partner_B5.png"
+
 import PartnerC1Logo from "images/Partner_C1.png"
 import PartnerC2Logo from "images/Partner_C2.png"
 import PartnerC3Logo from "images/Partner_C3.png"
@@ -20,6 +27,7 @@ export default ({ onRef }) => {
   const resizeTimeout = useRef()
   const contentPart1Ref = useRef()
   const contentPart2Ref = useRef()
+  const contentPart3Ref = useRef()
   const [contentHeight, setContentHeight] = useState()
 
   const pageStyle = useMemo(
@@ -34,8 +42,10 @@ export default ({ onRef }) => {
     setContentHeight(
       contentPart1Ref.current &&
         contentPart2Ref.current &&
+        contentPart3Ref.current &&
         contentPart1Ref.current.getBoundingClientRect().height +
-          contentPart2Ref.current.getBoundingClientRect().height
+          contentPart2Ref.current.getBoundingClientRect().height +
+          contentPart3Ref.current.getBoundingClientRect().height
     )
 
   useEffect(() => {
@@ -78,8 +88,12 @@ export default ({ onRef }) => {
           </div>
         </h2>
 
-        <div className={styles.partnersFirstSection} ref={contentPart1Ref}>
-          <a href="https://www.ortner-anlagen.at/">
+        <div
+          style={{ visibility: "hidden" }}
+          className={styles.partnersFirstSection}
+          ref={contentPart1Ref}
+        >
+          {/* <a href="https://www.ortner-anlagen.at/">
             <img src={PartnerA1Logo} />
           </a>
           <a href="https://www.innsbruck.info/">
@@ -87,10 +101,27 @@ export default ({ onRef }) => {
           </a>
           <a href="https://www.tirol.gv.at/kunst-kultur/abteilung-kultur/">
             <img src={PartnerA3Logo} />
-          </a>
+          </a> */}
         </div>
 
         <div className={styles.partnersSecondSection} ref={contentPart2Ref}>
+          <a href="https://www.tirol.gv.at/kunst-kultur/abteilung-kultur/">
+            <img src={PartnerB1Logo} />
+          </a>
+          <a href="http://innsbruck.info/">
+            <img src={PartnerB2Logo} />
+          </a>
+          <a href="https://www.hypotirol.com/">
+            <img src={PartnerB3Logo} />
+          </a>
+          <a href="https://www.ortner-anlagen.at/">
+            <img src={PartnerB4Logo} />
+          </a>
+          <a href="https://www.tiwag.at/">
+            <img src={PartnerB5Logo} />
+          </a>
+        </div>
+        <div className={styles.partnersThirdSection} ref={contentPart3Ref}>
           <a href="https://www.schwarz.at/">
             <img src={PartnerC1Logo} />
           </a>

@@ -10,6 +10,14 @@
   @media screen and (min-width: 540px) and (max-width: 800px) {
     padding-left: 138px;
   }
+
+  a {
+    opacity: 0.9;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 .partnersFirstSection {
@@ -70,6 +78,62 @@
 }
 
 .partnersSecondSection {
+  width: 1560px;
+  margin: 0 auto;
+
+  a {
+    display: inline-block;
+    width: 300px;
+    margin-right: 135px;
+    margin-bottom: 90px;
+
+    img {
+      width: 100%;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 979px) {
+    max-width: 300px;
+    width: 100%;
+
+    a {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: 980px) and (max-width: 1599px) {
+    width: 980px;
+
+    a:nth-child(2) {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    padding-top: calc(109px + 257px);
+  }
+
+  @media screen and (max-width: 415px) {
+    padding-top: getVW(109px + 257px);
+
+    a {
+      width: getVW(400px);
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+
+      &:last-child {
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+.partnersThirdSection {
   width: 1560px;
   margin: 0 auto;
 

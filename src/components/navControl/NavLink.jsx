@@ -22,7 +22,7 @@ export default ({ path, children, isDisabled, className }) => {
   return (
     <Link
       to={path}
-      className={classNames(className, {
+      className={classNames(styles.navLink, className, {
         [styles.active]: currentSection === path || isClicked,
         [styles.disabled]: isDisabled && !isClicked,
       })}

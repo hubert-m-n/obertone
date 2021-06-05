@@ -11,6 +11,7 @@
     margin-bottom: 14px;
     font-weight: 700;
     color: #aeadb2;
+    text-align: right;
 
     @media screen and (min-width: 1280px) {
       position: absolute;
@@ -21,9 +22,14 @@
       font-size: 48px;
       margin-left: -19px;
       margin-top: -14px;
-      white-space: nowrap;
       line-height: normal;
     }
+  }
+}
+
+.clubLink {
+  @media screen and (max-width: 1400px) {
+    max-width: 420px;
   }
 }
 
