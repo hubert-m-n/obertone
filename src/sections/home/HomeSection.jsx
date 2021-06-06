@@ -104,7 +104,7 @@ export default ({ onRef }) => {
             15.&mdash;19. September 2021
           </div>
           <a
-            href="http://www.obertone.at/test/dabeisein/"
+            href="http://www.obertone.at/dabeisein/"
             className={classNames(
               styles.ticketsLink,
               commonStyles.withRoundedBorder
