@@ -114,14 +114,12 @@
   }
 
   @media screen and (max-width: 800px) {
-    padding-top: calc(109px + 257px);
+    padding-top: 109px;
   }
 
   @media screen and (max-width: 415px) {
-    padding-top: getVW(109px + 257px);
-
     a {
-      width: getVW(400px);
+      width: getVW(300px);
       display: block;
       margin-right: auto;
       margin-left: auto;
