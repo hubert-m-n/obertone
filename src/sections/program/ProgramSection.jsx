@@ -52,7 +52,7 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Jules Massenet:</b> „Valse très lente“
+          <b>Jules Massenet:</b> „Valse très lente“ für Klavier solo
           <br />
           <b>Marcelo Nisinman, Astor Piazzolla u.&thinsp;a.:</b> Tangomusik für
           Ensemble
