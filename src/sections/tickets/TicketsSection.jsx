@@ -63,7 +63,8 @@ export default ({ onRef }) => (
       <div className={styles.subtitle}>Ermäßigungen</div>
       <p>
         &#9679; OBERTÖNE-Clubmitglieder, Schüler, Studenten bis 30,
-        Menschen&nbsp;mit&nbsp;Handycap: 20% auf jedes Ticket &ndash; <nobr>außer Pass Kat. A 10%.</nobr>
+        Menschen&nbsp;mit&nbsp;Handycap: 20% auf jedes Ticket &ndash;{" "}
+        <nobr>außer Pass Kat. A 10%.</nobr>
         <br />
         [Rabattcode: „Club"]
       </p>
