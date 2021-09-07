@@ -114,13 +114,14 @@ export default ({ onRef }) => {
             <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
           <div className={styles.homeSectionSubtitle}>
-            <br />Zur Einstimmung: OBERTÖNE im TV! 
+            <br />
+            Zur Einstimmung: OBERTÖNE im TV!
             <div className={styles.mediumText}>
-            Sonntag, 12. September um 8:55 sendet ORF III das letzte Konzert aus dem Vorjahr. (+ 7 Tage in der ORF-TV-Thek.)
+              Sonntag, 12. September ab 8:55 sendet ORF III das letzte Konzert
+              aus dem Vorjahr. (+ 7 Tage in der ORF-TV-Thek.)
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   )
