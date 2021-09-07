@@ -41,7 +41,10 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams</p>
             <p>
               <b>
-                massenet.nisinman.scarlatti.schumann.<nobr>brahms</nobr>
+                massenet.decaro.piazzolla.scarlatti.<nobr>gardel.</nobr>
+                <nobr>nisinman.</nobr>
+                <nobr>schumann.</nobr>
+                <nobr>brahms</nobr>
               </b>
             </p>
           </div>
@@ -54,11 +57,22 @@ export default ({ onRef }) => (
         <div className={styles.programSection}>
           <b>Jules Massenet:</b> „Valse très lente“ für Klavier solo
           <br />
-          <b>Marcelo Nisinman, Astor Piazzolla u.&thinsp;a.:</b> Tangomusik für
-          Ensemble
+          <b>Julio de Caro:</b> „Boedo“ für Bandoneon und Fagott (arr. M.
+          Nisinman)
+          <br />
+          <b>Astor Piazzolla:</b> „Milonga del Angel“ für Violine, Bandoneon,
+          Fagott, Gitarre, Klavier und Kontrabass (arr. Nisinman)
           <br />
           <b>Domenico Scarlatti:</b> Sonaten K&thinsp;41 und K&thinsp;79 für
           Cembalo solo
+          <br />
+          <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;6 in C-Dur für Fagott
+          und B.&thinsp;C.
+          <br />
+          <b>Carlos Gardel:</b> „Soledad“ für Bandoneon solo (arr. Nisinman)
+          <br />
+          <b>Marcelo Nisinman:</b> „El Tango“ für Fagott, Bandoneon, Klavier und
+          Kontrabass
           <br />
           (Aus der F.A.E.-Sonate:)
           <br />
@@ -104,11 +118,19 @@ export default ({ onRef }) => (
           <br />
           <b>Santiago de Murcia:</b> „Marizápalos“ für Gitarre solo
           <br />
-          <b>Astor Piazzolla, Marcelo Nisinman u.&thinsp;a:</b> Tangomusik für
-          Ensemble
+          <b>Astor Piazzolla&thinsp;/&thinsp; Marcelo Nisinman:</b> „Otoño
+          Porteño“ für Klavier solo
+          <br />
+          <b>Astor Piazzolla:</b> „Asleep“ aus „Five Tango Sensations“ für
+          Violine, Bandoneon, Orgel und Kontrabass (arr. Nisinman)
           <br />
           <b>Jean-Babtiste Barriere:</b> Sonate Nr.&thinsp;4 (Livré IV) in G-Dur
           für Violone und Cembalo
+          <br />
+          <b>Kurt Weill:</b> „Youkali“ für Violine und Bandoneon (arr. Nisinman)
+          <br />
+          <b>Marcelo Nisinman:</b> „Gerard's Tango“ für Fagott, Bandoneon,
+          Gitarre, Violine, Klavier und Kontrabass
           <br />
           <b>Johann P. v. Westhoff:</b> Sonate Nr.&thinsp;3 in d-moll für
           Violine und B.&thinsp;C.
