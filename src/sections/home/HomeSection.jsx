@@ -101,7 +101,7 @@ export default ({ onRef }) => {
             CHAMBER MUSIC WONDERLAND
           </div>
           <div className={styles.homeSectionSubtitle}>
-            15.&mdash;19. September 2021
+            14.&mdash;18. September 2022
           </div>
           <a
             href="http://www.obertone.at/dabeisein/"
@@ -110,15 +110,15 @@ export default ({ onRef }) => {
               commonStyles.withRoundedBorder
             )}
           >
-            Direkt zu den
-            <div className={styles.ticketsLinkLargeText}>TICKETS</div>
+            Bald gibt es
+            <div className={styles.ticketsLinkLargeText}>TICKETS!</div>
           </a>
           <div className={styles.homeSectionSubtitle}>
             <br />
-            Zur Einstimmung: OBERTÖNE im TV!
+            Wir bereiten uns vor:
             <div className={styles.mediumText}>
-              Sonntag, 12. September ab 8:55 sendet ORF III das letzte Konzert
-              aus dem Vorjahr. (+ 7 Tage in der ORF-TV-Thek.)
+              In Kürze wird das Programm hier veröffentlicht und der Vorverkauf
+              beginnt!
             </div>
           </div>
         </div>
