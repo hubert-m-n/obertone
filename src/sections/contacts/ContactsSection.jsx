@@ -232,14 +232,13 @@ export default ({ onRef }) => (
         <p>
           Bildnachweis: Bewegte Bilder von Emanuel&nbsp;Altenburger. Fotos:
           "Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" / von
-          Heinz&nbsp;Zak. Komponistenbilder gemeinfrei. Alle anderen Fotos von
-          Mariya&nbsp;Nesterovska.
+          Heinz&nbsp;Zak. Alle anderen Fotos von Mariya&nbsp;Nesterovska.
           <br />
           Design: Hubert&nbsp;Mittermayer&nbsp;Nesterovskiy
           <br />
           Programmierung: Andrey Filenko
         </p>
-        ©2021 OBERT&Ouml;NE Kammermusikverein
+        ©2022 OBERT&Ouml;NE Kammermusikverein
       </div>
     </div>
   </div>

@@ -40,7 +40,7 @@ export default ({ onRef }) => (
       <br />
       {/* Tickets Info 2 */}
       <div className={styles.subtitle}>OBERT&Ouml;NE-Pass</div>
-      das volle Erlebnis von 15. bis 19. September 2021
+      das volle Erlebnis von 14. bis 18. September 2022
       <br />
       <p>
         Kategorie A: €&nbsp;140,– (Reihe 1–6)
@@ -48,7 +48,7 @@ export default ({ onRef }) => (
         Kategorie B: €&nbsp;90,– (Reihe 7–11)
       </p>
       <div className={styles.subtitle}>Einzeltickets</div>
-      je Konzert: 15./&thinsp;16./&thinsp;18./&thinsp;19. September 2021
+      je Konzert: 14./&thinsp;15./&thinsp;17./&thinsp;18. September 2022
       <br />
       <p>
         Kategorie&nbsp;A: €&nbsp;45,– (Reihe 1–6)
@@ -63,25 +63,23 @@ export default ({ onRef }) => (
       <div className={styles.subtitle}>Ermäßigungen</div>
       <p>
         &#9679; OBERTÖNE-Clubmitglieder, Schüler, Studenten bis 30,
-        Menschen&nbsp;mit&nbsp;Handycap: 20% auf jedes Ticket &ndash;
-        <nobr>außer Pass Kat. A 10%.</nobr>
+        Menschen&nbsp;mit&nbsp;Handycap: bis zu 20% auf jedes Ticket.
         <br />
-        [Rabattcode: „Club"]
+        [Rabattcode: „CLUB"]
       </p>
       <p>
-        &#9679; Mitglieder im Ö1-Club: 10% auf jedes Ticket.
+        &#9679; Mitglieder im &Ouml;1-Club: 10% auf jedes Ticket.
         <br />
-        [Rabattcode: „Ö1-Club"]
+        [Rabattcode: „&Ouml;1CLUB"]
       </p>
       <p>
-        &#9679; Mitglieder Ö1-Intro: 30% auf jedes Ticket.
+        &#9679; Mitglieder &Ouml;1-Intro: 30% auf jedes Ticket.
         <br />
-        [Rabattcode: „Ö1-Intro"]
+        [Rabattcode: „&Ouml;1INTRO"]
       </p>
       <p>
         Für die Buchung ermäßigter Tickets geben Sie bitte den entsprechenden
-        Rabattcode am Beginn des Ticketshops an! Mit Rabattcode ist für Sie
-        jedes Ticket nur einmal&nbsp;buchbar. <br />
+        Rabattcode am Beginn des Ticketshops an! So können Sie bis zu zwei Tickets ermäßigt buchen.</p><p>
         Die Berechtigung zur Ermäßigung kann beim Eintritt kontrolliert werden.
         Bitte nehmen Sie eine entsprechende Bestätigung mit, da ansonsten eine
         Nachzahlung der Preisdifferenz fällig werden kann.

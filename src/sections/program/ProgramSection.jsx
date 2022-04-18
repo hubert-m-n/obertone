@@ -35,50 +35,41 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             MITTWOCH
             <br />
-            15. SEPTEMBER 2021
+            14. SEPTEMBER 2022
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams</p>
             <p>
               <b>
-                massenet.decaro.piazzolla.scarlatti.<nobr>gardel.</nobr>
-                <nobr>nisinman.</nobr>
-                <nobr>schumann.</nobr>
-                <nobr>brahms</nobr>
+                biber.galliard.piazzolla.nisinman.
+                <nobr>brahms.</nobr>
+                <nobr>buxtehude</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Nenad Lečić, François Guerrier,
-            Marcelo Nisinman, Rafael Bonavita, Hubert Mittermayer Nesterovskiy,
+            Es spielen Mariya Nesterovska, Nenad Lečić, Marcelo Nisinman,
+            François Guerrier, Rafael Bonavita, Hubert Mittermayer Nesterovskiy,
             Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Jules Massenet:</b> „Valse très lente“ für Klavier solo
+          <b>Heinrich I.&thinsp;F. von Biber:</b> Passacaglia f&uuml;r Violine
+          solo
           <br />
-          <b>Julio de Caro:</b> „Boedo“ für Bandoneon und Fagott (arr. M.
-          Nisinman)
+          <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;2 in G-Dur f&uuml;r
+          Fagott und B.&thinsp;C.
           <br />
-          <b>Astor Piazzolla:</b> „Milonga del Angel“ für Violine, Bandoneon,
-          Fagott, Gitarre, Klavier und Kontrabass (arr. Nisinman)
+          <b>Astor Piazzolla:</b> „Fuga y Misterio“ für Tangoensemble (1968,
+          arr. Nisinman 2022)
           <br />
-          <b>Domenico Scarlatti:</b> Sonaten K&thinsp;41 und K&thinsp;79 für
-          Cembalo solo
+          <b>Marcelo Nisinman:</b> „Hereticus" f&uuml;r Tangoensemble (2018)
           <br />
-          <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;6 in C-Dur für Fagott
-          und B.&thinsp;C.
+          <b>Johannes Brahms:</b> Drei Intermezzi f&uuml;r Klavier solo
+          op.&thinsp;117
           <br />
-          <b>Carlos Gardel:</b> „Soledad“ für Bandoneon solo (arr. Nisinman)
-          <br />
-          <b>Marcelo Nisinman:</b> „El Tango“ für Fagott, Bandoneon, Klavier und
-          Kontrabass
-          <br />
-          (Aus der F.A.E.-Sonate:)
-          <br />
-          <b>Robert Schumann:</b> Intermezzo für Violine und Klavier
-          <br />
-          <b>Johannes Brahms:</b> Scherzo für Violine und Klavier
+          <b>Dieterich Buxtehude:</b> Sonate in D-Dur op.&thinsp;2 Nr.&thinsp;2
+          BuxWV&thinsp;26
         </div>
       </div>
       {/* Program 2 */}
@@ -95,15 +86,13 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             DONNERSTAG
             <br />
-            16. SEPTEMBER 2021
+            15. SEPTEMBER 2022
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                chiabrano.murcia.nisinman.<nobr>piazzolla.</nobr>
-                <nobr>barriere.</nobr>
-                <nobr>westhoff</nobr>
+                brandon.nisinman.murcia.<nobr>piazzolla</nobr>
               </b>
             </p>
           </div>
@@ -114,26 +103,18 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Gaetano Chiabrano:</b> Sonate in D-Dur für Fagott und B.&thinsp;C.
+          <b>Jenni Brandon:</b> „Double Helix“ f&uuml;r Fagott und Klavier
+          (2014)
           <br />
-          <b>Santiago de Murcia:</b> „Marizápalos“ für Gitarre solo
+          <b>Marcelo Nisinman:</b> „Atenti nena que el tiempo Pasa“ f&uuml;r
+          Tangoensemble (2011)
           <br />
-          <b>Astor Piazzolla&thinsp;/&thinsp; Marcelo Nisinman:</b> „Otoño
-          Porteño“ für Klavier solo
+          <b>Santiago de Murcia:</b> „Jaracas de la Costa“ f&uuml;r
+          Gitarre&nbsp;solo
           <br />
-          <b>Astor Piazzolla:</b> „Asleep“ aus „Five Tango Sensations“ für
-          Violine, Bandoneon, Orgel und Kontrabass (arr. Nisinman)
+          <b>Astor Piazzolla:</b> „Five Tango Sensations“ (1989,
+          arr.&nbsp;Nisinman 2015)
           <br />
-          <b>Jean-Babtiste Barriere:</b> Sonate Nr.&thinsp;4 (Livré IV) in G-Dur
-          für Violone und Cembalo
-          <br />
-          <b>Kurt Weill:</b> „Youkali“ für Violine und Bandoneon (arr. Nisinman)
-          <br />
-          <b>Marcelo Nisinman:</b> „Gerard's Tango“ für Fagott, Bandoneon,
-          Gitarre, Violine, Klavier und Kontrabass
-          <br />
-          <b>Johann P. v. Westhoff:</b> Sonate Nr.&thinsp;3 in d-moll für
-          Violine und B.&thinsp;C.
         </div>
       </div>
       {/* Program 3 */}
@@ -150,40 +131,46 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             SAMSTAG
             <br />
-            18. SEPTEMBER 2021
+            17. SEPTEMBER 2022
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                rachmaninow.vivaldi.breit.<nobr>barriere.</nobr>
-                <nobr>ponomarew.</nobr>
-                <nobr>platti</nobr>
+                strawinsky.defesch.silwestrow.<nobr>carolo.</nobr>
+                <nobr>vitali.</nobr>
+                <nobr>mittermayer.</nobr>
+                <nobr>erlebach</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Leonhard Roczek, Nenad Lečić, Hubert
-            Mittermayer Nesterovskiy, Rafael Bonavita, François Guerrier, Jan
-            Krigovsky.
+            Es spielen Mariya Nesterovska, Nenad Lečić, Hubert Mittermayer
+            Nesterovskiy, Rafael Bonavita, François Guerrier, Jan Krigovsky,
+            Tobias Steinberger.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Sergei Rachmaninow:</b> „Trio élégiaque“ Nr.&thinsp;1 in g-moll für
-          Klavier, Violine und Violoncello
+          <b>Igor Strawinsky&thinsp;/&thinsp;Guido Agosti:</b> Danse infernale,
+          Berceuse und Finale aus „L'Oiseau de feu“ (Der Feuervogel) f&uuml;r
+          Klavier solo (1910/1928)
           <br />
-          <b>Antonio Vivaldi:</b> Sonate in B-Dur für Fagott und B.&thinsp;C.
-          RV&thinsp;47
+          <b>Willem de Fesch:</b> Sonate in D-Dur f&uuml;r Fagott und
+          B.&thinsp;C. op.&thinsp;8b Nr.&thinsp;1
           <br />
-          <b>Bert Breit:</b> Cadenza für Violine solo
+          <b>Valentin Silwestrow:</b> „Hommage
+          &aacute;&ensp;J.&thinsp;S.&thinsp;B.“ f&uuml;r Violine und Klavier
+          (2009)
           <br />
-          <b>Jean-Baptiste Barriere:</b> Sonata a tre Nr.&thinsp;2 (Livre III)
-          d-moll
+          <b>Mr.&thinsp;Carolo:</b> Triosonate Nr.&thinsp;9 C-Dur
           <br />
-          <b>Dmitri Ponomarew</b> „Elysium“ und „Three stories from a family
-          album“ aus den „Forget-me-nots" für Violoncello und Klavier
+          <b>Tomaso Antonio Vitali:</b> Ciaccona „Parte del Tomaso Vitalino"
+          f&uuml;r Violine und B.&thinsp;C.
           <br />
-          <b>Giovanni B. Platti:</b> Sonata a tre in D-Dur WD&thinsp;681
+          <b>Hubert Mittermayer Nesterovskiy:</b> Passacaglia „Viaggio del
+          Umberto M.&thinsp;N." f&uuml;r Fagott und Looper (2022)
+          <br />
+          <b>Philipp Heinrich Erlebach:</b> Trio A-Dur Nr.&thinsp;3
         </div>
       </div>
       {/* Program 4 */}
@@ -200,51 +187,42 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             SONNTAG
             <br />
-            19. SEPTEMBER 2021
+            18. SEPTEMBER 2022
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                catala.bertoli.schostakowitsch.<nobr>merula.</nobr>
-                <nobr>kantscheli.</nobr>
-                <nobr>merula.</nobr>
-                <nobr>steinberger.norz.</nobr>
-                <nobr>dubois.</nobr>
-                <nobr>murcia.</nobr>murcia.<nobr>dubois</nobr>
+                hummel.bartok.p&auml;rt.
+                <nobr>corrette.</nobr>
+                <nobr>adams.</nobr>
+                <nobr>buxtehude</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Hubert Mittermayer Nesterovskiy,
-            Nenad Lečić, Rafael Bonavita, François Guerrier, Jan Krigovsky,
-            Tobias Steinberger, Chris&nbsp;Norz.
+            Es spielen Mariya Nesterovska, Nenad Lečić, François Guerrier,
+            Hubert Mittermayer Nesterovskiy, Paul Moosbrugger, Rafael Bonavita,
+            Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Rafael Catalá:</b> „Esperando al minotauro“ (arr. H. Mittermayer
-          Nesterovskiy)
+          <b>Johann Nepomuk Hummel:</b> Serenade in C-Dur{" "}
+          <nobr>op.&thinsp;66</nobr>&ensp;f&uuml;r Violine, Klarinette, Fagott,
+          Gitarre und Klavier
           <br />
-          <b>Giovanni A. Bertoli:</b> Sonate Nr.&thinsp;6 a-moll für Fagott und
-          B.&thinsp;C.
+          <b>B&eacute;la Bart&oacute;k:</b> Marsch und Ostinato f&uuml;r Cembalo
+          solo (aus <nobr>Mikrokosmos VI)</nobr>
           <br />
-          <b>Dmitri Schostakowitsch:</b> Preludium und Fuge Nr.&thinsp;2 für
-          Klavier solo
+          <b>Arvo P&auml;rt:</b> „Spiegel im Spiegel" f&uuml;r Violine und
+          Klavier
           <br />
-          <b>Gija Kantscheli:</b> Miniaturen Nr.&thinsp;10, 15 und 13 für
-          Violine und Klavier
+          <b>Michel Corrette:</b> Sonate Nr.&thinsp;5 G-Dur aus "Les delices de
+          la solitude"
           <br />
-          <b>Tarquinio Merula:</b> aus „Canzoni overo sonate concertate per
-          chiesa e camera" Buch 3, Op.&thinsp;12
+          <b>John Adams:</b> „China Gates" f&uuml;r Klavier solo
           <br />
-          <b>Tobias Steinberger & Chris Norz:</b> „Go ahead“ für zwei
-          Perkussionisten
-          <br />
-          <b>Pierre-Max Dubois:</b> „Sonatine tango" für Fagott und Klavier
-          <br />
-          <b>Santiago de Murcia:</b> „Bailad Caracoles“
-          <br />
-          <b>Claude Bolling:</b> „Hora“ aus der Suite für Violine und Trio
+          <b>Dieterich Buxtehude:</b> Triosonate A-Dur op.&thinsp;2 Nr.&thinsp;5
         </div>
       </div>
     </div>

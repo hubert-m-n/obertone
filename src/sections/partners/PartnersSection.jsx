@@ -5,16 +5,17 @@ import classNames from "classnames"
 // import PartnerA2Logo from "images/Partner_A2.png"
 // import PartnerA3Logo from "images/Partner_A3.png"
 
-import PartnerB1Logo from "images/Partner_B1.png"
-import PartnerB2Logo from "images/Partner_B2.png"
-import PartnerB3Logo from "images/Partner_B3.png"
-import PartnerB4Logo from "images/Partner_B4.png"
-import PartnerB5Logo from "images/Partner_B5.png"
+import PartnerB1Logo from "images/Tirol.png"
+import PartnerB2Logo from "images/Innsbruck.png"
+import PartnerB3Logo from "images/Hypo.png"
+import PartnerB4Logo from "images/Ortner.png"
+import PartnerB5Logo from "images/Tiwag.png"
 
-import PartnerC1Logo from "images/Partner_C1.png"
-import PartnerC2Logo from "images/Partner_C2.png"
-import PartnerC3Logo from "images/Partner_C3.png"
-import PartnerC4Logo from "images/Partner_C4.png"
+import PartnerC1Logo from "images/Schwarz.png"
+import PartnerC2Logo from "images/E-Auto.png"
+import PartnerC3Logo from "images/Stams.png"
+import PartnerC4Logo from "images/StiftStams.png"
+import PartnerC5Logo from "images/OE1.png"
 
 import { SECTION_NAMES } from "common/sectionNames"
 
@@ -133,6 +134,9 @@ export default ({ onRef }) => {
           </a>
           <a href="https://www.stiftstams.at/">
             <img src={PartnerC4Logo} />
+          </a>
+          <a href="https://oe1.orf.at/">
+            <img src={PartnerC5Logo} />
           </a>
         </div>
       </div>

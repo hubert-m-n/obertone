@@ -110,16 +110,12 @@ export default ({ onRef }) => {
               commonStyles.withRoundedBorder
             )}
           >
-            Bald gibt es
-            <div className={styles.ticketsLinkLargeText}>TICKETS!</div>
+            Direkt zu den
+            <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
           <div className={styles.homeSectionSubtitle}>
-            <br />
-            Wir bereiten uns vor:
-            <div className={styles.mediumText}>
-              In Kürze wird das Programm hier veröffentlicht und der Vorverkauf
-              beginnt!
-            </div>
+            <br /><br />
+            Wir freuen uns auf Sie!
           </div>
         </div>
       </div>

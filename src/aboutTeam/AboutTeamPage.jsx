@@ -172,39 +172,44 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <br />
               <br />
               <p>
-                Dabei wurde an 24 Konzertabenden die Musik von 93 Komponisten
+                Dabei wurde an 32 Konzertabenden die Musik von 112 Komponisten
                 zum Klingen gebracht:
               </p>
               <p>
                 Johan Agrell, Adrienne Albert, Arno H. Babadschanjan, Johann
-                Sebastian Bach, Béla Bartók, Ludwig van Beethoven, Alain
-                Bernaud, Giovanni Antonio Bertoli, Germo di Blasio, William
-                Bolcom, Roger Boutry, José Bragato, Barbara Brodi, Benjamin
-                Britten, Dieterich Buxtehude, Samuel Capricornus, Pintín
-                Castellanos, Fortunato Chelleri, Peter Child, Juan Carlos
-                Cobián, Francesco Corbetta, François Couperin, Pedro Datta,
-                Antoine Dard, George Enescu, Manuel de Falla, Andrea Falconieri,
-                Johann Friedrich Fasch, Gabriel Fauré, Léo Ferré, Giovanni
-                Battista Fontana, Jean Françaix, César Franck, Johann Joseph
-                Fux, Carlos Gardel, Francesco Geminiani, George Gershwin,
-                Alberto Ginastera, Michail Glinka, Edvard Grieg, Joseph Haydn,
-                Kyle Hovatter, Johann Nepomuk Hummel, Leoš Janacek, Kaappo
-                Järvinen, Antonio Carlos Jobim, Daniel Humberto Joze, Giya
-                Kantscheli, Johann Hieronymus Kapsberger, Charles Koechlin,
-                Fritz Kreisler, Konrad Lang, Györgi Ligeti, Pietro Locatelli,
-                Celso Machado, Pedro Maffia, Marin Marais, Benedetto Marcello,
-                Rosendo Mendizábal, Hubert Mittermayer Nesterovskiy, Mariano
-                Mores, Gottlieb Muffat, Santiago de Murcia, Diego Ortiz,
-                Giovanni Battista Pergolesi, Astor Piazzolla, Werner Pirchner,
-                Johann Georg Pisendel, Francis Poulenc, Sergei Prokofjew,
-                Gerardo M. Rodríguez, Camille Saint-Saens, Federico Maria
-                Sardelli, Christoph Schaffrath, Johann H. Schmelzer, Franz
-                Schubert, Robert Schumann, Bartolomeo de Selma y Salaverde,
-                Gilles Silvestrini, Howard Skempton, Bedrich Smetana, Tobias
-                Steinberger, Igor Strawinsky, Joseph Suk, Osvaldo Tarantino,
-                Georg Philipp Telemann, Erkki-Sven Tüür, Francesco M. Veracini,
-                Robert de Visée, Giovanni B. Vitali, Antonio Vivaldi, Carl Maria
-                von Weber, Eugene Ysaye, Jan Dismas Zelenka.
+                Sebastian Bach, Jean-Babtiste Barriere, Béla Bartók, Ludwig van
+                Beethoven, Alain Bernaud, Giovanni Antonio Bertoli, Germo di
+                Blasio, William Bolcom, Claude Bolling, Roger Boutry, José
+                Bragato, Johannes Brahms, Bert Breit, Barbara Brodi, Benjamin
+                Britten, Dieterich Buxtehude, Samuel Capricornus, Julio de Caro,
+                Pintín Castellanos, Rafael Catalá, Fortunato Chelleri, Gaetano
+                Chiabrano, Peter Child, Juan Carlos Cobián, Francesco Corbetta,
+                François Couperin, Pedro Datta, Antoine Dard, Pierre-Max Dubois,
+                George Enescu, Manuel de Falla, Andrea Falconieri, Johann
+                Friedrich Fasch, Gabriel Fauré, Léo Ferré, Giovanni Battista
+                Fontana, Jean Françaix, César Franck, Johann Joseph Fux, Johann
+                Ernst Galliard, Carlos Gardel, Francesco Geminiani, George
+                Gershwin, Alberto Ginastera, Michail Glinka, Edvard Grieg,
+                Joseph Haydn, Kyle Hovatter, Johann Nepomuk Hummel, Leoš
+                Janacek, Kaappo Järvinen, Antonio Carlos Jobim, Daniel Humberto
+                Joze, Giya Kantscheli, Johann Hieronymus Kapsberger, Charles
+                Koechlin, Fritz Kreisler, Konrad Lang, Györgi Ligeti, Pietro
+                Locatelli, Celso Machado, Pedro Maffia, Marin Marais, Benedetto
+                Marcello, Jules Massenet, Rosendo Mendizábal, Tarquinio Merula,
+                Hubert Mittermayer Nesterovskiy, Mariano Mores, Gottlieb Muffat,
+                Santiago de Murcia, Chris Norz, Diego Ortiz, Giovanni Battista
+                Pergolesi, Astor Piazzolla, Werner Pirchner, Johann Georg
+                Pisendel, Giovanni B. Platti, Dmitri Ponomarew, Francis Poulenc,
+                Sergei Prokofjew, Sergei Rachmaninow, Gerardo M. Rodríguez,
+                Camille Saint-Saens, Federico Maria Sardelli, Domenico
+                Scarlatti, Christoph Schaffrath, Johann H. Schmelzer, Dmitri
+                Schostakowitsch, Franz Schubert, Robert Schumann, Bartolomeo de
+                Selma y Salaverde, Gilles Silvestrini, Howard Skempton, Bedrich
+                Smetana, Tobias Steinberger, Igor Strawinsky, Joseph Suk,
+                Osvaldo Tarantino, Georg Philipp Telemann, Erkki-Sven Tüür,
+                Francesco M. Veracini, Robert de Visée, Giovanni B. Vitali,
+                Antonio Vivaldi, Carl Maria von Weber, Johann P.&thinsp;v.
+                Westhoff, Kurt Weill, Eugene Ysaye, Jan Dismas Zelenka.
               </p>
             </>
           }
@@ -245,17 +250,24 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
           visibleContent={
             <>
               <p className={styles.aboutTeamSectionHeader}>UNSER ZIEL</p>
-              In außergewöhnlichen Konzerten möchte der OBERTÖNE
-              Kammermusikverein einem breiten Publikum die Möglichkeit geben,
-              einzigartigen Musikerpersönlichkeiten unmittelbar und in
-              persönlichem Rahmen{" "}
+              In außergewöhnlichen Konzerten auf höchstem Niveau, angesiedelt in
+              einem Kulturort abseits der Metropolen wollen wir ein breites
+              Publikum – erfahrene Konzertbesucher wie Neulinge im
+              Kammerkonzert,
             </>
           }
           hiddenContent={
             <>
-              zu begegnen. Gleichzeitig fördert der Verein den internationalen
-              künstlerischen Austausch zwischen Musikern im Bereich der
-              Kammermusik.
+              {" "}
+              Gäste aus dem vorwiegend europäischen Ausland wie Menschen aus den
+              Dörfern der Umgebung – zusammenbringen, um sie für die uns
+              gemeinsame Kultur zu begeistern.
+              <p>
+                Der kulturelle und pers&ouml;nliche Austausch zwischen Besuchern
+                und K&uuml;nstlern untereinander sowie zwischen
+                &bdquo;B&uuml;hne und Publikum&rdquo; soll erm&ouml;glicht und
+                gef&ouml;rdert werden.
+              </p>
             </>
           }
         />
@@ -270,12 +282,10 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p className={styles.aboutTeamSectionHeader}>DAS TEAM</p>
               Obmann: Toni Innauer
               <br />
-              Künstlerische Leitung: Mariya Nesterovska und Hubert Mittermayer
-              Nesterovskiy
+              Künstlerische Leitung: <nobr>Mariya Nesterovska</nobr> und{" "}
+              <nobr>Hubert Mittermayer Nesterovskiy</nobr>
               <br />
               Konzertmanagement: Katharina Jeske
-              <br />
-              Künstlerisches Betriebsbüro: Alena Pardatscher
             </>
           }
         />
@@ -299,19 +309,24 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               Vorteile einer Mitgliedschaft im OBERTÖNE-Club:
               <br />
               <ul>
-                <li> bis 20% Ermäßigung für unsere Konzerte </li>
+                <li>
+                  {" "}
+                  bis 20% Erm&auml;ßigung für alle unsere Konzerte f&uuml;r zwei
+                  Personen
+                </li>
                 <li> Sonderveranstaltungen</li>
                 exklusiv für Mitglieder
                 <li>
                   {" "}
                   Frühzeitige Information über Konzerte, Programme, Künstler
                 </li>
+                <li>Vorkaufsrecht auf Tickets im Vorverkauf</li>
               </ul>
               <br />
               Jahresbeitrag:
               <ul>
-                <li>Clubmitglied: ab € 20,–</li>
-                <li>Förderndes Clubmitglied: ab € 100,-</li>
+                <li>Clubmitglied: ab € 50,–</li>
+                <li>Förderndes Clubmitglied: ab € 150,-</li>
               </ul>
               Wenn Sie Interesse an einer Mitgliedschaft haben, bitte schreiben
               Sie uns ein Email an{" "}
