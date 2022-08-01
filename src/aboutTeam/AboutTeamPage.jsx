@@ -1,10 +1,9 @@
-import React, { useState, useCallback, useRef } from "react"
-import classNames from "classnames"
+import React, { useCallback, useRef, useState } from "react"
 
-import NavControl from "components/navControl/NavControl"
 import Accordion from "components/accordion/Accordion"
+import NavControl from "components/navControl/NavControl"
 import Slider from "./Slider"
-
+import classNames from "classnames"
 import styles from "./AboutTeam.module.scss"
 
 const AboutTeamPage = ({ lang, onChangeLang }) => {
@@ -332,11 +331,9 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               Sie uns ein Email an{" "}
               <a href="mailto:info@obertone.at">info@obertone.at </a>
               oder schließen Sie Ihre Mitgliedschaft direkt in unserem
-              Ticketshop ab auf{" "}
-              <a href="https://obertone.at/dabeisein/">
-                www.obertone.at/dabeisein
-              </a>
-              !
+              <a href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list" target="_blank">
+                Ticketshop
+              </a>!
             </>
           }
         />

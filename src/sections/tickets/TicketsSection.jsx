@@ -1,12 +1,10 @@
-import React from "react"
-import classNames from "classnames"
 import { Link } from "react-router-dom"
-
-import { SECTION_NAMES } from "common/sectionNames"
+import React from "react"
 import { ReactComponent as RouteIcon } from "images/GoogleMapsIcon.svg"
-
-import styles from "./TicketsSection.module.scss"
+import { SECTION_NAMES } from "common/sectionNames"
+import classNames from "classnames"
 import commonStyles from "../../common/commonStyles.module.scss"
+import styles from "./TicketsSection.module.scss"
 
 export default ({ onRef }) => (
   <div
@@ -19,7 +17,7 @@ export default ({ onRef }) => (
     </h2>
     <div className={styles.content}>
       <a
-        href="http://www.obertone.at/dabeisein/"
+        href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list" target="_blank"
         className={classNames(
           styles.linkButton,
           styles.ticketsPageLink,

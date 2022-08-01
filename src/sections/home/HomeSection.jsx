@@ -1,14 +1,12 @@
-import React, { useState, useCallback, useRef, useEffect } from "react"
-import classNames from "classnames"
-
-import videoSource1 from "./Backgroundvideo.mp4"
-import videoSource2 from "./Backgroundvideo.webm"
+import React, { useCallback, useEffect, useRef, useState } from "react"
 
 import { SECTION_NAMES } from "common/sectionNames"
-
-import styles from "./HomeSection.module.scss"
+import classNames from "classnames"
 import commonStyles from "../../common/commonStyles.module.scss"
 import parallaxStyles from "../../common/parallaxStyles.module.scss"
+import styles from "./HomeSection.module.scss"
+import videoSource1 from "./Backgroundvideo.mp4"
+import videoSource2 from "./Backgroundvideo.webm"
 
 export default ({ onRef }) => {
   const [videoStyle, setVideoStyle] = useState({})
@@ -104,7 +102,7 @@ export default ({ onRef }) => {
             14.&mdash;18. September 2022
           </div>
           <a
-            href="http://www.obertone.at/dabeisein/"
+            href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list"
             className={classNames(
               styles.ticketsLink,
               commonStyles.withRoundedBorder
