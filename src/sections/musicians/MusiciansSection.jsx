@@ -10,6 +10,7 @@ import MariyaNesterovskaPhoto from "images/musicians/MariyaNesterovska.jpg"
 import PaulMoosbruggerPhoto from "images/musicians/PaulMoosbrugger.jpg"
 import NenadLecicPhoto from "images/musicians/NenadLecic.jpg"
 import TobiasSteinbergerPhoto from "images/musicians/TobiasSteinberger.jpg"
+import MikhailMordvinovPhoto from "images/musicians/MikhailMordvinov.jpg"
 
 import MusicianTile from "./tile/MusicianTile"
 import { SECTION_NAMES } from "common/sectionNames"
@@ -25,15 +26,6 @@ const musicians = [
     Mikhail Bezverkhny. Als Solistin und Kammermusikerin bereits in jungen Jahren vielfache Preisträgerin 
     internationaler Wettbewerbe u.a. in Paris, Belgrad, Covilha, Atri, Ragusa / New York. Konzerte in 
     ganz Europa. CDs mit Werken von Skoryk, Schnittke, Franck, Telemann und Kantscheli.`,
-  },
-  {
-    name: "Nenad Lečić",
-    photo: NenadLecicPhoto,
-    info: `Nenad Lečić, Klavier (SRB) – Geboren in Čačak. Studium in Belgrad und Köln bei Igor Lasko, Arbo Valdma und 
-    Pierre-Laurent Aimard. Debüt mit Orchester mit 11 Jahren. Young-European-Talent der RAI. 
-    Preisträger zahlreicher internationaler Wettbewerbe. Konzerte in ganz Europa im Rahmen 
-    renommierter Konzertreihen wie Klavierfestival Ruhr, Pianorama (WDR), Atelier (Kölner Philharmonie). 
-    Dozent der Musikhochschule Köln.`,
   },
   {
     name: "Rafael Bonavita",
@@ -73,6 +65,23 @@ const musicians = [
         Studium der Violone an der Schola Cantorum Basiliensis bei David Sinclair.
         Regelmäßiger Gast und Solist bei Wiener Akademie, Capella Istropolitana und Freitagsakademie Bern.
         Professor am Konservatorium Bratislava. Mitglied der Ars Antiqua Austria.`,
+  },
+  {
+    name: "Nenad Lečić",
+    photo: NenadLecicPhoto,
+    info: `Nenad Lečić, Klavier (SRB) – Geboren in Čačak. Studium in Belgrad und Köln bei Igor Lasko, Arbo Valdma und 
+    Pierre-Laurent Aimard. Debüt mit Orchester mit 11 Jahren. Young-European-Talent der RAI. 
+    Preisträger zahlreicher internationaler Wettbewerbe. Konzerte in ganz Europa im Rahmen 
+    renommierter Konzertreihen wie Klavierfestival Ruhr, Pianorama (WDR), Atelier (Kölner Philharmonie). 
+    Dozent der Musikhochschule Köln.`,
+  },
+  {
+    name: "Mikhail Mordvinov",
+    photo: MikhailMordvinovPhoto,
+    info: `Mikhail Mordvinov, Klavier (RUS/D) – Geboren in Moskau. Studium bei Vladimir Tropp und Bernd Goetzke in Moskau 
+    und Hannover. Zahlreiche internationale. Preise und Auszeichnungen. Konzerte als Solist und Kammermusiker 
+    in Europa, Asien und USA. Einspielungen u.a. mit Musik von Schubert, Rachmaninow, Rameau, Mussorgsky bei Labels 
+    wie Thorofon und Sony Classical. Dozent an der Hochschule Hanns Eisler in Berlin.`,
   },
   {
     name: "Marcelo Nisinman",

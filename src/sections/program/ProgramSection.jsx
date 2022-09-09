@@ -48,7 +48,7 @@ export default ({ onRef }) => (
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Nenad Lečić, Marcelo Nisinman,
+            Es spielen Mariya Nesterovska, Mikhail Mordvinov, Marcelo Nisinman,
             François Guerrier, Rafael Bonavita, Hubert Mittermayer Nesterovskiy,
             Jan Krigovsky.
           </div>
@@ -63,13 +63,18 @@ export default ({ onRef }) => (
           <b>Astor Piazzolla:</b> „Fuga y Misterio“ für Tangoensemble (1968,
           arr. Nisinman 2022)
           <br />
-          <b>Marcelo Nisinman:</b> „Hereticus" f&uuml;r Tangoensemble (2018)
+          <b>
+            Marcelo Nisinman & Hubert Mittermayer <nobr>Nesterovskiy:</nobr>
+          </b>{" "}
+          „One Cuckoo Flew out of the Nest“ f&uuml;r Bandoneon und Fagott
+          (2022; UA)
           <br />
-          <b>Johannes Brahms:</b> Drei Intermezzi f&uuml;r Klavier solo
-          op.&thinsp;117
+          <b>Marcelo Nisinman:</b> „Hereticus“ f&uuml;r Tangoensemble (2018)
+          <br />
+          <b>Johannes Brahms:</b> Vier Klavierstücke op.&thinsp;119
           <br />
           <b>Dieterich Buxtehude:</b> Sonate in D-Dur op.&thinsp;2 Nr.&thinsp;2
-          BuxWV&thinsp;26
+          BuxWV&thinsp;260
         </div>
       </div>
       {/* Program 2 */}
@@ -92,28 +97,28 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                brandon.nisinman.murcia.<nobr>piazzolla</nobr>
+                dutilleux.murcia.<nobr>piazzolla</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Marcelo Nisinman, Rafael Bonavita,
-            Nenad Lečić, Hubert Mittermayer Nesterovskiy, François Guerrier, Jan
-            Krigovsky.
+            Hubert Mittermayer Nesterovskiy, François Guerrier, Mikhail
+            Mordvinov, Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Jenni Brandon:</b> „Double Helix“ f&uuml;r Fagott und Klavier
-          (2014)
+          <b>Henri Dutilleux:</b> Sarabande et Cortege f&uuml;r Fagott und
+          Klavier (1950)
           <br />
-          <b>Marcelo Nisinman:</b> „Atenti nena que el tiempo Pasa“ f&uuml;r
-          Tangoensemble (2011)
+          <b>Astor Piazzolla:</b> „El penúltimo“ f&uuml;r Tangoensemble (1973;
+          arr.&nbsp;Nisinman 2019)
           <br />
           <b>Santiago de Murcia:</b> „Jaracas de la Costa“ f&uuml;r
           Gitarre&nbsp;solo
           <br />
           <b>Astor Piazzolla:</b> „Five Tango Sensations“ (1989,
-          arr.&nbsp;Nisinman 2015)
+          arr.&nbsp;Nisinman 2020)
           <br />
         </div>
       </div>
@@ -137,7 +142,7 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                strawinsky.defesch.silwestrow.<nobr>carolo.</nobr>
+                roman.defesch.silwestrow.<nobr>carolo.</nobr>
                 <nobr>vitali.</nobr>
                 <nobr>mittermayer.</nobr>
                 <nobr>erlebach</nobr>
@@ -151,12 +156,11 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Igor Strawinsky&thinsp;/&thinsp;Guido Agosti:</b> Danse infernale,
-          Berceuse und Finale aus „L'Oiseau de feu“ (Der Feuervogel) f&uuml;r
-          Klavier solo (1910/1928)
+          <b>Elliot Roman:</b> „Signal" f&uuml;r Klavier und Elektronik (2021;
+          europ. EA)
           <br />
-          <b>Willem de Fesch:</b> Sonate in D-Dur f&uuml;r Fagott und
-          B.&thinsp;C. op.&thinsp;8b Nr.&thinsp;1
+          <b>Willem de Fesch:</b> Sonate in D-Dur f&uuml;r Fagott und B.C.
+          op.&thinsp;8b Nr.&thinsp;1
           <br />
           <b>Valentin Silwestrow:</b> „Hommage
           &aacute;&ensp;J.&thinsp;S.&thinsp;B.“ f&uuml;r Violine und Klavier
@@ -165,7 +169,7 @@ export default ({ onRef }) => (
           <b>Mr.&thinsp;Carolo:</b> Triosonate Nr.&thinsp;9 C-Dur
           <br />
           <b>Tomaso Antonio Vitali:</b> Ciaccona „Parte del Tomaso Vitalino"
-          f&uuml;r Violine und B.&thinsp;C.
+          f&uuml;r Violine und B.&nbsp;C.
           <br />
           <b>Hubert Mittermayer Nesterovskiy:</b> Passacaglia „Viaggio del
           Umberto M.&thinsp;N." f&uuml;r Fagott und Looper (2022)
@@ -193,7 +197,7 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                hummel.bartok.p&auml;rt.
+                hummel.child.p&auml;rt.
                 <nobr>corrette.</nobr>
                 <nobr>adams.</nobr>
                 <nobr>buxtehude</nobr>
@@ -211,13 +215,13 @@ export default ({ onRef }) => (
           <nobr>op.&thinsp;66</nobr>&ensp;f&uuml;r Violine, Klarinette, Fagott,
           Gitarre und Klavier
           <br />
-          <b>B&eacute;la Bart&oacute;k:</b> Marsch und Ostinato f&uuml;r Cembalo
-          solo (aus <nobr>Mikrokosmos VI)</nobr>
+          <b>Peter Child:</b> Toccata und Rag aus der Fantasie f&uuml;r Cembalo
+          solo (2003)
           <br />
           <b>Arvo P&auml;rt:</b> „Spiegel im Spiegel" f&uuml;r Violine und
           Klavier
           <br />
-          <b>Michel Corrette:</b> Sonate Nr.&thinsp;5 G-Dur aus "Les delices de
+          <b>Michel Corrette:</b> Sonate Nr.&thinsp;5 G-Dur aus „Les delices de
           la solitude"
           <br />
           <b>John Adams:</b> „China Gates" f&uuml;r Klavier solo
