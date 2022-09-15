@@ -63,12 +63,6 @@ export default ({ onRef }) => (
           <b>Astor Piazzolla:</b> „Fuga y Misterio“ für Tangoensemble (1968,
           arr. Nisinman 2022)
           <br />
-          <b>
-            Marcelo Nisinman & Hubert Mittermayer <nobr>Nesterovskiy:</nobr>
-          </b>{" "}
-          „One Cuckoo Flew out of the Nest“ f&uuml;r Bandoneon und Fagott
-          (2022; UA)
-          <br />
           <b>Marcelo Nisinman:</b> „Hereticus“ f&uuml;r Tangoensemble (2018)
           <br />
           <b>Johannes Brahms:</b> Vier Klavierstücke op.&thinsp;119
@@ -142,7 +136,7 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                roman.defesch.silwestrow.<nobr>carolo.</nobr>
+                pirchner.defesch.silwestrow.<nobr>carolo.</nobr>
                 <nobr>vitali.</nobr>
                 <nobr>mittermayer.</nobr>
                 <nobr>erlebach</nobr>
@@ -150,14 +144,13 @@ export default ({ onRef }) => (
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Nenad Lečić, Hubert Mittermayer
-            Nesterovskiy, Rafael Bonavita, François Guerrier, Jan Krigovsky,
-            Tobias Steinberger.
+            Es spielen Mariya Nesterovska, Hubert Mittermayer Nesterovskiy,
+            Rafael Bonavita, François Guerrier, Jan Krigovsky, Tobias
+            Steinberger.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Elliot Roman:</b> „Signal" f&uuml;r Klavier und Elektronik (2021;
-          europ. EA)
+          <b>Werner Pirchner:</b> „Mir FaGottes Hilfe" - Solo-Fagott-Solo (1989)
           <br />
           <b>Willem de Fesch:</b> Sonate in D-Dur f&uuml;r Fagott und B.C.
           op.&thinsp;8b Nr.&thinsp;1
@@ -197,34 +190,35 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                hummel.child.p&auml;rt.
+                marais.child.p&auml;rt.
                 <nobr>corrette.</nobr>
-                <nobr>adams.</nobr>
+                <nobr></nobr>
                 <nobr>buxtehude</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Nenad Lečić, François Guerrier,
-            Hubert Mittermayer Nesterovskiy, Paul Moosbrugger, Rafael Bonavita,
-            Jan Krigovsky.
+            Es spielen Mariya Nesterovska, François Guerrier, Hubert Mittermayer
+            Nesterovskiy, Rafael Bonavita, Jan Krigovsky, Tobias Steinberger.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Johann Nepomuk Hummel:</b> Serenade in C-Dur{" "}
-          <nobr>op.&thinsp;66</nobr>&ensp;f&uuml;r Violine, Klarinette, Fagott,
-          Gitarre und Klavier
+          <b>Marin Marais:</b> Suite in G-Dur, Livre II, Nr. 4 für Ensemble
+          (arr. Radix chamber ensemble)
           <br />
           <b>Peter Child:</b> Toccata und Rag aus der Fantasie f&uuml;r Cembalo
           solo (2003)
           <br />
           <b>Arvo P&auml;rt:</b> „Spiegel im Spiegel" f&uuml;r Violine und
-          Klavier
+          Cembalo
           <br />
           <b>Michel Corrette:</b> Sonate Nr.&thinsp;5 G-Dur aus „Les delices de
           la solitude"
           <br />
-          <b>John Adams:</b> „China Gates" f&uuml;r Klavier solo
+          <b>
+            Hubert Mittermayer Nesterovskiy & Tobias <nobr>Steinberger:</nobr>
+          </b>{" "}
+          „Wee Gates?" f&uuml;r Fagott und Percussion
           <br />
           <b>Dieterich Buxtehude:</b> Triosonate A-Dur op.&thinsp;2 Nr.&thinsp;5
         </div>
