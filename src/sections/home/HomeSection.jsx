@@ -99,7 +99,7 @@ export default ({ onRef }) => {
             CHAMBER MUSIC WONDERLAND
           </div>
           <div className={styles.homeSectionSubtitle}>
-            14.&mdash;18. September 2022
+            13.&mdash;17. September 2023
           </div>
           <a
             href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list"
@@ -108,12 +108,13 @@ export default ({ onRef }) => {
               commonStyles.withRoundedBorder
             )}
           >
-            Direkt zu den
+            Bald gibt es hier die
             <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
           <div className={styles.homeSectionSubtitle}>
-            <br /><br />
-            Wir freuen uns auf Sie!
+            <br />
+            <br />
+            Auch Programm und Besetzung 2023 werden bald hier veröffentlicht!
           </div>
         </div>
       </div>
