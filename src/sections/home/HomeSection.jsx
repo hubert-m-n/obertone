@@ -99,6 +99,7 @@ export default ({ onRef }) => {
             CHAMBER MUSIC WONDERLAND
           </div>
           <div className={styles.homeSectionSubtitle}>
+            10 Jahre OBERTÖNE &#9835;<br />
             13.&mdash;17. September 2023
           </div>
           <a
@@ -108,13 +109,12 @@ export default ({ onRef }) => {
               commonStyles.withRoundedBorder
             )}
           >
-            Bald gibt es hier die
+            Sichern Sie sich gleich jetzt Ihre
             <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
           <div className={styles.homeSectionSubtitle}>
-            <br />
-            <br />
-            Auch Programm und Besetzung 2023 werden bald hier veröffentlicht!
+                   <br />
+            Es wird ein wunderbares Jubil&auml;um!
           </div>
         </div>
       </div>

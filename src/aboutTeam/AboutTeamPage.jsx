@@ -135,8 +135,8 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 WAS BISHER GESCHAH
               </p>
               <p>
-                Seit dem Gründungsjahr 2014 haben 24 Künstler aus elf Ländern
-                das Publikum der OBERTÖNE begeistert:
+                Seit dem Gründungsjahr 2014 haben 27 Künstler aus elf Ländern
+                das Publikum der OBERT&Ouml;NE begeistert:
               </p>
               Rafael Bonavita (Uruguay) – Gitarre / Barockgitarre
             </>
@@ -152,6 +152,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p>Markus Kuen (Österreich) – Trompete</p>
               <p>Nenad Lečić (Serbien) – Klavier</p>
               <p>Karl Markovics (Österreich) – Sprecher</p>
+              <p>Mikhail Mordvinov (Russland/Deutschland) – Klavier</p>
               <p>Hubert Mittermayer Nesterovskiy (Österreich) – Fagott</p>
               <p>Mariya Nesterovska (Ukraine) – Violine</p>
               <p>Marcelo Nisinman (Argentinien) – Bandoneon</p>
@@ -171,44 +172,47 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <br />
               <br />
               <p>
-                Dabei wurde an 32 Konzertabenden die Musik von 112 Komponisten
+                Dabei wurde an 36 Konzertabenden die Musik von 119 Komponisten
                 zum Klingen gebracht:
               </p>
               <p>
-                Johan Agrell, Adrienne Albert, Arno H. Babadschanjan, Johann
-                Sebastian Bach, Jean-Babtiste Barriere, Béla Bartók, Ludwig van
-                Beethoven, Alain Bernaud, Giovanni Antonio Bertoli, Germo di
-                Blasio, William Bolcom, Claude Bolling, Roger Boutry, José
-                Bragato, Johannes Brahms, Bert Breit, Barbara Brodi, Benjamin
-                Britten, Dieterich Buxtehude, Samuel Capricornus, Julio de Caro,
-                Pintín Castellanos, Rafael Catalá, Fortunato Chelleri, Gaetano
-                Chiabrano, Peter Child, Juan Carlos Cobián, Francesco Corbetta,
-                François Couperin, Pedro Datta, Antoine Dard, Pierre-Max Dubois,
-                George Enescu, Manuel de Falla, Andrea Falconieri, Johann
-                Friedrich Fasch, Gabriel Fauré, Léo Ferré, Giovanni Battista
-                Fontana, Jean Françaix, César Franck, Johann Joseph Fux, Johann
-                Ernst Galliard, Carlos Gardel, Francesco Geminiani, George
-                Gershwin, Alberto Ginastera, Michail Glinka, Edvard Grieg,
-                Joseph Haydn, Kyle Hovatter, Johann Nepomuk Hummel, Leoš
-                Janacek, Kaappo Järvinen, Antonio Carlos Jobim, Daniel Humberto
-                Joze, Giya Kantscheli, Johann Hieronymus Kapsberger, Charles
-                Koechlin, Fritz Kreisler, Konrad Lang, Györgi Ligeti, Pietro
-                Locatelli, Celso Machado, Pedro Maffia, Marin Marais, Benedetto
-                Marcello, Jules Massenet, Rosendo Mendizábal, Tarquinio Merula,
-                Hubert Mittermayer Nesterovskiy, Mariano Mores, Gottlieb Muffat,
-                Santiago de Murcia, Chris Norz, Diego Ortiz, Giovanni Battista
-                Pergolesi, Astor Piazzolla, Werner Pirchner, Johann Georg
-                Pisendel, Giovanni B. Platti, Dmitri Ponomarew, Francis Poulenc,
-                Sergei Prokofjew, Sergei Rachmaninow, Gerardo M. Rodríguez,
+                Johan Agrell, Adrienne Albert, Arno H.&thinsp;Babadschanjan,
+                Johann Sebastian Bach, Jean-Babtiste Barriere, Béla Bartók,
+                Ludwig van Beethoven, Alain Bernaud, Giovanni Antonio Bertoli,
+                Germo di Blasio, William Bolcom, Claude Bolling, Roger Boutry,
+                José Bragato, Johannes Brahms, Bert Breit, Barbara Brodi,
+                Benjamin Britten, Dieterich Buxtehude, Samuel Capricornus, Julio
+                de Caro, Mr.&thinsp;Carolo, Pintín Castellanos, Rafael Catalá,
+                Fortunato Chelleri, Gaetano Chiabrano, Peter Child, Juan Carlos
+                Cobián, Francesco Corbetta, Michel Corrette, François Couperin,
+                Pedro Datta, Antoine Dard, Pierre-Max Dubois, Henri Dutilleux,
+                George Enescu, Philipp Heinrich Erlebach,Manuel de Falla, Andrea
+                Falconieri, Johann Friedrich Fasch, Gabriel Fauré, Léo Ferré,
+                Willem de Fesch, Giovanni Battista Fontana, Jean Françaix, César
+                Franck, Johann Joseph Fux, Johann Ernst Galliard, Carlos Gardel,
+                Francesco Geminiani, George Gershwin, Alberto Ginastera, Michail
+                Glinka, Edvard Grieg, Joseph Haydn, Kyle Hovatter, Johann
+                Nepomuk Hummel, Leoš Janacek, Kaappo Järvinen, Antonio Carlos
+                Jobim, Daniel Humberto Joze, Giya Kantscheli, Johann Hieronymus
+                Kapsberger, Charles Koechlin, Fritz Kreisler, Konrad Lang,
+                Györgi Ligeti, Pietro Locatelli, Celso Machado, Pedro Maffia,
+                Marin Marais, Benedetto Marcello, Jules Massenet, Rosendo
+                Mendizábal, Tarquinio Merula, Hubert Mittermayer Nesterovskiy,
+                Mariano Mores, Gottlieb Muffat, Santiago de Murcia, Chris Norz,
+                Diego Ortiz, Arvo P&auml;rt, Giovanni Battista Pergolesi, Astor
+                Piazzolla, Werner Pirchner, Johann Georg Pisendel, Giovanni
+                B.&thinsp;Platti, Dmitri Ponomarew, Francis Poulenc, Sergei
+                Prokofjew, Sergei Rachmaninow, Gerardo M.&thinsp;Rodríguez,
                 Camille Saint-Saens, Federico Maria Sardelli, Domenico
-                Scarlatti, Christoph Schaffrath, Johann H. Schmelzer, Dmitri
-                Schostakowitsch, Franz Schubert, Robert Schumann, Bartolomeo de
-                Selma y Salaverde, Gilles Silvestrini, Howard Skempton, Bedrich
-                Smetana, Tobias Steinberger, Igor Strawinsky, Joseph Suk,
-                Osvaldo Tarantino, Georg Philipp Telemann, Erkki-Sven Tüür,
-                Francesco M. Veracini, Robert de Visée, Giovanni B. Vitali,
-                Antonio Vivaldi, Carl Maria von Weber, Johann P.&thinsp;v.
-                Westhoff, Kurt Weill, Eugene Ysaye, Jan Dismas Zelenka.
+                Scarlatti, Christoph Schaffrath, Johann H.&thinsp;Schmelzer,
+                Dmitri Schostakowitsch, Franz Schubert, Robert Schumann,
+                Bartolomeo de Selma y Salaverde, Gilles Silvestrini, Howard
+                Skempton, Bedrich Smetana, Tobias Steinberger, Igor Strawinsky,
+                Joseph Suk, Valentin Silwestrow, Osvaldo Tarantino, Georg
+                Philipp Telemann, Erkki-Sven Tüür, Francesco M.&thinsp;Veracini,
+                Robert de Visée, Giovanni B.&thinsp;Vitali, Antonio Vivaldi,
+                Carl Maria von Weber, Johann P.&thinsp;v. Westhoff, Kurt Weill,
+                Eugene Ysaye, Jan Dismas Zelenka.
               </p>
             </>
           }
@@ -242,6 +246,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
             "about/slider-2/24.jpg",
             "about/slider-2/25.jpg",
             "about/slider-2/26.jpg",
+            "about/slider-2/27.jpg",
           ]}
         />
 
@@ -313,13 +318,12 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                   bis 20% Erm&auml;ßigung für alle unsere Konzerte f&uuml;r zwei
                   Personen
                 </li>
-                <li> Sonderveranstaltungen</li>
-                exklusiv für Mitglieder
                 <li>
                   {" "}
                   Frühzeitige Information über Konzerte, Programme, Künstler
                 </li>
                 <li>Vorkaufsrecht auf Tickets im Vorverkauf</li>
+                <li> Sonderveranstaltungen exklusiv für Mitglieder</li>
               </ul>
               <br />
               Jahresbeitrag:
@@ -330,10 +334,14 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               Wenn Sie Interesse an einer Mitgliedschaft haben, bitte schreiben
               Sie uns ein Email an{" "}
               <a href="mailto:info@obertone.at">info@obertone.at </a>
-              oder schließen Sie Ihre Mitgliedschaft direkt in unserem
-              <a href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list" target="_blank">
+              oder schließen Sie Ihre Mitgliedschaft direkt in unserem{" "}
+              <a
+                href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list"
+                target="_blank"
+              >
                 Ticketshop
-              </a>!
+              </a>
+              !
             </>
           }
         />

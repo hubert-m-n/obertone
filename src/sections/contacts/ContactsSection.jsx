@@ -15,15 +15,15 @@ export default ({ onRef }) => (
         styles.contactsSectionTitle
       )}
     >
-      Reinhören und Nachhören
+      Reinh&ouml;ren und Nachh&ouml;ren
     </h2>
 
     <div className={styles.content}>
       <img src={albumCoverImage} className={styles.albumCover} alt="listen" />
       <div className={styles.mainSection}>
-        Wollen Sie die Musik der OBERTÖNE auch zu Hause oder unterwegs hören?
-        Möchten Sie Emanuel Altenburgers Doku-Film sehen? Hier finden Sie bald
-        alle Infos über das Bestellen, Laden oder Streamen:
+        Wollen Sie die Musik der OBERT&Ouml;NE auch zu Hause oder unterwegs
+        h&ouml;ren? M&ouml;chten Sie Emanuel Altenburgers Doku-Film sehen? Hier
+        finden Sie bald alle Infos über das Bestellen, Laden oder Streamen:
       </div>
       {/* <a
         href="https://obertone.at/#/media"
@@ -231,14 +231,15 @@ export default ({ onRef }) => (
       <div className={styles.section}>
         <p>
           Bildnachweis: Bewegte Bilder von Emanuel&nbsp;Altenburger. Fotos:
-          "Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" / von
-          Heinz&nbsp;Zak. Alle anderen Fotos von Mariya&nbsp;Nesterovska.
+          „Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" / von
+          Heinz&nbsp;Zak, „David Bergmüller" von Theresa Pewal, „Stephan
+          Moosmann" von TENM. Alle anderen Fotos von Mariya&nbsp;Nesterovska.
           <br />
           Design: Hubert&nbsp;Mittermayer&nbsp;Nesterovskiy
           <br />
           Programmierung: Andrey Filenko
         </p>
-        ©2022 OBERT&Ouml;NE Kammermusikverein
+        ©2023 OBERT&Ouml;NE Kammermusikverein
       </div>
     </div>
   </div>

@@ -37,8 +37,8 @@ export default ({ onRef }) => (
       <br />
       <br />
       {/* Tickets Info 2 */}
-      <div className={styles.subtitle}>OBERT&Ouml;NE-Pass</div>
-      das volle Erlebnis von 14. bis 18. September 2022
+      <div className={styles.subtitle}>*Jubil&auml;ums-*OBERT&Ouml;NE-Pass</div>
+      das volle Erlebnis von 13. bis 17. September 2023
       <br />
       <p>
         Kategorie A: €&nbsp;140,– (Reihe 1–6)
@@ -46,7 +46,7 @@ export default ({ onRef }) => (
         Kategorie B: €&nbsp;90,– (Reihe 7–11)
       </p>
       <div className={styles.subtitle}>Einzeltickets</div>
-      je Konzert: 14./&thinsp;15./&thinsp;17./&thinsp;18. September 2022
+      je Konzert: 13./&thinsp;14./&thinsp;16./&thinsp;17. September 2023
       <br />
       <p>
         Kategorie&nbsp;A: €&nbsp;45,– (Reihe 1–6)
@@ -60,7 +60,7 @@ export default ({ onRef }) => (
       {/* Tickets Info 3 */}
       <div className={styles.subtitle}>Ermäßigungen</div>
       <p>
-        &#9679; OBERTÖNE-Clubmitglieder, Schüler, Studenten bis 30,
+        &#9679; OBERT&Ouml;NE-Clubmitglieder, Schu&uuml;ler, Studenten bis 30,
         Menschen&nbsp;mit&nbsp;Handycap: bis zu 20% auf jedes Ticket.
         <br />
         [Rabattcode: „CLUB"]
@@ -76,10 +76,10 @@ export default ({ onRef }) => (
         [Rabattcode: „&Ouml;1INTRO"]
       </p>
       <p>
-        Für die Buchung ermäßigter Tickets geben Sie bitte den entsprechenden
-        Rabattcode am Beginn des Ticketshops an! So können Sie bis zu zwei Tickets ermäßigt buchen.</p><p>
-        Die Berechtigung zur Ermäßigung kann beim Eintritt kontrolliert werden.
-        Bitte nehmen Sie eine entsprechende Bestätigung mit, da ansonsten eine
+        Für die Buchung erm&auml;ßigter Tickets geben Sie bitte den entsprechenden
+        Rabattcode am Beginn des Ticketshops an! So k&ouml;nnen Sie bis zu zwei Tickets erm&auml;ßigt buchen.</p><p>
+        Die Berechtigung zur Erm&auml;ßigung kann beim Eintritt kontrolliert werden.
+        Bitte nehmen Sie eine entsprechende Best&auml;tigung mit, da ansonsten eine
         Nachzahlung der Preisdifferenz fällig werden kann.
       </p>
       <br />

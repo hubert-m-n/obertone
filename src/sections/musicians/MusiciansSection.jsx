@@ -7,10 +7,10 @@ import HubertMittermayerNesterovskiyPhoto from "images/musicians/HubertMittermay
 import JanKrigovskyPhoto from "images/musicians/JanKrigovsky.jpg"
 import MarceloNisinmanPhoto from "images/musicians/MarceloNisinman.jpg"
 import MariyaNesterovskaPhoto from "images/musicians/MariyaNesterovska.jpg"
-import PaulMoosbruggerPhoto from "images/musicians/PaulMoosbrugger.jpg"
+import StephanMoosmannPhoto from "images/musicians/StephanMoosmann.jpg"
 import NenadLecicPhoto from "images/musicians/NenadLecic.jpg"
 import TobiasSteinbergerPhoto from "images/musicians/TobiasSteinberger.jpg"
-import MikhailMordvinovPhoto from "images/musicians/MikhailMordvinov.jpg"
+import DavidBergmuellerPhoto from "images/musicians/DavidBergmueller.jpg"
 
 import MusicianTile from "./tile/MusicianTile"
 import { SECTION_NAMES } from "common/sectionNames"
@@ -35,6 +35,15 @@ const musicians = [
     René Jacobs und Marc Minkovski. Zahlreiche Aufnahmen für Radio und Fernsehen in Europa und Asien. 
     CD-Einspielungen für das Label Enchiriadis mit Musik von Bach, Bartolotti, de Murcia und 
     Sanz sowie Eigenkompositionen.`,
+  },
+  {
+    name: "Nenad Lečić",
+    photo: NenadLecicPhoto,
+    info: `Nenad Lečić, Klavier (SRB) – Geboren in Čačak. Studium in Belgrad und Köln bei Igor Lasko, Arbo Valdma und 
+    Pierre-Laurent Aimard. Debüt mit Orchester mit 11 Jahren. Young-European-Talent der RAI. 
+    Preisträger zahlreicher internationaler Wettbewerbe. Konzerte in ganz Europa im Rahmen 
+    renommierter Konzertreihen wie Klavierfestival Ruhr, Pianorama (WDR), Atelier (Kölner Philharmonie). 
+    Dozent der Musikhochschule Köln.`,
   },
   {
     name: "Hubert Mittermayer Nesterovskiy",
@@ -67,23 +76,6 @@ const musicians = [
         Professor am Konservatorium Bratislava. Mitglied der Ars Antiqua Austria.`,
   },
   {
-    name: "Nenad Lečić",
-    photo: NenadLecicPhoto,
-    info: `Nenad Lečić, Klavier (SRB) – Geboren in Čačak. Studium in Belgrad und Köln bei Igor Lasko, Arbo Valdma und 
-    Pierre-Laurent Aimard. Debüt mit Orchester mit 11 Jahren. Young-European-Talent der RAI. 
-    Preisträger zahlreicher internationaler Wettbewerbe. Konzerte in ganz Europa im Rahmen 
-    renommierter Konzertreihen wie Klavierfestival Ruhr, Pianorama (WDR), Atelier (Kölner Philharmonie). 
-    Dozent der Musikhochschule Köln.`,
-  },
-  {
-    name: "Mikhail Mordvinov",
-    photo: MikhailMordvinovPhoto,
-    info: `Mikhail Mordvinov, Klavier (RUS/D) – Geboren in Moskau. Studium bei Vladimir Tropp und Bernd Goetzke in Moskau 
-    und Hannover. Zahlreiche internationale. Preise und Auszeichnungen. Konzerte als Solist und Kammermusiker 
-    in Europa, Asien und USA. Einspielungen u.a. mit Musik von Schubert, Rachmaninow, Rameau, Mussorgsky bei Labels 
-    wie Thorofon und Sony Classical. Dozent an der Hochschule Hanns Eisler in Berlin.`,
-  },
-  {
     name: "Marcelo Nisinman",
     photo: MarceloNisinmanPhoto,
     info: `Marcelo Nisinman, Bandoneon (ARG) – Geboren in Buenos Aires, Argentinien. Studium des Bandoneons bei Julio Pane, Komposition bei 
@@ -92,12 +84,22 @@ const musicians = [
     Komposition von Kammer- und symphon. Musik, einer Kammeroper und einer Neufassung von „Maria de Buenos Aires”.`,
   },
   {
-    name: "Paul Moosbrugger",
-    photo: PaulMoosbruggerPhoto,
-    info: `Paul Moosbrugger, Klarinette (A) – Geboren in Dornbirn. Studium in Feldkirch und Wien bei Francesco Negrini
-    und Christoph Moser. Meisterkurse bei Sabine Meyer, François Benda u.a.
-    Erster Preis der European Union for Music Competitions for Youth 2019. Konzert- und Festivalauftritte in
-    Wien, Oslo, Lockenhaus u.a.`,
+    name: "David Bergmüller",
+    photo: DavidBergmuellerPhoto,
+    info: `David Bergmueller, Lauten (A) – Geboren in Tirol. Studium der Gitarre in Innsbruck bei Stefan Hackl, 
+    Laute in Basel und Trossingen bei Hopkinson Smith und Rolf Lislevand. CD-Einspielungen und weltweite 
+    Konzerttätigkeit in den Bereichen Alte, Zeitgen. und Elektron. Musik auf Festivals in 
+    Schleswig Holstein, Verbier oder den Innsbrucker Festwochen der Alten Musik.      
+    Seit 2018 Professor für Laute und Kammermusik an der Musikhochschule Köln.”.`,
+  },
+
+  {
+    name: "Stephan Moosmann",
+    photo: StephanMoosmannPhoto,
+    info: `Stephan Moosmann, Klarinette (A) – Geboren in Tirol. Studium in Innsbruck und Salzburg bei Maximilian Bauer
+    und Alois Brandhofer. Peisträger nationaler Wettbewerbe. Lehrtätigkeit sowie Fachgruppenleiter Holzblasinstrumente 
+    für das Tiroler Musikschulwerk. Konzerte mit Tiroler Symphonieorchester, Mozarteumsorchester Salzburg, Camerata Salzburg,
+    Tiroler Ensemble für Neue Musik u.a.`,
   },
   {
     name: "Tobias Steinberger",

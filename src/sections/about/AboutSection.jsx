@@ -20,7 +20,7 @@ export default ({ onRef }) => {
           styles.titleWithBackground
         )}
       >
-        Wir machen die OBERTÖNE
+        Wir machen die OBERT&Ouml;NE
       </h2>
       <div className={styles.aboutSectionContent}>
         <Link
@@ -30,7 +30,7 @@ export default ({ onRef }) => {
             commonStyles.withRoundedBorder
           )}
         >
-          Mehr über die OBERTÖNE
+          Mehr über die OBERT&Ouml;NE
           <div className={styles.obertineLinkSmallText}>
             Die Idee, das Team, die Geschichte, der Club
           </div>

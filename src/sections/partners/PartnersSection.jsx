@@ -5,12 +5,19 @@ import classNames from "classnames"
 // import PartnerA2Logo from "images/Partner_A2.png"
 // import PartnerA3Logo from "images/Partner_A3.png"
 
-import PartnerB1Logo from "images/Tirol.png"
-import PartnerB2Logo from "images/Innsbruck.png"
-import PartnerB3Logo from "images/Hypo.png"
-import PartnerB4Logo from "images/Ortner.png"
-import PartnerB5Logo from "images/Tiwag.png"
+//size A (none)
 
+// size B
+import TirolLogo from "images/Tirol.png"
+import InnsbruckLogo from "images/Innsbruck.png"
+import HypoLogo from "images/Hypo.png"
+import OrtnerLogo from "images/Ortner.png"
+import ZurichLogo from "images/Zurich.png"
+import GurglCaratLogo from "images/GurglCarat.png"
+import TiwagLogo from "images/Tiwag.png"
+
+
+//size C
 import PartnerC1Logo from "images/Schwarz.png"
 import PartnerC2Logo from "images/E-Auto.png"
 import PartnerC3Logo from "images/Stams.png"
@@ -107,19 +114,25 @@ export default ({ onRef }) => {
 
         <div className={styles.partnersSecondSection} ref={contentPart2Ref}>
           <a href="https://www.tirol.gv.at/kunst-kultur/abteilung-kultur/">
-            <img src={PartnerB1Logo} />
+            <img src={TirolLogo} />
           </a>
           <a href="http://innsbruck.info/">
-            <img src={PartnerB2Logo} />
+            <img src={InnsbruckLogo} />
           </a>
           <a href="https://www.hypotirol.com/">
-            <img src={PartnerB3Logo} />
+            <img src={HypoLogo} />
           </a>
           <a href="https://www.ortner-anlagen.at/">
-            <img src={PartnerB4Logo} />
+            <img src={OrtnerLogo} />
+          </a>
+          <a href="https://gurgl-carat.com/">
+            <img src={GurglCaratLogo} />
+          </a>
+          <a href="https://www.zurich.at/">
+            <img src={ZurichLogo} />
           </a>
           <a href="https://www.tiwag.at/">
-            <img src={PartnerB5Logo} />
+            <img src={TiwagLogo} />
           </a>
         </div>
         <div className={styles.partnersThirdSection} ref={contentPart3Ref}>
