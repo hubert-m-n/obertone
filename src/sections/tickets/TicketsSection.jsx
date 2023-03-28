@@ -17,7 +17,8 @@ export default ({ onRef }) => (
     </h2>
     <div className={styles.content}>
       <a
-        href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list" target="_blank"
+        href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list"
+        target="_blank"
         className={classNames(
           styles.linkButton,
           styles.ticketsPageLink,
@@ -60,7 +61,7 @@ export default ({ onRef }) => (
       {/* Tickets Info 3 */}
       <div className={styles.subtitle}>Ermäßigungen</div>
       <p>
-        &#9679; OBERT&Ouml;NE-Clubmitglieder, Schu&uuml;ler, Studenten bis 30,
+        &#9679; OBERT&Ouml;NE-Clubmitglieder, Sch&uuml;ler, Studenten bis 30,
         Menschen&nbsp;mit&nbsp;Handycap: bis zu 20% auf jedes Ticket.
         <br />
         [Rabattcode: „CLUB"]
@@ -76,11 +77,21 @@ export default ({ onRef }) => (
         [Rabattcode: „&Ouml;1INTRO"]
       </p>
       <p>
-        Für die Buchung erm&auml;ßigter Tickets geben Sie bitte den entsprechenden
-        Rabattcode am Beginn des Ticketshops an! So k&ouml;nnen Sie bis zu zwei Tickets erm&auml;ßigt buchen.</p><p>
-        Die Berechtigung zur Erm&auml;ßigung kann beim Eintritt kontrolliert werden.
-        Bitte nehmen Sie eine entsprechende Best&auml;tigung mit, da ansonsten eine
-        Nachzahlung der Preisdifferenz fällig werden kann.
+      &#9679; F&uuml;r Besitzer des Hunger-auf-Kultur-Passes Kontingent an kostenlosen Karten in Kategorie C.
+        <br />
+        [Rabattcode: „KULTURHUNGER"]
+      </p>
+      <p>
+        Für die Buchung erm&auml;ßigter Tickets geben Sie bitte den
+        entsprechenden Rabattcode am Beginn des Ticketshops an! So k&ouml;nnen
+        Sie bis zu zwei Tickets erm&auml;ßigt buchen.
+      </p>
+      <p>
+        Manche Erm&auml;ßigungen sind kontingentiert und k&ouml;nnen ab einem
+        bestimmten Zeitpunkt ausverkauft sein. Die Berechtigung zur
+        Erm&auml;ßigung kann beim Eintritt kontrolliert werden. Bitte nehmen Sie
+        eine entsprechende Best&auml;tigung mit, da ansonsten eine Nachzahlung
+        der Preisdifferenz fällig werden kann.
       </p>
       <br />
       <br />

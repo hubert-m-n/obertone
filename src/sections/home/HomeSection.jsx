@@ -96,10 +96,11 @@ export default ({ onRef }) => {
             )}
           />
           <div className={styles.homeSectionTitle}>
-            CHAMBER MUSIC WONDERLAND
+          10 JAHRE &#9835;<br /> CHAMBER MUSIC WONDERLAND 
           </div>
           <div className={styles.homeSectionSubtitle}>
-            10 Jahre OBERTÖNE &#9835;<br />
+          10 Jahre OBERTÖNE 
+            <br />
             13.&mdash;17. September 2023
           </div>
           <a
@@ -112,10 +113,7 @@ export default ({ onRef }) => {
             Sichern Sie sich gleich jetzt Ihre
             <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
-          <div className={styles.homeSectionSubtitle}>
-                   <br />
-            Es wird ein wunderbares Jubil&auml;um!
-          </div>
+         
         </div>
       </div>
     </div>

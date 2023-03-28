@@ -11,7 +11,8 @@
 
 .content {
   max-width: 800px;
-  padding: 54vh 29px 261px 29px;
+  padding: 46vh 29px 261px 29px;
+  // original padding: 54vh 29px 261px 29px;
   box-sizing: border-box;
   color: $white;
   position: relative;
@@ -93,7 +94,7 @@
   width: 100vw;
   height: 100vh;
   top: 0;
-  background: url("../../images/background_1.jpg") no-repeat center;
+  background: url("../../images/background_2.jpg") no-repeat center;
   background-size: cover;
 }
 
