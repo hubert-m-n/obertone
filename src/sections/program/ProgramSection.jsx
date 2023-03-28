@@ -59,8 +59,8 @@ export default ({ onRef }) => (
           <b>Johannes Brahms:</b> Drei Intermezzi f&uuml;r Klavier
           op.&thinsp;117
           <br />
-          <b>Hubert Mittermayer Nesterovskiy:</b> „Reazione“
-          f&uuml;r Fagott und Hilfsmittel (2023; UA)
+          <b>Hubert Mittermayer Nesterovskiy / Nenad Le&#269;i&#263;:</b>{" "}
+          „Reazione“ f&uuml;r Fagott und Klavier (2023; UA)
           <br />
           <b>Johann Georg Pisendel:</b> Sonate in D-Dur f&uuml;r Violine und
           B.&nbsp;C.
