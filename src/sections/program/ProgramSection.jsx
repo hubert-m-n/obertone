@@ -65,7 +65,11 @@ export default ({ onRef }) => (
           <b>Johann Georg Pisendel:</b> Sonate in D-Dur f&uuml;r Violine und
           B.&nbsp;C.
           <br />
-          <b>Marcelo Nisinman:</b> N.N. f&uuml;r Tangoensemble
+          <b>Marcelo Nisinman:</b> „Argentinos en Europa“ f&uuml;r Bandoneon
+          solo (2012)
+          <br />
+          <b>Marcelo Nisinman:</b> „Erasmus“ f&uuml;r Bandoneon, Violine,
+          Klavier und Kontrabass
           <br />
           <b>Georg Philipp Telemann:</b> Triosonate in B-Dur TWV 42:B1
           <br />
@@ -105,8 +109,11 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> „Histoire du Tango“ (1985; arr. f&uuml;r
+          <b>Astor Piazzolla:</b> „Histoire du Tango“ (1933; arr. f&uuml;r
           Tangoquartett v. M.&nbsp;Nisinman, 2010)
+          <br />
+          <b>Igo Kranowsi/Henryk Schnapper:</b> „Bajka“ (1985; arr. f&uuml;r
+          Klavier solo Nisinman 2018, ÖE)
           <br />
           <b>Willem de Fesch:</b> Sonate Nr.&nbsp;2 in B-Dur op.&nbsp;88
           f&uuml;r Fagott und B.&nbsp;C.
@@ -119,7 +126,7 @@ export default ({ onRef }) => (
           <b>Bohuslav Martinů:</b> Drei Arabesken aus H. 201 f&uuml;r Violine
           und Klavier
           <br />
-          <b>Marcelo Nisinman:</b> N.N. f&uuml;r Tangoensemble
+          <b>Astor Piazzolla:</b> „Kicho“ f&uuml;r Tangoensemble (1993)
           <br />
         </div>
       </div>
