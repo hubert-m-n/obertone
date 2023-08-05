@@ -59,7 +59,7 @@ export default ({ onRef }) => (
           <b>Johannes Brahms:</b> Drei Intermezzi f&uuml;r Klavier
           op.&thinsp;117
           <br />
-          <b>Hubert Mittermayer Nesterovskiy / Nenad Le&#269;i&#263;:</b>{" "}
+          <b>Hubert Mittermayer Nesterovskiy/Nenad Le&#269;i&#263;:</b>{" "}
           „Reazione“ f&uuml;r Fagott und Klavier (2023; UA)
           <br />
           <b>Johann Georg Pisendel:</b> Sonate in D-Dur f&uuml;r Violine und
@@ -166,7 +166,7 @@ export default ({ onRef }) => (
         <div className={styles.programSection}>
           <b>Elliot Roman:</b> „Signal" f&uuml;r Klavier und Tonband (2021; EA)
           <br />
-          <b>Maurizio Cazzati:</b> Capriccio sopra 12 note und Passagaglia
+          <b>Maurizio Cazzati:</b> Passacaglia und Capriccio sopra 12 note
           <br />
           <b>Antonio Lotti:</b> Triosonate in A-Dur
           <br />
@@ -227,10 +227,7 @@ export default ({ onRef }) => (
           <b>Benedetto Marcello:</b> Sonate Nr.&thinsp;1 in F-Dur f&uuml;r
           Fagott und B.&thinsp;C.
           <br />
-          <b>Paula Matthusen:</b> „Inabsential" f&uuml;r Violine, Klavier und
-          Elektronik (2014; EA)
-          <br />
-          <b>Myroslaw Skoryk:</b> Allegro und Dance aus „Hutsul Triptych”
+          <b>Myroslaw Skoryk:</b> Allegretto und Dance aus „Hutsul Triptych”
           f&uuml;r Violine und Klavier (2013; ÖE)
           <br />
           <b>Antonio Vivaldi:</b> Triosonate in G-Dur, RV&nbsp;820
