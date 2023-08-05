@@ -175,7 +175,7 @@ export default ({ onRef }) => (
           <br />
           <b>Angelo M. Bartolotti:</b> Ciaccona in C-Dur für Gitarre solo
           <br />
-          <b>Antonio Bertali:</b> Sonata a due N.&thinsp;1, d-moll
+          <b>Antonio Bertali:</b> Sonata a tre N.&thinsp;1, d-moll
           <br />
           <b>Giuseppe Tartini:</b> Sonate in g-moll „Il Trillo del Diavolo"
           f&uuml;r Violine und B.&thinsp;C.
