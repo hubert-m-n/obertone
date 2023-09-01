@@ -41,7 +41,7 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams</p>
             <p>
               <b>
-                telemann.brahms.mittermayer.
+                telemann.brahms.mittermayer.lecic.
                 <nobr>pisendel.</nobr>
                 <nobr>nisinman</nobr>
               </b>
