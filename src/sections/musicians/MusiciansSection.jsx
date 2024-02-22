@@ -84,16 +84,6 @@ const musicians = [
     Komposition von Kammer- und symphon. Musik, einer Kammeroper und einer Neufassung von „Maria de Buenos Aires”.`,
   },
   {
-    name: "David Bergmüller",
-    photo: DavidBergmuellerPhoto,
-    info: `David Bergmueller, Lauten (A) – Geboren in Tirol. Studium der Gitarre in Innsbruck bei Stefan Hackl, 
-    Laute in Basel und Trossingen bei Hopkinson Smith und Rolf Lislevand. CD-Einspielungen und weltweite 
-    Konzerttätigkeit in den Bereichen Alte, Zeitgen. und Elektron. Musik auf Festivals in 
-    Schleswig Holstein, Verbier oder den Innsbrucker Festwochen der Alten Musik.      
-    Seit 2018 Professor für Laute und Kammermusik an der Musikhochschule Köln.”.`,
-  },
-
-  {
     name: "Stephan Moosmann",
     photo: StephanMoosmannPhoto,
     info: `Stephan Moosmann, Klarinette (A) – Geboren in Tirol. Studium in Innsbruck und Salzburg bei Maximilian Bauer

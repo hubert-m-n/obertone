@@ -159,8 +159,8 @@ export default ({ onRef }) => (
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Hubert Mittermayer Nesterovskiy,
-            Nenad Le&#269;i&#263;, Rafael Bonavita, David Bergm&uuml;ller,
-            François Guerrier, Jan Krigovsky, Tobias Steinberger.
+            Nenad Le&#269;i&#263;, Rafael Bonavita, François Guerrier, Jan
+            Krigovsky, Tobias Steinberger.
           </div>
         </div>
         <div className={styles.programSection}>
@@ -210,8 +210,8 @@ export default ({ onRef }) => (
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Nenad Le&#269;i&#263;, Rafael
-            Bonavita, David Bergm&uuml;ller, François Guerrier, Stephan
-            Moosmann, Hubert Mittermayer Nesterovskiy, Jan Krigovsky.
+            Bonavita, François Guerrier, Stephan Moosmann, Hubert Mittermayer
+            Nesterovskiy, Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>

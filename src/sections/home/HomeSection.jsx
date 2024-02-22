@@ -96,12 +96,12 @@ export default ({ onRef }) => {
             )}
           />
           <div className={styles.homeSectionTitle}>
-          10 JAHRE &#9835;<br /> CHAMBER MUSIC WONDERLAND 
+           CHAMBER MUSIC WONDERLAND 
           </div>
           <div className={styles.homeSectionSubtitle}>
-          10 Jahre OBERTÖNE 
+          11. OBERTÖNE Kammermusiktage
             <br />
-            13.&mdash;17. September 2023
+            18.&mdash;22. September 2024
           </div>
           <a
             href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list"
@@ -110,7 +110,7 @@ export default ({ onRef }) => {
               commonStyles.withRoundedBorder
             )}
           >
-            Sichern Sie sich gleich jetzt Ihre
+            In Kürze hier alle Infos und die
             <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
          
