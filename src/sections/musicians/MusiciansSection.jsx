@@ -7,10 +7,8 @@ import HubertMittermayerNesterovskiyPhoto from "images/musicians/HubertMittermay
 import JanKrigovskyPhoto from "images/musicians/JanKrigovsky.jpg"
 import MarceloNisinmanPhoto from "images/musicians/MarceloNisinman.jpg"
 import MariyaNesterovskaPhoto from "images/musicians/MariyaNesterovska.jpg"
-import StephanMoosmannPhoto from "images/musicians/StephanMoosmann.jpg"
 import NenadLecicPhoto from "images/musicians/NenadLecic.jpg"
 import TobiasSteinbergerPhoto from "images/musicians/TobiasSteinberger.jpg"
-import DavidBergmuellerPhoto from "images/musicians/DavidBergmueller.jpg"
 
 import MusicianTile from "./tile/MusicianTile"
 import { SECTION_NAMES } from "common/sectionNames"
@@ -42,7 +40,7 @@ const musicians = [
     info: `Nenad Lečić, Klavier (SRB) – Geboren in Čačak. Studium in Belgrad und Köln bei Igor Lasko, Arbo Valdma und 
     Pierre-Laurent Aimard. Debüt mit Orchester mit 11 Jahren. Young-European-Talent der RAI. 
     Preisträger zahlreicher internationaler Wettbewerbe. Konzerte in ganz Europa im Rahmen 
-    renommierter Konzertreihen wie Klavierfestival Ruhr, Pianorama (WDR), Atelier (Kölner Philharmonie). 
+    renommierter Konzertreihen wie Salzburger Festspiele, Klavierfestival Ruhr, Pianorama (WDR). 
     Dozent der Musikhochschule Köln.`,
   },
   {
@@ -82,14 +80,6 @@ const musicians = [
     Detlev Müller-Siemens. Internationale Konzerttätigkeit u.a. mit Gidon Kremer, Gary Burton, 
     Fernando Suarez Paz. Gast auf Musikfestivals in ganz Europa, sowie Solist vor zahlreichen Orchestern. 
     Komposition von Kammer- und symphon. Musik, einer Kammeroper und einer Neufassung von „Maria de Buenos Aires”.`,
-  },
-  {
-    name: "Stephan Moosmann",
-    photo: StephanMoosmannPhoto,
-    info: `Stephan Moosmann, Klarinette (A) – Geboren in Tirol. Studium in Innsbruck und Salzburg bei Maximilian Bauer
-    und Alois Brandhofer. Peisträger nationaler Wettbewerbe. Lehrtätigkeit sowie Fachgruppenleiter Holzblasinstrumente 
-    für das Tiroler Musikschulwerk. Konzerte mit Tiroler Symphonieorchester, Mozarteumsorchester Salzburg, Camerata Salzburg,
-    Tiroler Ensemble für Neue Musik u.a.`,
   },
   {
     name: "Tobias Steinberger",

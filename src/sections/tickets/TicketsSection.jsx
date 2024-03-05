@@ -17,7 +17,7 @@ export default ({ onRef }) => (
     </h2>
     <div className={styles.content}>
       <a
-        href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list"
+        href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=home"
         target="_blank"
         className={classNames(
           styles.linkButton,
@@ -31,67 +31,70 @@ export default ({ onRef }) => (
       <br />
       {/* Tickets Info 1 */}
       <div className={styles.subtitle}>Entspannt ins Konzert</div>
-      Kaufen Sie gleich hier Ihre Tickets, zahlen bequem mit Sofortüberweisung,
+      Kaufen Sie gleich hier Ihre Tickets, zahlen bequem mit Sofort&uuml;berweisung,
       Kreditkarte oder PayPal und erhalten direkt Ihr Ticket zum Ausdrucken.
       Oder lassen Sie es sich auf Wunsch gegen Aufpreis per Post zuschicken.
       <br />
       <br />
       <br />
+      <div className={styles.subtitle}>***Jetzt neu: Sitzplatzreservierung***</div>
+      Schon direkt beim Ticketkauf k&ouml;nnen Sie sich über die Saalplanbuchung 
+      Ihren Lieblingsplatz sichern. Für den OBERT&Ouml;NE-Pass sind spezielle
+      Pl&auml;tze reserviert.
+      <br />
+      <br />
+      <br />
       {/* Tickets Info 2 */}
-      <div className={styles.subtitle}>*Jubil&auml;ums-*OBERT&Ouml;NE-Pass</div>
-      das volle Erlebnis von 13. bis 17. September 2023
+      <div className={styles.subtitle}>Der OBERT&Ouml;NE-Pass</div>
+      f&uuml;r das volle Erlebnis von 18. bis 22. September 2024
       <br />
       <p>
-        Kategorie A: €&nbsp;140,– (Reihe 1–6)
+        Kategorie A: €&nbsp;140,&mdash;
         <br />
-        Kategorie B: €&nbsp;90,– (Reihe 7–11)
+        Kategorie B: €&nbsp;90,&mdash;
       </p>
       <div className={styles.subtitle}>Einzeltickets</div>
-      je Konzert: 13./&thinsp;14./&thinsp;16./&thinsp;17. September 2023
+      je Konzert: 18./&thinsp;19./&thinsp;21./&thinsp;22. September 2023
       <br />
       <p>
-        Kategorie&nbsp;A: €&nbsp;45,– (Reihe 1–6)
+        Kategorie&nbsp;A: €&nbsp;45,&mdash;
         <br />
-        Kategorie&nbsp;B: €&nbsp;25,– (Reihe 7–11)
+        Kategorie&nbsp;B: €&nbsp;25,&mdash;
         <br />
-        Kategorie&nbsp;C: €&nbsp;10,– (Reihe 12)
+        Kategorie&nbsp;C: €&nbsp;10,&mdash;
       </p>
-      <br />
       <br />
       {/* Tickets Info 3 */}
       <div className={styles.subtitle}>Ermäßigungen</div>
       <p>
-        &#9679; OBERT&Ouml;NE-Clubmitglieder, Sch&uuml;ler, Studenten bis 30,
-        Menschen&nbsp;mit&nbsp;Handycap: bis zu 20% auf jedes Ticket.
-        <br />
-        [Rabattcode: „CLUB"]
+        &#9679; OBERT&Ouml;NE-Clubmitglieder, Sch&uuml;lerInnen, Studierende bis 30,
+        Menschen&nbsp;mit&nbsp;Handicap: bis zu 20%
       </p>
       <p>
-        &#9679; Mitglieder im &Ouml;1-Club: 10% auf jedes Ticket.
-        <br />
-        [Rabattcode: „&Ouml;1CLUB"]
+        &#9679; Mitglieder im &Ouml;1-Club: 10%
       </p>
       <p>
-        &#9679; Mitglieder &Ouml;1-Intro: 30% auf jedes Ticket.
-        <br />
-        [Rabattcode: „&Ouml;1INTRO"]
+        &#9679; Mitglieder &Ouml;1-Intro: 30%
       </p>
       <p>
-      &#9679; F&uuml;r Besitzer des Hunger-auf-Kultur-Passes Kontingent an kostenlosen Karten in Kategorie C.
-        <br />
-        [Rabattcode: „KULTURHUNGER"]
+        &#9679; F&uuml;r BesitzerInnen des Hunger-auf-Kunst-und-Kultur-Passes gibt es ein 
+        Kontingent an kostenlosen Karten in <nobr>Kategorie C.</nobr>
       </p>
       <p>
-        Für die Buchung erm&auml;ßigter Tickets geben Sie bitte den
-        entsprechenden Rabattcode am Beginn des Ticketshops an! So k&ouml;nnen
-        Sie bis zu zwei Tickets erm&auml;ßigt buchen.
-      </p>
-      <p>
-        Manche Erm&auml;ßigungen sind kontingentiert und k&ouml;nnen ab einem
-        bestimmten Zeitpunkt ausverkauft sein. Die Berechtigung zur
-        Erm&auml;ßigung kann beim Eintritt kontrolliert werden. Bitte nehmen Sie
+       Die Berechtigung zur Erm&auml;ßigung kann beim Eintritt kontrolliert werden. Bitte nehmen Sie
         eine entsprechende Best&auml;tigung mit, da ansonsten eine Nachzahlung
-        der Preisdifferenz fällig werden kann.
+        der Preisdifferenz f&auml;llig werden kann.
+      </p>
+      <br />
+      <br />
+      {/* Tickets Info 4 */}
+      <div className={styles.subtitle}>Menschen mit Handicap</div>
+
+      <p>
+      Menschen mit Handicap und deren Begleitung möchten wir gerne bei der Ticketbuchung unterst&uuml;tzen. 
+      Bitte schreiben Sie uns ein kurzes Mail an info@obertone.at, welche Kategorie Sie gerne f&uuml;r welche 
+      Konzerte buchen wollen. Gemeinsam mit Ihnen k&ouml;nnen wir dann bequem zug&auml;ngliche Pl&auml;tze
+      ausw&auml;hlen und f&uuml;r Sie buchen!
       </p>
       <br />
       <br />

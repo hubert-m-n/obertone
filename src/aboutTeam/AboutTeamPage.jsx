@@ -135,54 +135,58 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 WAS BISHER GESCHAH
               </p>
               <p>
-                Seit dem Gründungsjahr 2014 haben 27 Künstler aus elf Ländern
+                Seit dem Gründungsjahr 2014 haben 29 Künstler aus zw&ouml;lf Ländern
                 das Publikum der OBERT&Ouml;NE begeistert:
               </p>
-              Rafael Bonavita (Uruguay) – Gitarre / Barockgitarre
+              Rafael Bonavita (Uruguay) &mdash; Gitarre / Barockgitarre
             </>
           }
           hiddenContent={
             <>
-              <p>Alexandre Castro-Balbi (Frankreich) – Violoncello</p>
-              <p>Francesco Corti (Italien) – Cembalo / Orgel</p>
-              <p>Bruno Delepelaire (Frankreich) – Violoncello</p>
-              <p>Vital Julian Frey (Schweiz) – Cembalo / Orgel</p>
-              <p>François Guerrier (Frankreich) – Cembalo / Orgel</p>
-              <p>Nicola Jovanović (Serbien) – Violoncello</p>
-              <p>Markus Kuen (Österreich) – Trompete</p>
-              <p>Nenad Lečić (Serbien) – Klavier</p>
-              <p>Karl Markovics (Österreich) – Sprecher</p>
-              <p>Mikhail Mordvinov (Russland/Deutschland) – Klavier</p>
-              <p>Hubert Mittermayer Nesterovskiy (Österreich) – Fagott</p>
-              <p>Mariya Nesterovska (Ukraine) – Violine</p>
-              <p>Marcelo Nisinman (Argentinien) – Bandoneon</p>
-              <p>Chris Norz (Österreich) – Drums</p>
-              <p>Andreas Oberaigner (Österreich) – Klarinette</p>
-              <p>Michael Oberaigner (Österreich) – Schlagwerk</p>
-              <p>Robert Oberaigner (Österreich) – Klarinette</p>
-              <p>David Pia (Schweiz) – Violoncello</p>
-              <p>Iwan Podjomow (Russland) – Oboe</p>
-              <p>Leonhard Roczek (Österreich) – Violoncello</p>
-              <p>Walter Rumer (Österreich) – Violone</p>
-              <p>Gabriel Schwabe (Deutschland) – Violoncello</p>
-              <p>Anton Mecht Spronk (Niederlande/Schweiz) – Violoncello</p>
-              <p>Maurice Steger (Schweiz) – Blockflöte</p>
-              <p>Tobias Steinberger (Österreich) – Perkussion</p>
-              <p>Alexander Steixner (Österreich) – Posaune</p>
+              <p>Alexandre Castro-Balbi (Frankreich) &mdash; Violoncello</p>
+              <p>Francesco Corti (Italien) &mdash; Cembalo / Orgel</p>
+              <p>Bruno Delepelaire (Frankreich) &mdash; Violoncello</p>
+              <p>Vital Julian Frey (Schweiz) &mdash; Cembalo / Orgel</p>
+              <p>François Guerrier (Frankreich) &mdash; Cembalo / Orgel</p>
+              <p>Nicola Jovanović (Serbien) &mdash; Violoncello</p>
+              <p>Markus Kuen (&Ouml;sterreich) &mdash; Trompete</p>
+              <p>J&aacute;n Krigovsk&yacute; (Slowakei) &mdash; Violone / Kontrabass</p>
+              <p>Nenad Lečić (Serbien) &mdash; Klavier</p>
+              <p>Karl Markovics (&Ouml;sterreich) &mdash; Sprecher</p>
+              <p>Mikhail Mordvinov (Russland/Deutschland) &mdash; Klavier</p>
+              <p>Stephan Moosmann (&Ouml;sterreich) &mdash; Klarinette</p>
+              <p>Hubert Mittermayer Nesterovskiy (Österreich) &mdash; Fagott</p>
+              <p>Mariya Nesterovska (Ukraine) &mdash; Violine</p>
+              <p>Marcelo Nisinman (Argentinien) &mdash; Bandoneon</p>
+              <p>Chris Norz (&Ouml;sterreich) &mdash; Drums</p>
+              <p>Andreas Oberaigner (&Ouml;sterreich) &mdash; Klarinette</p>
+              <p>Michael Oberaigner (&Ouml;sterreich) &mdash; Schlagwerk</p>
+              <p>Robert Oberaigner (&Ouml;sterreich) &mdash; Klarinette</p>
+              <p>David Pia (Schweiz) &mdash; Violoncello</p>
+              <p>Iwan Podjomow (Russland) &mdash; Oboe</p>
+              <p>Leonhard Roczek (&Ouml;sterreich) &mdash; Violoncello</p>
+              <p>Walter Rumer (&Ouml;sterreich) &mdash; Violone</p>
+              <p>Gabriel Schwabe (Deutschland) &mdash; Violoncello</p>
+              <p>Anton Mecht Spronk (Niederlande/Schweiz) &mdash; Violoncello</p>
+              <p>Maurice Steger (Schweiz) &mdash; Blockfl&ouml;te</p>
+              <p>Tobias Steinberger (&Ouml;sterreich) &mdash; Percussion</p>
+              <p>Alexander Steixner (&Ouml;sterreich) &mdash; Posaune</p>
               <br />
               <br />
               <p>
-                Dabei wurde an 36 Konzertabenden die Musik von 119 Komponisten
+                Dabei wurde an 40 Konzertabenden die Musik von 130 Komponisten
                 zum Klingen gebracht:
               </p>
               <p>
                 Johan Agrell, Adrienne Albert, Arno H.&thinsp;Babadschanjan,
                 Johann Sebastian Bach, Jean-Babtiste Barriere, Béla Bartók,
-                Ludwig van Beethoven, Alain Bernaud, Giovanni Antonio Bertoli,
+                Angelo M. Bartolotti, Ludwig van Beethoven, Alain Bernaud, 
+                Antonio Bertali, Giovanni Antonio Bertoli,
                 Germo di Blasio, William Bolcom, Claude Bolling, Roger Boutry,
                 José Bragato, Johannes Brahms, Bert Breit, Barbara Brodi,
-                Benjamin Britten, Dieterich Buxtehude, Samuel Capricornus, Julio
-                de Caro, Mr.&thinsp;Carolo, Pintín Castellanos, Rafael Catalá,
+                Benjamin Britten, Dieterich Buxtehude, Arcangelo Califano,
+                Samuel Capricornus, Julio, de Caro, Mr.&thinsp;Carolo, 
+                Pintín Castellanos, Rafael Catalá, Maurizio Cazzati,
                 Fortunato Chelleri, Gaetano Chiabrano, Peter Child, Juan Carlos
                 Cobián, Francesco Corbetta, Michel Corrette, François Couperin,
                 Pedro Datta, Antoine Dard, Pierre-Max Dubois, Henri Dutilleux,
@@ -194,20 +198,25 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 Glinka, Edvard Grieg, Joseph Haydn, Kyle Hovatter, Johann
                 Nepomuk Hummel, Leoš Janacek, Kaappo Järvinen, Antonio Carlos
                 Jobim, Daniel Humberto Joze, Giya Kantscheli, Johann Hieronymus
-                Kapsberger, Charles Koechlin, Fritz Kreisler, Konrad Lang,
-                Györgi Ligeti, Pietro Locatelli, Celso Machado, Pedro Maffia,
-                Marin Marais, Benedetto Marcello, Jules Massenet, Rosendo
+                Kapsberger, Charles Koechlin, Igo Kranowsi, Fritz Kreisler, 
+                Konrad Lang, Nenad Le&#269;i&#263;, Györgi Ligeti, 
+                Pietro Locatelli, Antonio Lotti, Celso Machado, Pedro Maffia,
+                Marin Marais, Benedetto Marcello, Bohuslav Martinů, 
+                Jules Massenet, Rosendo
                 Mendizábal, Tarquinio Merula, Hubert Mittermayer Nesterovskiy,
                 Mariano Mores, Gottlieb Muffat, Santiago de Murcia, Chris Norz,
                 Diego Ortiz, Arvo P&auml;rt, Giovanni Battista Pergolesi, Astor
                 Piazzolla, Werner Pirchner, Johann Georg Pisendel, Giovanni
                 B.&thinsp;Platti, Dmitri Ponomarew, Francis Poulenc, Sergei
                 Prokofjew, Sergei Rachmaninow, Gerardo M.&thinsp;Rodríguez,
+                Elliot Roman,
                 Camille Saint-Saens, Federico Maria Sardelli, Domenico
                 Scarlatti, Christoph Schaffrath, Johann H.&thinsp;Schmelzer,
+                Henryk Schnapper, 
                 Dmitri Schostakowitsch, Franz Schubert, Robert Schumann,
                 Bartolomeo de Selma y Salaverde, Gilles Silvestrini, Howard
-                Skempton, Bedrich Smetana, Tobias Steinberger, Igor Strawinsky,
+                Skempton, Myroslaw Skoryk, Bedrich Smetana, 
+                Tobias Steinberger, Igor Strawinsky,
                 Joseph Suk, Valentin Silwestrow, Osvaldo Tarantino, Georg
                 Philipp Telemann, Erkki-Sven Tüür, Francesco M.&thinsp;Veracini,
                 Robert de Visée, Giovanni B.&thinsp;Vitali, Antonio Vivaldi,
@@ -254,7 +263,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
           visibleContent={
             <>
               <p className={styles.aboutTeamSectionHeader}>UNSER ZIEL</p>
-              In außergewöhnlichen Konzerten auf höchstem Niveau, angesiedelt in
+              In außergew&ouml;hnlichen Konzerten auf höchstem Niveau, angesiedelt in
               einem Kulturort abseits der Metropolen wollen wir ein breites
               Publikum – erfahrene Konzertbesucher wie Neulinge im
               Kammerkonzert,
@@ -263,8 +272,8 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
           hiddenContent={
             <>
               {" "}
-              Gäste aus dem vorwiegend europäischen Ausland wie Menschen aus den
-              Dörfern der Umgebung – zusammenbringen, um sie für die uns
+              G&auml;ste aus dem vorwiegend europ&Auml;äischen Ausland wie Menschen aus den
+              D&ouml;rfern der Umgebung – zusammenbringen, um sie für die uns
               gemeinsame Kultur zu begeistern.
               <p>
                 Der kulturelle und pers&ouml;nliche Austausch zwischen Besuchern
@@ -286,10 +295,12 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p className={styles.aboutTeamSectionHeader}>DAS TEAM</p>
               Obmann: Toni Innauer
               <br />
-              Künstlerische Leitung: <nobr>Mariya Nesterovska</nobr> und{" "}
+              K&uuml;nstlerische Leitung: <nobr>Mariya Nesterovska</nobr> und{" "}
               <nobr>Hubert Mittermayer Nesterovskiy</nobr>
               <br />
               Konzertmanagement: Katharina Jeske
+              <br />
+              &Ouml;ffentlichkeitsarbeit: Juliane Mayer
             </>
           }
         />

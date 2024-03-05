@@ -119,7 +119,7 @@ export default ({ onRef }) => (
             </svg>
           </a>
           <a
-            href="true"
+            href="https://music.apple.com/us/artist/radix-chamber-ensemble/1482145077"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -147,7 +147,7 @@ export default ({ onRef }) => (
             </svg>
           </a>
           <a
-            href="https://open.spotify.com/album/0qM6xRcPGjyjS8rJFidL1M"
+            href="https://open.spotify.com/intl-de/album/46sgS2oja7SgCRsfT7ZEbn"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -206,13 +206,11 @@ export default ({ onRef }) => (
       </div>
 
       <div className={styles.section}>
-        Änderungen in Programm und Besetzung vorbehalten. Aufgrund der Aktuellen
-        pandemischen Situation können sich auch genauer Aufführungsort oder
-        Konzertdatum und -zeit ändern.
+        &Auml;nderungen in Programm und Besetzung vorbehalten.
       </div>
 
       <div className={styles.section}>
-        <div>Für den Inhalt verantwortlich:</div>
+        <div>F&uuml;rr den Inhalt verantwortlich:</div>
         OBERT&Ouml;NE Kammermusikverein
         <br />
         Obmann:&ensp;Toni Innauer
@@ -232,14 +230,15 @@ export default ({ onRef }) => (
         <p>
           Bildnachweis: Bewegte Bilder von Emanuel&nbsp;Altenburger. Fotos:
           „Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" / von
-          Heinz&nbsp;Zak, „David Bergmüller" von Theresa Pewal, „Stephan
-          Moosmann" von TENM. Alle anderen Fotos von Mariya&nbsp;Nesterovska.
+          Heinz&nbsp;Zak. 
+          <br />
+          Alle anderen Fotos von Mariya&nbsp;Nesterovska.
           <br />
           Design: Hubert&nbsp;Mittermayer&nbsp;Nesterovskiy
           <br />
           Programmierung: Andrey Filenko
         </p>
-        ©2023 OBERT&Ouml;NE Kammermusikverein
+        ©2024 OBERT&Ouml;NE Kammermusikverein
       </div>
     </div>
   </div>

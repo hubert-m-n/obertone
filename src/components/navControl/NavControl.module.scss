@@ -58,8 +58,8 @@
 
   @media screen and (max-width: 999px) {
     position: absolute;
-    top: 8px;
-    //original top: 11px
+    top: 11px;
+    //Jubilaeums logo top: 8px
     left: 50%;
     margin-left: -53px;
     transform: translateX(-50%);
@@ -78,8 +78,8 @@
     margin-left: 28px;
 
     > svg {
-      height: 90px;
-      //original height: 81px
+      height: 81px;
+      //Jubilaeums-Logo height: 90px
     }
   }
 }

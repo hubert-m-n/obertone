@@ -15,6 +15,8 @@ import OrtnerLogo from "images/Ortner.png"
 import ZurichLogo from "images/Zurich.png"
 import GurglCaratLogo from "images/GurglCarat.png"
 import TiwagLogo from "images/Tiwag.png"
+import HarrysHomeLogo from "images/HarrysHome.png"
+
 
 
 //size C
@@ -134,13 +136,16 @@ export default ({ onRef }) => {
           <a href="https://www.tiwag.at/">
             <img src={TiwagLogo} />
           </a>
+          <a href="https://harrys-home.com/telfs/">
+            <img src={HarrysHomeLogo} />
+          </a>
         </div>
         <div className={styles.partnersThirdSection} ref={contentPart3Ref}>
-          <a href="https://www.schwarz.at/">
-            <img src={PartnerC1Logo} />
-          </a>
           <a href="https://www.e-auto.tirol/">
             <img src={PartnerC2Logo} />
+          </a>
+          <a href="https://www.schwarz.at/">
+            <img src={PartnerC1Logo} />
           </a>
           <a href="https://www.stams.co.at/">
             <img src={PartnerC3Logo} />

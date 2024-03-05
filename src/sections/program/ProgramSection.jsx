@@ -35,43 +35,44 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             MITTWOCH
             <br />
-            13. SEPTEMBER 2023
+            18. SEPTEMBER 2024
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams</p>
             <p>
               <b>
-                telemann.brahms.mittermayer.lecic.
-                <nobr>pisendel.</nobr>
-                <nobr>nisinman</nobr>
+                fischer.bozza.veracini.corbetta.
+                <nobr>catala.</nobr>
+                <nobr>buxtehude.</nobr>
+                <nobr>finger</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Nenad Le&#269;i&#263;, Marcelo
-            Nisinman, François Guerrier, Rafael Bonavita, Hubert Mittermayer
-            Nesterovskiy, Jan Krigovsky.
+            Es spielen Mariya Nesterovska, Rafael Bonavita, Hubert Mittermayer
+            Nesterovskiy, Nenad Le&#269;i&#263;, François Guerrier, Jan
+            Krigovsky, Tobias Steinberger.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Georg Philipp Telemann:</b> Triosonate in F-Dur TWV 42:F10
+          <b>Johann Fischer:</b> Suite in G-Dur aus &bdquo;Musicalische
+          Fürstenlust&ldquo;
           <br />
-          <b>Johannes Brahms:</b> Drei Intermezzi f&uuml;r Klavier
-          op.&thinsp;117
+          <b>Eug&egrave;ne Bozza:</b> Fantaisie f&uuml;r Fagott und Klavier
+          (1945)
           <br />
-          <b>Hubert Mittermayer Nesterovskiy/Nenad Le&#269;i&#263;:</b>{" "}
-          „Reazione“ f&uuml;r Fagott und Klavier (2023; UA)
+          <b>Francesco Veracini:</b> Sonate in c-moll f&uuml;r Violine und Basso
+          continuo
           <br />
-          <b>Johann Georg Pisendel:</b> Sonate in D-Dur f&uuml;r Violine und
-          B.&nbsp;C.
+          <b>Francesco Corbetta:</b> Caprice de Chaconne f&uuml;r Gitarre solo
           <br />
-          <b>Marcelo Nisinman:</b> „Argentinos en Europa“ f&uuml;r Bandoneon
-          solo (2012)
+          <b>Rafael Catal&aacute;:</b> &bdquo;Brujerias&ldquo; f&uuml;r
+          Kontrabass, pr&auml;pariertes Klavier und Percussion (2013/2024)
           <br />
-          <b>Marcelo Nisinman:</b> „Erasmus“ f&uuml;r Bandoneon, Violine,
-          Klavier und Kontrabass
+          <b>Dieterich Buxtehude:</b> Triosonate in g-moll{" "}
+          <nobr>op.&thinsp;2, Nr.&thinsp;13</nobr>
           <br />
-          <b>Georg Philipp Telemann:</b> Triosonate in B-Dur TWV 42:B1
+          <b>Gottfried Finger:</b> Triosonate Nr.&thinsp;3 in A-Dur
           <br />
         </div>
       </div>
@@ -89,44 +90,48 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             DONNERSTAG
             <br />
-            14. SEPTEMBER 2023
+            19. SEPTEMBER 2024
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                piazzolla.defesch.couperin.
-                <nobr>califano.</nobr>
-                <nobr>martinu.</nobr>
-                <nobr>nisinman</nobr>
+                piazzolla.scarlatti.mittermayer.
+                <nobr>biber.</nobr>
+                <nobr>nisinman.</nobr>
+                <nobr>merci.</nobr>
+                <nobr>scharwenka</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, François Guerrier, Marcelo Nisinman,
+            Es spielen Mariya Nesterovska, Marcelo Nisinman, François Guerrier,
             Rafael Bonavita, Hubert Mittermayer Nesterovskiy, Nenad
             Le&#269;i&#263;, Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> „Histoire du Tango“ (1933; arr. f&uuml;r
-          Tangoquartett v. M.&nbsp;Nisinman, 2010)
+          <b>Astor Piazzolla:</b> Primavera Porte&ntilde;a & Verano
+          Porte&ntilde;o (1970/1965) f&uuml;r Tangoquintett
           <br />
-          <b>Igo Kranowsi/Henryk Schnapper:</b> „Bajka“ (1985; arr. f&uuml;r
-          Klavier solo Nisinman 2018, ÖE)
+          <b>Domenico Scarlatti:</b> Sonaten K.&thinsp;61, a-moll und
+          K.&thinsp;33, D-Dur f&uuml;r Cembalo solo
           <br />
-          <b>Willem de Fesch:</b> Sonate Nr.&nbsp;2 in B-Dur op.&nbsp;88
-          f&uuml;r Fagott und B.&nbsp;C.
+          <b>Hubert Mittermayer Nesterovskiy:</b> &bdquo;In long dimension
+          creeps with sinuous trace&#8230;&ldquo; f&uuml;r Bandoneon, Fagott,
+          Klavier und Kontrabass (2024, UA)
           <br />
-          <b>François Couperin:</b> Vier St&uuml;cke aus Livre III Ordre 18
-          f&uuml;r Cembalo solo
+          <b>Heinrich I.&thinsp;F.&thinsp;v.&thinsp;Biber:</b> Sonate
+          Nr.&thinsp;8 in A-Dur f&uuml;r Violine und Basso continuo
           <br />
-          <b>Arcangelo Califano:</b> Triosonate in F-Dur
+          <b>Marcelo Nisinman:</b> N.N.
           <br />
-          <b>Bohuslav Martinů:</b> Drei Arabesken aus H. 201 f&uuml;r Violine
-          und Klavier
+          <b>Luigi Merci:</b> Sonate Nr.&thinsp;3 in Es-Dur f&uuml;r Fagott und
+          Basso continuo
           <br />
-          <b>Astor Piazzolla:</b> „Kicho“ f&uuml;r Tangoensemble (1993)
+          <b>Philipp Scharwenka:</b> &bdquo;Intermezzo&ldquo; & &bdquo;Recitativ
+          und Tarantella&ldquo; aus der Suite für Violine und Klavier
+          op.&thinsp;99 (1896)
           <br />
         </div>
       </div>
@@ -144,41 +149,45 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             SAMSTAG
             <br />
-            16. SEPTEMBER 2023
+            21. SEPTEMBER 2024
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                roman.cazzati.lotti.boutry.
-                <nobr>bartolotti.</nobr>
-                <nobr>bertali.</nobr>
-                <nobr>tartini</nobr>
+                janacek.matteis.boismortier.poliova.
+                <nobr>ligeti.</nobr>
+                <nobr>merci.</nobr>
+                <nobr>piazzolla</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Hubert Mittermayer Nesterovskiy,
-            Nenad Le&#269;i&#263;, Rafael Bonavita, François Guerrier, Jan
-            Krigovsky, Tobias Steinberger.
+            Es spielen Mariya Nesterovska, Nenad Le&#269;i&#263;, Marcelo
+            Nisinman, François Guerrier, Hubert Mittermayer Nesterovskiy, Rafael
+            Bonavita, Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Elliot Roman:</b> „Signal" f&uuml;r Klavier und Tonband (2021; EA)
+          <b>Leo&scaron; Jan&aacute;&#269;ek:</b>{" "}
+          &bdquo;1.&thinsp;X.&thinsp;1905&ldquo; (&bdquo;From the
+          Streets&ldquo;) f&uuml;r Klavier solo
           <br />
-          <b>Maurizio Cazzati:</b> Passacaglia und Capriccio sopra 12 note
+          <b>Nicola Matteis:</b> Fantasia in a-moll f&uuml; Violine solo
           <br />
-          <b>Antonio Lotti:</b> Triosonate in A-Dur
+          <b>Joseph Bodin de Boismortier:</b> Sonate Nr.&thinsp;6 in C-Dur für 2
+          B&auml;sse PB 306
           <br />
-          <b>Roger Boutry:</b> „Interférences I" f&uuml;r Fagott und Klavier
-          (1972)
+          <b>Wiktorija Poljowa:</b> &bdquo;Liebesbotschaft&ldquo; f&uuml;r
+          Violine und Klavier (2011, &Ouml;E
           <br />
-          <b>Angelo M. Bartolotti:</b> Ciaccona in C-Dur für Gitarre solo
+          <b>Gy&ouml;rgi Ligeti:</b> &bdquo;Hungarian Rock&ldquo; Chaconne
+          f&uuml;r Cembalo solo (1978)
           <br />
-          <b>Antonio Bertali:</b> Sonata a tre N.&thinsp;1, d-moll
+          <b>Luigi Merci:</b> Sonata G-Dur f&uuml;r Fagott und Basso continuo
           <br />
-          <b>Giuseppe Tartini:</b> Sonate in g-moll „Il Trillo del Diavolo"
-          f&uuml;r Violine und B.&thinsp;C.
+          <b>Astor Piazolla:</b> Oto&ntilde;o Porte&ntilde;o & Invierno
+          Porte&ntilde;o (1969/1970) f&uuml;r Tangoquintett
         </div>
       </div>
       {/* Program 4 */}
@@ -195,42 +204,61 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             SONNTAG
             <br />
-            17. SEPTEMBER 2023
+            22. SEPTEMBER 2024
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                hummel.mittermayer.biber.marcello.
-                <nobr>matthusen.</nobr>
-                <nobr>skoryk.</nobr>
-                <nobr>vivaldi</nobr>
+                marais.ligeti.albinoni.galliard.
+                <nobr>capricornus.</nobr>
+                <nobr>westhoff.</nobr>
+                <nobr>vitali</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Nenad Le&#269;i&#263;, Rafael
-            Bonavita, François Guerrier, Stephan Moosmann, Hubert Mittermayer
-            Nesterovskiy, Jan Krigovsky.
+            Bonavita, François Guerrier, Hubert Mittermayer Nesterovskiy, Jan
+            Krigovsky.
+            <br />
+            <br />
+            <i>
+              Dieses Konzert wird für das Fernsehen aufgezeichnet. Wir bitten
+              Sie um Verständnis, falls es dadurch zu kleinen
+              Sichtbeeinträchtigungen kommen sollte.
+            </i>
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Johann N. Hummel:</b> Grande Serenade in C-Dur f&uuml;r Violine,
-          Klarinette, Fagott, Gitarre und Klavier, op.&thinsp;66
+          <b>Marin Marais:</b> &bdquo;Sonnerie de Sainte Genevi&egrave;ve du
+          Mont-de-Paris&ldquo;
           <br />
-          <b>Hubert Mittermayer Nesterovskiy:</b> „Cleavage" f&uuml;r Fagott
-          solo (2023; UA)
+          <b>Gy&ouml;rgi Ligeti:</b> Et&uuml;de Nr.&thinsp;7 &bdquo;Galamb
+          Borong&ldquo; f&uuml;r Klavier solo (1988&ndash;1994)
           <br />
-          <b>Heinrich I.F.&thinsp;v. Biber:</b> Sonate Nr.&thinsp;5 in e-moll
-          f&uuml;r Violine und B.&thinsp;C.
+          <b>Tomaso Albinoni:</b> Sonate Nr.&thinsp;5 in A-Dur f&uuml;r Violine
+          und Basso continuo, TalM So&thinsp;37
           <br />
-          <b>Benedetto Marcello:</b> Sonate Nr.&thinsp;1 in F-Dur f&uuml;r
-          Fagott und B.&thinsp;C.
+          <b>Gy&ouml;rgi Ligeti:</b> Musica Ricercata Nr.&thinsp;9 f&uuml;r
+          Klavier solo (1951&ndash;1953)
           <br />
-          <b>Myroslaw Skoryk:</b> Allegretto und Dance aus „Hutsul Triptych”
-          f&uuml;r Violine und Klavier (2013; ÖE)
+          <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;4 in F-Dur f&uuml;r
+          Fagott und Basso continuo
           <br />
-          <b>Antonio Vivaldi:</b> Triosonate in G-Dur, RV&nbsp;820
+          <b>Gy&ouml;rgi Ligeti:</b> Et&uuml;de Nr.&thinsp;10 &bdquo;Der
+          Zauberlehrling&ldquo; f&uuml;r Klavier solo (1988&ndash;1994)
+          <br />
+          <b>Samuel Capricornus:</b> Sonate Nr.&thinsp;3 &agrave; 3 in a-moll
+          aus &bdquo;Prothimia Suavissima&ldquo;
+          <br />
+          <b>Gy&ouml;rgi Ligeti:</b> Musica Ricercata Nr.&thinsp;1 f&uuml;r
+          Klavier solo (1951&ndash;1953)
+          <br />
+          <b>Johann P.&thinsp;v.&thinsp;Westhoff:</b> Sonate Nr.&thinsp;5 in
+          g-moll f&uuml;r Violine und Basso continuo
+          <br />
+          <b>Giovanni B.&thinsp;Vitali:</b> Ciaccona in C-Dur
         </div>
       </div>
     </div>
