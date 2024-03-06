@@ -16,8 +16,8 @@ export default ({ onRef }) => (
       Sichern Sie sich jetzt Ihre Tickets
     </h2>
     <div className={styles.content}>
-      <a
-        href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=home"
+     <a
+        href="https://shop.ticketpay.de/U698P1XJ"
         target="_blank"
         className={classNames(
           styles.linkButton,
@@ -25,7 +25,7 @@ export default ({ onRef }) => (
           commonStyles.withRoundedBorder
         )}
       >
-        Tickets hier bestellen
+        Tickets bald hier bestellen
       </a>
       <br />
       <br />
@@ -37,9 +37,11 @@ export default ({ onRef }) => (
       <br />
       <br />
       <br />
-      <div className={styles.subtitle}>***Jetzt neu: Sitzplatzreservierung***</div>
-      Schon direkt beim Ticketkauf k&ouml;nnen Sie sich über die Saalplanbuchung 
-      Ihren Lieblingsplatz sichern. Für den OBERT&Ouml;NE-Pass sind spezielle
+      <div className={styles.subtitle}>Neu: Jetzt mit Platzkarten</div>
+      Ab jetzt k&ouml;nnen Sie schon bei der Ticketbuchung einen Sitzplatz aussuchen
+      und sich Ihren Lieblingsplatz reservieren, sodass Sie schon bei der
+      Buchung wissen, wo genau Sie im Konzert sitzen werden.
+      F&uuml;r den OBERT&Ouml;NE-Pass sind spezielle
       Pl&auml;tze reserviert.
       <br />
       <br />
@@ -54,7 +56,7 @@ export default ({ onRef }) => (
         Kategorie B: €&nbsp;90,&mdash;
       </p>
       <div className={styles.subtitle}>Einzeltickets</div>
-      je Konzert: 18./&thinsp;19./&thinsp;21./&thinsp;22. September 2023
+      je Konzert: 18./&thinsp;19./&thinsp;21./&thinsp;22. September 2024
       <br />
       <p>
         Kategorie&nbsp;A: €&nbsp;45,&mdash;

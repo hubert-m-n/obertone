@@ -135,7 +135,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 WAS BISHER GESCHAH
               </p>
               <p>
-                Seit dem Gründungsjahr 2014 haben 29 Künstler aus zw&ouml;lf Ländern
+                Seit dem Gründungsjahr 2014 haben 29 KünstlerInnen aus zw&ouml;lf Ländern
                 das Publikum der OBERT&Ouml;NE begeistert:
               </p>
               Rafael Bonavita (Uruguay) &mdash; Gitarre / Barockgitarre
@@ -174,7 +174,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <br />
               <br />
               <p>
-                Dabei wurde an 40 Konzertabenden die Musik von 130 Komponisten
+                Dabei wurde an 40 Konzertabenden die Musik von 130 KomponistInnen
                 zum Klingen gebracht:
               </p>
               <p>
@@ -239,6 +239,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
             "about/slider-2/08.jpg",
             "about/slider-2/09.jpg",
             "about/slider-2/10.jpg",
+            "about/slider-2/28.jpg",
             "about/slider-2/11.jpg",
             "about/slider-2/12.jpg",
             "about/slider-2/13.jpg",
@@ -256,6 +257,8 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
             "about/slider-2/25.jpg",
             "about/slider-2/26.jpg",
             "about/slider-2/27.jpg",
+            "about/slider-2/29.jpg",
+
           ]}
         />
 

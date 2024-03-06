@@ -155,7 +155,7 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                janacek.matteis.boismortier.poliova.
+                janacek.matteis.boismortier.poljowa.
                 <nobr>ligeti.</nobr>
                 <nobr>merci.</nobr>
                 <nobr>piazzolla</nobr>
@@ -179,7 +179,7 @@ export default ({ onRef }) => (
           B&auml;sse PB 306
           <br />
           <b>Wiktorija Poljowa:</b> &bdquo;Liebesbotschaft&ldquo; f&uuml;r
-          Violine und Klavier (2011, &Ouml;E
+          Violine und Klavier (2011, &Ouml;E)
           <br />
           <b>Gy&ouml;rgi Ligeti:</b> &bdquo;Hungarian Rock&ldquo; Chaconne
           f&uuml;r Cembalo solo (1978)
