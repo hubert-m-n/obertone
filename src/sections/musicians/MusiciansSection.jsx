@@ -28,7 +28,8 @@ const musicians = [
   {
     name: "Rafael Bonavita",
     photo: RafaelBonavitaPhoto,
-    info: `Rafael Bonavita, Gitarren (URY) – Geboren in Montevideo. Studium der klassischen Gitarre bei Alvaro Pierri und Antiker 
+    info: `Rafael Bonavita, Gitarren (URY) – Geboren in Montevideo. Studium der klassischen Gitarre bei Alvaro Pierri 
+    und historischer 
     Lauten und Gitarren bei Hopkinson Smith. Weltweite Konzerttätigkeit u.a. mit Jordi Savall, 
     René Jacobs und Marc Minkovski. Zahlreiche Aufnahmen für Radio und Fernsehen in Europa und Asien. 
     CD-Einspielungen für das Label Enchiriadis mit Musik von Bach, Bartolotti, de Murcia und 
@@ -57,7 +58,7 @@ const musicians = [
     name: "François Guerrier",
     photo: FrancoisGuerrierPhoto,
     info: `François Guerrier, Cembalo/Orgel (F) – Geboren in Caen. Studium am Conservatoire Superieur de Paris bei Pierre Hantaï, 
-    Elisabeth Joyé, Christophe Rousset und Kenneth Weiss. Preisträger des Internationalen Bach-Wettbewerbes, 
+    Elisabeth Joyé, Christophe Rousset und Kenneth Weiss. Preisträger des Internationalen Bach-Wettbewerbs 
     Leipzig 2006. Konzertreisen als Solist und Kammermusiker in Europa, Amerika und Asien mit Partnern wie 
     Stéphanie-Marie Degand, Ricercar Consort und Il Gardellino. CD-Einspielungen mit Werken von Couperin, 
     Mazzocchi und Bach.
@@ -66,7 +67,7 @@ const musicians = [
   {
     name: "Jan Krigovsky",
     photo: JanKrigovskyPhoto,
-    info: `Jan Krigovsky, Violone/Kontrabass (SVK) – Violone Geboren in Spisska.
+    info: `Jan Krigovsky, Violone/Kontrabass (SVK) – Geboren in Spisska.
         Kontrabassstudium in Košice und Bratislava bei T. Trn und R. Šašina.
         Gustav Mahler Jugendorchester und Solobass im staatlichen Kammerorchester Žilina.
         Studium der Violone an der Schola Cantorum Basiliensis bei David Sinclair.
@@ -99,7 +100,7 @@ export default ({ onRef }) => (
     className={classNames(commonStyles.sectionWrapper, styles.sectionWrapper)}
   >
     <h2 className={commonStyles.titleWithBackground}>
-      KÜNSTLER AUS SIEBEN LÄNDERN
+      K&Uuml;NSTLER AUS SIEBEN L&Auml;NDERN
     </h2>
     <div className={styles.musicians}>
       {musicians.map((musician, i) => (

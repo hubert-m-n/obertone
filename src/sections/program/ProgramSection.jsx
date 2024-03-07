@@ -41,7 +41,8 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams</p>
             <p>
               <b>
-                fischer.bozza.veracini.corbetta.
+                fischer.bozza.veracini.
+                <nobr>corbetta.</nobr>
                 <nobr>catala.</nobr>
                 <nobr>buxtehude.</nobr>
                 <nobr>finger</nobr>
@@ -96,7 +97,8 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                piazzolla.scarlatti.mittermayer.
+                piazzolla.scarlatti.
+                <nobr>mittermayer.</nobr>
                 <nobr>biber.</nobr>
                 <nobr>nisinman.</nobr>
                 <nobr>merci.</nobr>
@@ -124,7 +126,11 @@ export default ({ onRef }) => (
           <b>Heinrich I.&thinsp;F.&thinsp;v.&thinsp;Biber:</b> Sonate
           Nr.&thinsp;8 in A-Dur f&uuml;r Violine und Basso continuo
           <br />
-          <b>Marcelo Nisinman:</b> N.N.
+          <b>Maurice Ravel/Marcelo Nisinman:</b> &bdquo;The Kaddish&ldquo;
+          f&uuml;r Bandoneon solo (1914/2024)
+          <br />
+          <b>Ennio Morricone/Marcelo Nisinman:</b> &ldquo;Le clan des
+          Siciliens&bdquo; f&uuml;r Tangoensemble (1969/2024; UA)
           <br />
           <b>Luigi Merci:</b> Sonate Nr.&thinsp;3 in Es-Dur f&uuml;r Fagott und
           Basso continuo
@@ -223,11 +229,11 @@ export default ({ onRef }) => (
             Krigovsky.
             <br />
             <br />
-            <i>
-              Dieses Konzert wird für das Fernsehen aufgezeichnet. Wir bitten
-              Sie um Verständnis, falls es dadurch zu kleinen
-              Sichtbeeinträchtigungen kommen sollte.
-            </i>
+            <font size="3">
+              Durch die TV-Aufzeichnung dieses Konzerts kann es an manchen
+              Pl&auml;tzen zu eventuellen Sichtbeeintr&auml;chtigungen kommen.
+              Danke f&uuml;r Ihr Verst&auml;ndnis!
+            </font>
           </div>
         </div>
         <div className={styles.programSection}>
@@ -260,7 +266,14 @@ export default ({ onRef }) => (
           <br />
           <b>Giovanni B.&thinsp;Vitali:</b> Ciaccona in C-Dur
         </div>
+       
       </div>
+      <p className={styles.dataprotectionText}>
+        Hinweis: Bei unseren Veranstaltungen werden Foto-, Video- und Tonaufnahmen
+        gemacht. Mit Buchung Ihres Tickets erkl&auml;ren Sie sich mit 
+        unseren <a href="https://www.obertone.at/Datenschutz.pdf">Datenschutzhinweisen</a> einverstanden.
+            
+          </p>
     </div>
   </div>
 )

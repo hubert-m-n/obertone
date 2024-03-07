@@ -48,7 +48,7 @@ export default ({ onRef }) => (
       <br />
       {/* Tickets Info 2 */}
       <div className={styles.subtitle}>Der OBERT&Ouml;NE-Pass</div>
-      f&uuml;r das volle Erlebnis von 18. bis 22. September 2024
+      f&uuml;r das volle Erlebnis und vier Konzertabende von 18. bis 22. September 2024
       <br />
       <p>
         Kategorie A: €&nbsp;140,&mdash;
@@ -70,7 +70,7 @@ export default ({ onRef }) => (
       <div className={styles.subtitle}>Ermäßigungen</div>
       <p>
         &#9679; OBERT&Ouml;NE-Clubmitglieder, Sch&uuml;lerInnen, Studierende bis 30,
-        Menschen&nbsp;mit&nbsp;Handicap: bis zu 20%
+        Menschen&nbsp;mit&nbsp;Behinderung: bis zu 20%
       </p>
       <p>
         &#9679; Mitglieder im &Ouml;1-Club: 10%
@@ -90,16 +90,33 @@ export default ({ onRef }) => (
       <br />
       <br />
       {/* Tickets Info 4 */}
-      <div className={styles.subtitle}>Menschen mit Handicap</div>
+      <div className={styles.subtitle}>Menschen mit Behinderung</div>
 
       <p>
-      Menschen mit Handicap und deren Begleitung möchten wir gerne bei der Ticketbuchung unterst&uuml;tzen. 
+      Menschen mit Behinderung und deren Begleitung möchten wir gerne bei der Ticketbuchung unterst&uuml;tzen. 
       Bitte schreiben Sie uns ein kurzes Mail an info@obertone.at, welche Kategorie Sie gerne f&uuml;r welche 
       Konzerte buchen wollen. Gemeinsam mit Ihnen k&ouml;nnen wir dann bequem zug&auml;ngliche Pl&auml;tze
       ausw&auml;hlen und f&uuml;r Sie buchen!
       </p>
       <br />
       <br />
+            {/* Tickets Info 5 */}
+            <div className={styles.subtitle}>Datenschutz</div>
+      <p>
+        Wir gehen mit den Daten sorgsam um, die f&uuml;r Ihre Buchung, Ihre
+        Mitgliedschaft oder zur Newsletter-Anmeldung erhoben werden. Dazu und
+        bez&uuml;glich Bild- und Tonaufnahmen bei den Konzerten beachten Sie
+        bitte unsere&ensp;
+        <a
+          href="https://www.obertone.at/datenschutz.pdf"
+          className={styles.whiteLinkunderlined}
+        >
+          Datenschutzhinweise.
+        </a>
+        </p>
+      <br />
+      <br />
+
       <div className={styles.subtitle}>Mehr Info</div>
       <a href="mailto:info@sommermusik.at" className={styles.whiteLink}>
         info@obertone.at

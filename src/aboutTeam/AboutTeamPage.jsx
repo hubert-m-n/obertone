@@ -61,9 +61,9 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
           }
           hiddenContent={
             <>
-              und deren Helden wiederfinden. Sogar die Art, wie wir die großen
-              Geschichten der Menschheit weitererzählen, scheint einem uns
-              gegebenen Instinkt zu folgen. In der griechischen Tragödie, in
+              und deren HeldInnen wiederfinden. Sogar die Art, wie wir die
+              großen Geschichten der Menschheit weitererzählen, scheint einem
+              uns gegebenen Instinkt zu folgen. In der griechischen Tragödie, in
               Puppenspielen für Kinder, in klassischen Symphonien oder in
               Kinofilmen finden sich sehr ähnliche Spannungsverläufe.
               <p>
@@ -71,7 +71,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 unmittelbarsten zu bewegen vermag. Die Geschichten, die wir an
                 den OBERTÖNE Kammermusiktagen erzählen werden, sollen vor allem
                 Emotionen hervorrufen. Wortlos werden natürliche Themen des
-                Menschseins beleuchtet, und obwohl jeder Zuhörer durch
+                Menschseins beleuchtet, und obwohl jede Zuhörerin durch
                 persönliche Erfahrungswelten individuell assoziiert, versteht
                 doch der Einzelne deutlich den Kern der Botschaft.
               </p>
@@ -135,8 +135,8 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 WAS BISHER GESCHAH
               </p>
               <p>
-                Seit dem Gründungsjahr 2014 haben 29 KünstlerInnen aus zw&ouml;lf Ländern
-                das Publikum der OBERT&Ouml;NE begeistert:
+                Seit dem Gründungsjahr 2014 haben 29 KünstlerInnen aus
+                zw&ouml;lf Ländern das Publikum der OBERT&Ouml;NE begeistert:
               </p>
               Rafael Bonavita (Uruguay) &mdash; Gitarre / Barockgitarre
             </>
@@ -150,7 +150,10 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p>François Guerrier (Frankreich) &mdash; Cembalo / Orgel</p>
               <p>Nicola Jovanović (Serbien) &mdash; Violoncello</p>
               <p>Markus Kuen (&Ouml;sterreich) &mdash; Trompete</p>
-              <p>J&aacute;n Krigovsk&yacute; (Slowakei) &mdash; Violone / Kontrabass</p>
+              <p>
+                J&aacute;n Krigovsk&yacute; (Slowakei) &mdash; Violone /
+                Kontrabass
+              </p>
               <p>Nenad Lečić (Serbien) &mdash; Klavier</p>
               <p>Karl Markovics (&Ouml;sterreich) &mdash; Sprecher</p>
               <p>Mikhail Mordvinov (Russland/Deutschland) &mdash; Klavier</p>
@@ -167,61 +170,60 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p>Leonhard Roczek (&Ouml;sterreich) &mdash; Violoncello</p>
               <p>Walter Rumer (&Ouml;sterreich) &mdash; Violone</p>
               <p>Gabriel Schwabe (Deutschland) &mdash; Violoncello</p>
-              <p>Anton Mecht Spronk (Niederlande/Schweiz) &mdash; Violoncello</p>
+              <p>
+                Anton Mecht Spronk (Niederlande/Schweiz) &mdash; Violoncello
+              </p>
               <p>Maurice Steger (Schweiz) &mdash; Blockfl&ouml;te</p>
               <p>Tobias Steinberger (&Ouml;sterreich) &mdash; Percussion</p>
               <p>Alexander Steixner (&Ouml;sterreich) &mdash; Posaune</p>
               <br />
               <br />
               <p>
-                Dabei wurde an 40 Konzertabenden die Musik von 130 KomponistInnen
-                zum Klingen gebracht:
+                Dabei wurde an 40 Konzertabenden die Musik von 130
+                KomponistInnen zum Klingen gebracht:
               </p>
               <p>
                 Johan Agrell, Adrienne Albert, Arno H.&thinsp;Babadschanjan,
                 Johann Sebastian Bach, Jean-Babtiste Barriere, Béla Bartók,
-                Angelo M. Bartolotti, Ludwig van Beethoven, Alain Bernaud, 
-                Antonio Bertali, Giovanni Antonio Bertoli,
-                Germo di Blasio, William Bolcom, Claude Bolling, Roger Boutry,
-                José Bragato, Johannes Brahms, Bert Breit, Barbara Brodi,
-                Benjamin Britten, Dieterich Buxtehude, Arcangelo Califano,
-                Samuel Capricornus, Julio, de Caro, Mr.&thinsp;Carolo, 
-                Pintín Castellanos, Rafael Catalá, Maurizio Cazzati,
-                Fortunato Chelleri, Gaetano Chiabrano, Peter Child, Juan Carlos
-                Cobián, Francesco Corbetta, Michel Corrette, François Couperin,
-                Pedro Datta, Antoine Dard, Pierre-Max Dubois, Henri Dutilleux,
-                George Enescu, Philipp Heinrich Erlebach,Manuel de Falla, Andrea
-                Falconieri, Johann Friedrich Fasch, Gabriel Fauré, Léo Ferré,
-                Willem de Fesch, Giovanni Battista Fontana, Jean Françaix, César
-                Franck, Johann Joseph Fux, Johann Ernst Galliard, Carlos Gardel,
-                Francesco Geminiani, George Gershwin, Alberto Ginastera, Michail
-                Glinka, Edvard Grieg, Joseph Haydn, Kyle Hovatter, Johann
-                Nepomuk Hummel, Leoš Janacek, Kaappo Järvinen, Antonio Carlos
-                Jobim, Daniel Humberto Joze, Giya Kantscheli, Johann Hieronymus
-                Kapsberger, Charles Koechlin, Igo Kranowsi, Fritz Kreisler, 
-                Konrad Lang, Nenad Le&#269;i&#263;, Györgi Ligeti, 
-                Pietro Locatelli, Antonio Lotti, Celso Machado, Pedro Maffia,
-                Marin Marais, Benedetto Marcello, Bohuslav Martinů, 
-                Jules Massenet, Rosendo
-                Mendizábal, Tarquinio Merula, Hubert Mittermayer Nesterovskiy,
-                Mariano Mores, Gottlieb Muffat, Santiago de Murcia, Chris Norz,
-                Diego Ortiz, Arvo P&auml;rt, Giovanni Battista Pergolesi, Astor
-                Piazzolla, Werner Pirchner, Johann Georg Pisendel, Giovanni
-                B.&thinsp;Platti, Dmitri Ponomarew, Francis Poulenc, Sergei
-                Prokofjew, Sergei Rachmaninow, Gerardo M.&thinsp;Rodríguez,
-                Elliot Roman,
-                Camille Saint-Saens, Federico Maria Sardelli, Domenico
-                Scarlatti, Christoph Schaffrath, Johann H.&thinsp;Schmelzer,
-                Henryk Schnapper, 
-                Dmitri Schostakowitsch, Franz Schubert, Robert Schumann,
-                Bartolomeo de Selma y Salaverde, Gilles Silvestrini, Howard
-                Skempton, Myroslaw Skoryk, Bedrich Smetana, 
-                Tobias Steinberger, Igor Strawinsky,
-                Joseph Suk, Valentin Silwestrow, Osvaldo Tarantino, Georg
-                Philipp Telemann, Erkki-Sven Tüür, Francesco M.&thinsp;Veracini,
-                Robert de Visée, Giovanni B.&thinsp;Vitali, Antonio Vivaldi,
-                Carl Maria von Weber, Johann P.&thinsp;v. Westhoff, Kurt Weill,
-                Eugene Ysaye, Jan Dismas Zelenka.
+                Angelo M. Bartolotti, Ludwig van Beethoven, Alain Bernaud,
+                Antonio Bertali, Giovanni Antonio Bertoli, Germo di Blasio,
+                William Bolcom, Claude Bolling, Roger Boutry, José Bragato,
+                Johannes Brahms, Bert Breit, Barbara Brodi, Benjamin Britten,
+                Dieterich Buxtehude, Arcangelo Califano, Samuel Capricornus,
+                Julio, de Caro, Mr.&thinsp;Carolo, Pintín Castellanos, Rafael
+                Catalá, Maurizio Cazzati, Fortunato Chelleri, Gaetano Chiabrano,
+                Peter Child, Juan Carlos Cobián, Francesco Corbetta, Michel
+                Corrette, François Couperin, Pedro Datta, Antoine Dard,
+                Pierre-Max Dubois, Henri Dutilleux, George Enescu, Philipp
+                Heinrich Erlebach,Manuel de Falla, Andrea Falconieri, Johann
+                Friedrich Fasch, Gabriel Fauré, Léo Ferré, Willem de Fesch,
+                Giovanni Battista Fontana, Jean Françaix, César Franck, Johann
+                Joseph Fux, Johann Ernst Galliard, Carlos Gardel, Francesco
+                Geminiani, George Gershwin, Alberto Ginastera, Michail Glinka,
+                Edvard Grieg, Joseph Haydn, Kyle Hovatter, Johann Nepomuk
+                Hummel, Leoš Janacek, Kaappo Järvinen, Antonio Carlos Jobim,
+                Daniel Humberto Joze, Giya Kantscheli, Johann Hieronymus
+                Kapsberger, Charles Koechlin, Igo Kranowsi, Fritz Kreisler,
+                Konrad Lang, Nenad Le&#269;i&#263;, Györgi Ligeti, Pietro
+                Locatelli, Antonio Lotti, Celso Machado, Pedro Maffia, Marin
+                Marais, Benedetto Marcello, Bohuslav Martinů, Jules Massenet,
+                Rosendo Mendizábal, Tarquinio Merula, Hubert Mittermayer
+                Nesterovskiy, Mariano Mores, Gottlieb Muffat, Santiago de
+                Murcia, Chris Norz, Diego Ortiz, Arvo P&auml;rt, Giovanni
+                Battista Pergolesi, Astor Piazzolla, Werner Pirchner, Johann
+                Georg Pisendel, Giovanni B.&thinsp;Platti, Dmitri Ponomarew,
+                Francis Poulenc, Sergei Prokofjew, Sergei Rachmaninow, Gerardo
+                M.&thinsp;Rodríguez, Elliot Roman, Camille Saint-Saens, Federico
+                Maria Sardelli, Domenico Scarlatti, Christoph Schaffrath, Johann
+                H.&thinsp;Schmelzer, Henryk Schnapper, Dmitri Schostakowitsch,
+                Franz Schubert, Robert Schumann, Bartolomeo de Selma y
+                Salaverde, Gilles Silvestrini, Howard Skempton, Myroslaw Skoryk,
+                Bedrich Smetana, Tobias Steinberger, Igor Strawinsky, Joseph
+                Suk, Valentin Silwestrow, Osvaldo Tarantino, Georg Philipp
+                Telemann, Erkki-Sven Tüür, Francesco M.&thinsp;Veracini, Robert
+                de Visée, Giovanni B.&thinsp;Vitali, Antonio Vivaldi, Carl Maria
+                von Weber, Johann P.&thinsp;v. Westhoff, Kurt Weill, Eugene
+                Ysaye, Jan Dismas Zelenka.
               </p>
             </>
           }
@@ -258,7 +260,6 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
             "about/slider-2/26.jpg",
             "about/slider-2/27.jpg",
             "about/slider-2/29.jpg",
-
           ]}
         />
 
@@ -266,18 +267,18 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
           visibleContent={
             <>
               <p className={styles.aboutTeamSectionHeader}>UNSER ZIEL</p>
-              In außergew&ouml;hnlichen Konzerten auf höchstem Niveau, angesiedelt in
-              einem Kulturort abseits der Metropolen wollen wir ein breites
-              Publikum – erfahrene Konzertbesucher wie Neulinge im
+              In außergew&ouml;hnlichen Konzerten auf höchstem Niveau,
+              angesiedelt in einem Kulturort abseits der Metropolen wollen wir
+              ein breites Publikum – erfahrene Konzertbesucher wie Neulinge im
               Kammerkonzert,
             </>
           }
           hiddenContent={
             <>
               {" "}
-              G&auml;ste aus dem vorwiegend europ&Auml;äischen Ausland wie Menschen aus den
-              D&ouml;rfern der Umgebung – zusammenbringen, um sie für die uns
-              gemeinsame Kultur zu begeistern.
+              G&auml;ste aus dem vorwiegend europ&Auml;äischen Ausland wie
+              Menschen aus den D&ouml;rfern der Umgebung – zusammenbringen, um
+              sie für die uns gemeinsame Kultur zu begeistern.
               <p>
                 Der kulturelle und pers&ouml;nliche Austausch zwischen Besuchern
                 und K&uuml;nstlern untereinander sowie zwischen
@@ -298,12 +299,13 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p className={styles.aboutTeamSectionHeader}>DAS TEAM</p>
               Obmann: Toni Innauer
               <br />
-              K&uuml;nstlerische Leitung: <nobr>Mariya Nesterovska</nobr> und{" "}
-              <nobr>Hubert Mittermayer Nesterovskiy</nobr>
+              K&uuml;nstlerische Leitung: <nobr>
+                Mariya Nesterovska
+              </nobr> und <nobr>Hubert Mittermayer Nesterovskiy</nobr>
               <br />
               Konzertmanagement: Katharina Jeske
               <br />
-              &Ouml;ffentlichkeitsarbeit: Juliane Mayer
+              &Ouml;ffentlichkeitsarbeit: Dr.&thinsp;Juliane Mayer
             </>
           }
         />

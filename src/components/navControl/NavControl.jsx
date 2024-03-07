@@ -46,10 +46,10 @@ export default ({ lang, onChangeLang, collapsed }) => {
           <div className={styles.navSpacer} />
           <div className={styles.navSpacer} />
           <NavLink className={styles.navLink} path={SECTION_NAMES.ARTISTS}>
-            <span>Künstler</span>
+            <span>K&uuml;nstlerInnen</span>
           </NavLink>
           <NavLink className={styles.navLink} path={SECTION_NAMES.PROGRAM}>
-            <span>Programm</span>
+            <span>Programme</span>
           </NavLink>
           <NavLink className={styles.navLink} path={SECTION_NAMES.TICKETS}>
             <span>Tickets</span>

@@ -210,7 +210,7 @@ export default ({ onRef }) => (
       </div>
 
       <div className={styles.section}>
-        <div>F&uuml;rr den Inhalt verantwortlich:</div>
+        <div>F&uuml;r den Inhalt verantwortlich:</div>
         OBERT&Ouml;NE Kammermusikverein
         <br />
         Obmann:&ensp;Toni Innauer

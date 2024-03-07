@@ -74,3 +74,23 @@
 .programDescrciptionFooter {
   margin: 26px 0;
 }
+
+.dataprotectionText {
+  
+  text-align: center;
+  padding-bottom: 50px;
+
+  a:link, a:visited {
+    opacity: 0.8;
+    color: #49484b;
+    text-decoration: underline;
+    display: inline-block;
+  }
+  a:hover {
+    opacity: 1;
+    color: #49484b;
+    text-decoration: underline;
+    display: inline-block;
+  }
+
+}
