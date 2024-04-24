@@ -104,13 +104,13 @@ export default ({ onRef }) => {
             18.&mdash;22. September 2024
           </div>
           <a
-            href="https://shop.ticketpay.de/U698P1XJ"
+            href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=grid"
             className={classNames(
               styles.ticketsLink,
               commonStyles.withRoundedBorder
             )}
           >
-            Sichern Sie sich ab 10.03. hier Ihre
+            Sichern Sie sich direkt hier Ihre
             <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
          

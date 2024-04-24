@@ -41,7 +41,8 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams</p>
             <p>
               <b>
-                fischer.bozza.veracini.
+                fischer.bozza.
+                <nobr>veracini.</nobr>
                 <nobr>corbetta.</nobr>
                 <nobr>catala.</nobr>
                 <nobr>buxtehude.</nobr>
@@ -161,7 +162,9 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                janacek.matteis.boismortier.poljowa.
+                janacek.matteis.
+                <nobr>boismortier.</nobr>
+                <nobr>poljowa.</nobr>
                 <nobr>ligeti.</nobr>
                 <nobr>merci.</nobr>
                 <nobr>piazzolla</nobr>
@@ -216,7 +219,9 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                marais.ligeti.albinoni.galliard.
+                marais.ligeti.
+                <nobr>albinoni.</nobr>
+                <nobr>galliard.</nobr>
                 <nobr>capricornus.</nobr>
                 <nobr>westhoff.</nobr>
                 <nobr>vitali</nobr>

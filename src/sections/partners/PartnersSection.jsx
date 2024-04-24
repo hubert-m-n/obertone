@@ -10,12 +10,12 @@ import classNames from "classnames"
 // size B
 import TirolLogo from "images/Tirol.png"
 import InnsbruckLogo from "images/Innsbruck.png"
-import HypoLogo from "images/Hypo.png"
 import OrtnerLogo from "images/Ortner.png"
 import ZurichLogo from "images/Zurich.png"
 import GurglCaratLogo from "images/GurglCarat.png"
 import TiwagLogo from "images/Tiwag.png"
 import HarrysHomeLogo from "images/HarrysHome.png"
+import LLBLogo from "images/llb.png"
 
 
 
@@ -121,14 +121,14 @@ export default ({ onRef }) => {
           <a href="http://innsbruck.info/">
             <img src={InnsbruckLogo} />
           </a>
-          <a href="https://www.hypotirol.com/">
-            <img src={HypoLogo} />
+          <a href="https://gurgl-carat.com/">
+            <img src={GurglCaratLogo} />
           </a>
           <a href="https://www.ortner-anlagen.at/">
             <img src={OrtnerLogo} />
           </a>
-          <a href="https://gurgl-carat.com/">
-            <img src={GurglCaratLogo} />
+          <a href="https://llb.at/">
+            <img src={LLBLogo} />
           </a>
           <a href="https://www.zurich.at/">
             <img src={ZurichLogo} />

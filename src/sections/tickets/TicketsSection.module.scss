@@ -140,6 +140,10 @@
   color: $white;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 
 .directionsTitle {
   margin: 72px 0 28px 0;
@@ -152,3 +156,4 @@
     font-size: getVW(30px);
   }
 }
+

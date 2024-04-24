@@ -16,8 +16,8 @@ export default ({ onRef }) => (
       Sichern Sie sich jetzt Ihre Tickets
     </h2>
     <div className={styles.content}>
-     <a
-        href="https://shop.ticketpay.de/U698P1XJ"
+      <a
+        href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=grid"
         target="_blank"
         className={classNames(
           styles.linkButton,
@@ -25,30 +25,64 @@ export default ({ onRef }) => (
           commonStyles.withRoundedBorder
         )}
       >
-        Tickets bald hier bestellen
+        Tickets gleich hier bestellen
       </a>
       <br />
       <br />
       {/* Tickets Info 1 */}
-      <div className={styles.subtitle}>Entspannt ins Konzert</div>
-      Kaufen Sie gleich hier Ihre Tickets, zahlen bequem mit Sofort&uuml;berweisung,
+      <div className={styles.subtitle}>
+        Bequem buchen und entspannt ins Konzert!
+      </div>
+      Suchen Sie sich den besten Platz aus, zahlen mit Sofort&uuml;berweisung,
       Kreditkarte oder PayPal und erhalten direkt Ihr Ticket zum Ausdrucken.
-      Oder lassen Sie es sich auf Wunsch gegen Aufpreis per Post zuschicken.
+      Oder besuchen Sie eine unserer Vorverkaufsstellen:&ensp;
+      <a
+        href="https://www.innsbruck.info/sehen-und-erleben/shopping/shopsuche/detail/infrastruktur/klosterladen-im-stift-stams-stams.html"
+        target="_blank"
+        className={classNames(styles.whiteLinkunderlined)}
+      >
+        Klosterladen Stams
+      </a>
+      , Tourismusinfos{" "}
+      <a
+        href="https://www.telfs.at/tourismusbuero-telfs.html"
+        target="_blank"
+        className={classNames(styles.whiteLinkunderlined)}
+      >
+        Telfs
+      </a>
+      ,{" "}
+      <a
+        href="https://www.innsbruck.info/wandern/wandern/familienwanderungen/touren/tourismus-information-mieming-i.html"
+        target="_blank"
+        className={classNames(styles.whiteLinkunderlined)}
+      >
+        Mieming
+      </a>{" "}
+      und&ensp;
+      <a
+        href="https://www.innsbruck.info/destination/tourismus-information.html"
+        target="_blank"
+        className={classNames(styles.whiteLinkunderlined)}
+      >
+        Innsbruck
+      </a>
+      .
       <br />
       <br />
       <br />
       <div className={styles.subtitle}>Neu: Jetzt mit Platzkarten</div>
-      Ab jetzt k&ouml;nnen Sie schon bei der Ticketbuchung einen Sitzplatz aussuchen
-      und sich Ihren Lieblingsplatz reservieren, sodass Sie schon bei der
-      Buchung wissen, wo genau Sie im Konzert sitzen werden.
-      F&uuml;r den OBERT&Ouml;NE-Pass sind spezielle
-      Pl&auml;tze reserviert.
+      Ab jetzt k&ouml;nnen Sie schon bei der Ticketbuchung Ihren Lieblingsplatz
+      aussuchen und reservieren, sodass Sie schon bei der Buchung wissen, wo
+      genau im Saal Sie sitzen werden. F&uuml;r den OBERT&Ouml;NE-Pass sind
+      spezielle Pl&auml;tze reserviert.
       <br />
       <br />
       <br />
       {/* Tickets Info 2 */}
       <div className={styles.subtitle}>Der OBERT&Ouml;NE-Pass</div>
-      f&uuml;r das volle Erlebnis und vier Konzertabende von 18. bis 22. September 2024
+      f&uuml;r das volle Erlebnis und vier Konzertabende von 18. bis 22.
+      September 2024
       <br />
       <p>
         Kategorie A: €&nbsp;140,&mdash;
@@ -69,39 +103,36 @@ export default ({ onRef }) => (
       {/* Tickets Info 3 */}
       <div className={styles.subtitle}>Ermäßigungen</div>
       <p>
-        &#9679; OBERT&Ouml;NE-Clubmitglieder, Sch&uuml;lerInnen, Studierende bis 30,
-        Menschen&nbsp;mit&nbsp;Behinderung: bis zu 20%
+        &#9679; OBERT&Ouml;NE-Clubmitglieder, Sch&uuml;lerInnen, Studierende bis
+        30, Menschen&nbsp;mit&nbsp;Behinderung: bis zu 20%
+      </p>
+      <p>&#9679; Mitglieder im &Ouml;1-Club: 10%</p>
+      <p>&#9679; Mitglieder &Ouml;1-Intro: 30%</p>
+      <p>
+        &#9679; F&uuml;r BesitzerInnen des Hunger-auf-Kunst-und-Kultur-Passes
+        gibt es ein Kontingent an kostenlosen Karten in{" "}
+        <nobr>Kategorie C.</nobr>
       </p>
       <p>
-        &#9679; Mitglieder im &Ouml;1-Club: 10%
-      </p>
-      <p>
-        &#9679; Mitglieder &Ouml;1-Intro: 30%
-      </p>
-      <p>
-        &#9679; F&uuml;r BesitzerInnen des Hunger-auf-Kunst-und-Kultur-Passes gibt es ein 
-        Kontingent an kostenlosen Karten in <nobr>Kategorie C.</nobr>
-      </p>
-      <p>
-       Die Berechtigung zur Erm&auml;ßigung kann beim Eintritt kontrolliert werden. Bitte nehmen Sie
-        eine entsprechende Best&auml;tigung mit, da ansonsten eine Nachzahlung
-        der Preisdifferenz f&auml;llig werden kann.
+        Die Berechtigung zur Erm&auml;ßigung kann beim Eintritt kontrolliert
+        werden. Bitte nehmen Sie eine entsprechende Best&auml;tigung mit, da
+        ansonsten eine Nachzahlung der Preisdifferenz f&auml;llig werden kann.
       </p>
       <br />
       <br />
       {/* Tickets Info 4 */}
       <div className={styles.subtitle}>Menschen mit Behinderung</div>
-
       <p>
-      Menschen mit Behinderung und deren Begleitung möchten wir gerne bei der Ticketbuchung unterst&uuml;tzen. 
-      Bitte schreiben Sie uns ein kurzes Mail an info@obertone.at, welche Kategorie Sie gerne f&uuml;r welche 
-      Konzerte buchen wollen. Gemeinsam mit Ihnen k&ouml;nnen wir dann bequem zug&auml;ngliche Pl&auml;tze
-      ausw&auml;hlen und f&uuml;r Sie buchen!
+        Menschen mit Behinderung und deren Begleitung möchten wir gerne bei der
+        Ticketbuchung unterst&uuml;tzen. Bitte schreiben Sie uns ein kurzes Mail
+        an info@obertone.at, welche Kategorie Sie gerne f&uuml;r welche Konzerte
+        buchen wollen. Gemeinsam mit Ihnen k&ouml;nnen wir dann bequem
+        zug&auml;ngliche Pl&auml;tze ausw&auml;hlen und f&uuml;r Sie buchen!
       </p>
       <br />
       <br />
-            {/* Tickets Info 5 */}
-            <div className={styles.subtitle}>Datenschutz</div>
+      {/* Tickets Info 5 */}
+      <div className={styles.subtitle}>Datenschutz</div>
       <p>
         Wir gehen mit den Daten sorgsam um, die f&uuml;r Ihre Buchung, Ihre
         Mitgliedschaft oder zur Newsletter-Anmeldung erhoben werden. Dazu und
@@ -113,10 +144,9 @@ export default ({ onRef }) => (
         >
           Datenschutzhinweise.
         </a>
-        </p>
+      </p>
       <br />
       <br />
-
       <div className={styles.subtitle}>Mehr Info</div>
       <a href="mailto:info@sommermusik.at" className={styles.whiteLink}>
         info@obertone.at

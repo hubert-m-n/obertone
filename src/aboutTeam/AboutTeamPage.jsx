@@ -276,7 +276,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
           hiddenContent={
             <>
               {" "}
-              G&auml;ste aus dem vorwiegend europ&Auml;äischen Ausland wie
+              G&auml;ste aus dem vorwiegend europ&auml;ischen Ausland wie
               Menschen aus den D&ouml;rfern der Umgebung – zusammenbringen, um
               sie für die uns gemeinsame Kultur zu begeistern.
               <p>

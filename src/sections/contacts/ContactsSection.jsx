@@ -204,11 +204,18 @@ export default ({ onRef }) => (
           </a>
         </div>
       </div>
-
-      <div className={styles.section}>
-        &Auml;nderungen in Programm und Besetzung vorbehalten.
+      <br />
+      <p>
+      <div className={styles.mainSection}>
+        Abbonieren Sie hier bequem unseren Newsletter und seien Sie immer als Erste informiert:
+        </div>
+        <div className={styles.section}>
+        <iframe width="100%" height="280px" border="0" border-width="0px" 
+        src="https://emt-sghzhqx1d.sendserver.email/hp/QaaZRl-44mUC88rjXHD7dQ/signup">
+          </iframe>
       </div>
-
+      </p>
+      <br />
       <div className={styles.section}>
         <div>F&uuml;r den Inhalt verantwortlich:</div>
         OBERT&Ouml;NE Kammermusikverein
@@ -225,6 +232,11 @@ export default ({ onRef }) => (
         </a>
         <br />
       </div>
+
+      <div className={styles.section}>
+        &Auml;nderungen in Programm und Besetzung vorbehalten.
+      </div>
+
 
       <div className={styles.section}>
         <p>
