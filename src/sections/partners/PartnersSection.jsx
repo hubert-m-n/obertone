@@ -11,7 +11,6 @@ import classNames from "classnames"
 import TirolLogo from "images/Tirol.png"
 import InnsbruckLogo from "images/Innsbruck.png"
 import OrtnerLogo from "images/Ortner.png"
-import ZurichLogo from "images/Zurich.png"
 import GurglCaratLogo from "images/GurglCarat.png"
 import TiwagLogo from "images/Tiwag.png"
 import HarrysHomeLogo from "images/HarrysHome.png"
@@ -129,9 +128,6 @@ export default ({ onRef }) => {
           </a>
           <a href="https://llb.at/">
             <img src={LLBLogo} />
-          </a>
-          <a href="https://www.zurich.at/">
-            <img src={ZurichLogo} />
           </a>
           <a href="https://www.tiwag.at/">
             <img src={TiwagLogo} />
