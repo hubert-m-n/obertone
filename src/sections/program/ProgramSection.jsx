@@ -72,7 +72,7 @@ export default ({ onRef }) => (
           Kontrabass, pr&auml;pariertes Klavier und Percussion (2013/2024)
           <br />
           <b>Dieterich Buxtehude:</b> Triosonate in g-moll{" "}
-          <nobr>op.&thinsp;2, Nr.&thinsp;13</nobr>
+          <nobr>op.&thinsp;2, Nr.&thinsp;3</nobr>
           <br />
           <b>Gottfried Finger:</b> Triosonate Nr.&thinsp;3 in A-Dur
           <br />
@@ -195,7 +195,7 @@ export default ({ onRef }) => (
           <br />
           <b>Luigi Merci:</b> Sonata G-Dur f&uuml;r Fagott und Basso continuo
           <br />
-          <b>Astor Piazolla:</b> Oto&ntilde;o Porte&ntilde;o & Invierno
+          <b>Astor Piazzolla:</b> Oto&ntilde;o Porte&ntilde;o & Invierno
           Porte&ntilde;o (1969/1970) f&uuml;r Tangoquintett
         </div>
       </div>
@@ -245,11 +245,11 @@ export default ({ onRef }) => (
           <b>Marin Marais:</b> &bdquo;Sonnerie de Sainte Genevi&egrave;ve du
           Mont-de-Paris&ldquo;
           <br />
-          <b>Gy&ouml;rgi Ligeti:</b> Et&uuml;de Nr.&thinsp;7 &bdquo;Galamb
-          Borong&ldquo; f&uuml;r Klavier solo (1988&ndash;1994)
+          <b>Claude Debussy:</b> &bdquo;Des pas sur la neige&ldquo; aus Préludes
+          f&uuml;r Klavier solo Livre 1, L.117 (1909&ndash;1910)
           <br />
-          <b>Tomaso Albinoni:</b> Sonate Nr.&thinsp;5 in A-Dur f&uuml;r Violine
-          und Basso continuo, TalM So&thinsp;37
+          <b>Antonio Vivaldi:</b> Sonate in D-Dur &bdquo;per Monsieur
+          Pisendel&ldquo; f&uuml;r Violine und Basso continuo, RV 29
           <br />
           <b>Gy&ouml;rgi Ligeti:</b> Musica Ricercata Nr.&thinsp;9 f&uuml;r
           Klavier solo (1951&ndash;1953)
@@ -257,8 +257,8 @@ export default ({ onRef }) => (
           <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;4 in F-Dur f&uuml;r
           Fagott und Basso continuo
           <br />
-          <b>Gy&ouml;rgi Ligeti:</b> Et&uuml;de Nr.&thinsp;10 &bdquo;Der
-          Zauberlehrling&ldquo; f&uuml;r Klavier solo (1988&ndash;1994)
+          <b>Claude Debussy:</b> &bdquo;La danse de Puck&ldquo; aus Préludes
+          f&uuml;r Klavier solo Livre 1, L.117
           <br />
           <b>Samuel Capricornus:</b> Sonate Nr.&thinsp;3 &agrave; 3 in a-moll
           aus &bdquo;Prothimia Suavissima&ldquo;
@@ -271,14 +271,16 @@ export default ({ onRef }) => (
           <br />
           <b>Giovanni B.&thinsp;Vitali:</b> Ciaccona in C-Dur
         </div>
-       
       </div>
       <p className={styles.dataprotectionText}>
-        Hinweis: Bei unseren Veranstaltungen werden Foto-, Video- und Tonaufnahmen
-        gemacht. Mit Buchung Ihres Tickets erkl&auml;ren Sie sich mit 
-        unseren <a href="https://www.obertone.at/Datenschutz.pdf">Datenschutzhinweisen</a> einverstanden.
-            
-          </p>
+        Hinweis: Bei unseren Veranstaltungen werden Foto-, Video- und
+        Tonaufnahmen gemacht. Mit Buchung Ihres Tickets erkl&auml;ren Sie sich
+        mit unseren{" "}
+        <a href="https://www.obertone.at/Datenschutz.pdf">
+          Datenschutzhinweisen
+        </a>{" "}
+        einverstanden.
+      </p>
     </div>
   </div>
 )
