@@ -204,7 +204,7 @@ export default ({ onRef }) => (
           </a>
         </div>
       </div>
-      <br />
+   
       <p>
       <div className={styles.mainSection}>
         Abbonieren Sie hier bequem unseren Newsletter und seien Sie immer als Erste informiert:
@@ -215,7 +215,7 @@ export default ({ onRef }) => (
           </iframe>
       </div>
       </p>
-      <br />
+  
       <div className={styles.section}>
         <div>F&uuml;r den Inhalt verantwortlich:</div>
         OBERT&Ouml;NE Kammermusikverein
@@ -241,8 +241,9 @@ export default ({ onRef }) => (
       <div className={styles.section}>
         <p>
           Bildnachweis: Bewegte Bilder von Emanuel&nbsp;Altenburger. Fotos:
-          „Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" / von
-          Heinz&nbsp;Zak. 
+          „Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" „Programm 1&ndash;4" / von
+          Heinz&nbsp;Zak, 
+          „Thomas Oberleitner" / „Michael Oberaigner" privat.
           <br />
           Alle anderen Fotos von Mariya&nbsp;Nesterovska.
           <br />
@@ -250,7 +251,7 @@ export default ({ onRef }) => (
           <br />
           Programmierung: Andrey Filenko
         </p>
-        ©2024 OBERT&Ouml;NE Kammermusikverein
+        ©2025 OBERT&Ouml;NE Kammermusikverein
       </div>
     </div>
   </div>

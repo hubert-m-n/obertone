@@ -8,7 +8,13 @@ import JanKrigovskyPhoto from "images/musicians/JanKrigovsky.jpg"
 import MarceloNisinmanPhoto from "images/musicians/MarceloNisinman.jpg"
 import MariyaNesterovskaPhoto from "images/musicians/MariyaNesterovska.jpg"
 import NenadLecicPhoto from "images/musicians/NenadLecic.jpg"
-import TobiasSteinbergerPhoto from "images/musicians/TobiasSteinberger.jpg"
+import KarlMarkovicsPhoto from "images/musicians/KarlMarkovics.jpg"
+import AndreasOberaignerPhoto from "images/musicians/AndreasOberaigner.jpg"
+import MichaelOberaignerPhoto from "images/musicians/MichaelOberaigner.jpg"
+import ThomasOberleitnerPhoto from "images/musicians/ThomasOberleitner.jpg"
+import DraganTrajkovskiPhoto from "images/musicians/DraganTrajkovski.jpg"
+import YagoMahugoPhoto from "images/musicians/YagoMahugo.jpg"
+
 
 import MusicianTile from "./tile/MusicianTile"
 import { SECTION_NAMES } from "common/sectionNames"
@@ -55,24 +61,23 @@ const musicians = [
     useCondensedFont: true,
   },
   {
-    name: "François Guerrier",
-    photo: FrancoisGuerrierPhoto,
-    info: `François Guerrier, Cembalo/Orgel (F) – Geboren in Caen. Studium am Conservatoire Superieur de Paris bei Pierre Hantaï, 
-    Elisabeth Joyé, Christophe Rousset und Kenneth Weiss. Preisträger des Internationalen Bach-Wettbewerbs 
-    Leipzig 2006. Konzertreisen als Solist und Kammermusiker in Europa, Amerika und Asien mit Partnern wie 
-    Stéphanie-Marie Degand, Ricercar Consort und Il Gardellino. CD-Einspielungen mit Werken von Couperin, 
-    Mazzocchi und Bach.
-    `,
-  },
-  {
-    name: "Jan Krigovsky",
+    name: "Ján Krigovský",
     photo: JanKrigovskyPhoto,
-    info: `Jan Krigovsky, Violone/Kontrabass (SVK) – Geboren in Spisska.
+    info: `Ján Krigovský, Violone/Kontrabass (SVK) – Geboren in Spisska.
         Kontrabassstudium in Košice und Bratislava bei T. Trn und R. Šašina.
         Gustav Mahler Jugendorchester und Solobass im staatlichen Kammerorchester Žilina.
         Studium der Violone an der Schola Cantorum Basiliensis bei David Sinclair.
         Regelmäßiger Gast und Solist bei Wiener Akademie, Capella Istropolitana und Freitagsakademie Bern.
         Professor am Konservatorium Bratislava. Mitglied der Ars Antiqua Austria.`,
+  },
+  {
+    name: "Yago Mahúgo",
+    photo: YagoMahugoPhoto,
+    info: `Yago Mahúgo, Cembalo/Orgel – Geboren in Madrid, dort Klavierstudium, dann historische Tasteninstrumente
+     bei Tibor Szász in Freibunrg sowie bei Christophe Rousset, Kenneth Gilbert und Malcom Bilson. Preisträger der 
+     Cembalowettbewerbe von Budapest und Brügge. Konzerttätigkeit in Europa und Amerika als Solist und geschätzter
+     Continuospieler. Vielbeachtete Aufnahmen mit Musik von Cimarosa, Rameau, Couperin. Professor des königlischen 
+     Konservatoriums Madrid. `,
   },
   {
     name: "Marcelo Nisinman",
@@ -83,14 +88,49 @@ const musicians = [
     Komposition von Kammer- und symphon. Musik, einer Kammeroper und einer Neufassung von „Maria de Buenos Aires”.`,
   },
   {
-    name: "Tobias Steinberger",
-    photo: TobiasSteinbergerPhoto,
-    info: `Tobias Steinberger, Percussion (A) – Geboren in Tirol. Studium von Klassik und Jazz in Salzburg, Innsbruck 
-    und Linz bei Gunnar Fras, Georg Tausch und Stephan Maass. Schwerpunkt auf der Rahmentrommel und 
-    Handperkussioninstrumenten. Internationale Konzerttätigkeit auf Festivals von Alter Musik bis 
-    World Music mit Partnern wie dem Rolf Lieslevand Ensemble, I Barocchisti, Freiburger Barockorchester, 
-    und Jarrod Cagwin.`,
+    name: "Karl Markovics",
+    photo: KarlMarkovicsPhoto,
+    info: `Karl Markovics, Sprecher (A) – geboren in Wien, eine der facettenreichsten Personen der deutschsprachigen 
+    Film- und Theaterwelt. Schauspieler auf den großen und kleinen Bühnen, sowie in erfolgreichen internationalen TV- und Kinoproduktionen, wie dem 
+    Oscar-Prämierten Film »Die Fälscher«. Regisseur von beachteten Theater- und Operproduktionen sowie aufsehenerregenden Filme wie »Atmen«. 
+    Vielfältige Projekte, die Sprache und Musik miteinander verbinden. `,
   },
+  {
+    name: "Andreas Oberaigner",
+    photo: AndreasOberaignerPhoto,
+    info: `Andreas Oberaigner, Klarinette (A) – geboren in Hall in Tirol, Studium in Wien und Hannover 
+    bei Horst Hajek und Johannes Peitz. Konzerte in Europa und Asien u.a. mit Staatskapelle Dresden, 
+    Wiener Philharmoniker, Oper Frankfurt. Erste Preise bei nationalen Wettbewerben als Kammermusiker 
+    und Solist. Ab 2006 Stv. Soloklarinette der Duisburger Philharmoniker, seit 2024 an gleicher 
+    Position beim Gürzenichorchester Köln.`,
+  },
+  {
+    name: "Thomas Oberleitner",
+    photo: ThomasOberleitnerPhoto,
+    info: `Thomas Oberleitner, Kornett (A) - geboren in Tirol, Studium bei Hannes Buchegger, 
+    Andreas Öttl und Florian Klingler in Salzburg und Linz. 2019–2021 Akademist der Bayerischen 
+    Staatsoper. Derzeit Solo-Trompeter im Mozarteumsorchester Salzburg (Zeitvertrag). 
+    Erste Preise bei Wettbewerben, Gast der Deutschen Radiophilharmonie, Rundfunk-Sinfonieorchester Berlin, 
+    im Gärtnerplatztheater München und der Camerata Salzburg.`,
+  },
+  {
+    name: "Dragan Trajkovski",
+    photo: DraganTrajkovskiPhoto,
+    info: `Dragan Trajkovski, Kontrabass (NMK) - Geboren in Skopje, Studium bei Velko Todevski und 
+    Veit Peter Schüßler in Skopje und Köln. Gewinner des Musikwettbewerbes der Jeunesse Musicales, 
+    Belgrad 1998. Gast in den Orchestern von Skopje, Hannover, Essen sowie Bassist verschiedenster 
+    Ensembles und Bands in Klassik und Jazz. Solokontrabassist des Tiroler Symphonieorchesters Innsbruck.`,
+  },
+  {
+    name: "Michael Oberaigner",
+    photo: MichaelOberaignerPhoto,
+    info: `Michael Oberaigner, Schlagwerk (A) – geboren in Hall in Tirol, Studium in Innsbruck sowie München 
+    bei Raymond Curfs. Seit 2009 Solopauker des Konzerhausorchester Berlin. Gast bei Wiener Philharmonikern, 
+    Philharmonia Orchestra London, Seoul Philharmonic Orchestra, Münchner Kammerorchester Wiener-, Berliner- 
+    und Bayerischer Staatsoper, den Rundfunkorchestern von Berlin, Stuttgart und Hamburg sowie dem Budapest 
+    Festival Orchestra. `,
+  },
+
 ]
 
 export default ({ onRef }) => (
@@ -100,7 +140,7 @@ export default ({ onRef }) => (
     className={classNames(commonStyles.sectionWrapper, styles.sectionWrapper)}
   >
     <h2 className={commonStyles.titleWithBackground}>
-      K&Uuml;NSTLER AUS SIEBEN L&Auml;NDERN
+      K&Uuml;NSTLERiNNEN AUS ACHT L&Auml;NDERN
     </h2>
     <div className={styles.musicians}>
       {musicians.map((musician, i) => (

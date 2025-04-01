@@ -25,7 +25,7 @@ export default ({ onRef }) => (
           commonStyles.withRoundedBorder
         )}
       >
-        Tickets gleich hier bestellen
+        Tickets direkt hier bestellen
       </a>
       <br />
       <br />
@@ -45,7 +45,7 @@ export default ({ onRef }) => (
       </a>
       , Tourismusinfos{" "}
       <a
-        href="https://www.telfs.at/tourismusbuero-telfs.html"
+        href="https://www.telfs.at/Innsbruck_Tourismus_-_Tourismusinformation_Telfs"
         target="_blank"
         className={classNames(styles.whiteLinkunderlined)}
       >
@@ -57,45 +57,51 @@ export default ({ onRef }) => (
         target="_blank"
         className={classNames(styles.whiteLinkunderlined)}
       >
-        Mieming
-      </a>{" "}
-      und&ensp;
+        Mieming</a>{" "}
+      und&nbsp;
       <a
         href="https://www.innsbruck.info/destination/tourismus-information.html"
         target="_blank"
         className={classNames(styles.whiteLinkunderlined)}
-      >
-        Innsbruck
+      >Innsbruck
       </a>
       .
       <br />
       <br />
+      {/* Tickets Info 1b */}
+      <div className={styles.subtitle}>Saalplanbuchung</div>
+      Direkt bei der Ticketbuchung können Sie sich Ihren Lieblingsplatz
+      aussuchen und Sie wissen genau, wo im Saal Sie sitzen werden. F&uuml;r den
+      OBERT&Ouml;NE-Pass sind spezielle Pl&auml;tze reserviert.
       <br />
-      <div className={styles.subtitle}>Neu: Jetzt mit Platzkarten</div>
-      Ab jetzt k&ouml;nnen Sie schon bei der Ticketbuchung Ihren Lieblingsplatz
-      aussuchen und reservieren, sodass Sie schon bei der Buchung wissen, wo
-      genau im Saal Sie sitzen werden. F&uuml;r den OBERT&Ouml;NE-Pass sind
-      spezielle Pl&auml;tze reserviert.
       <br />
+      {/* Tickets Info 1b */}
+      <div className={styles.subtitle}>Preisanpassung</div>
+      Lange Zeit haben wir unsere Preise nicht erh&ouml;ht &ndash; der Großteil
+      der Tickets kostete &uuml;ber ein Jahrzehnt gleich viel, wie bei unserer
+      Gr&uuml;ndung 2014. F&uuml;r 2025 ist es notwendig, die Preise in den
+      Kategorien A und B der Situation anzupassen; die Preise der Kategorie C
+      bleiben unverändert &mdash; aus unserer Sicht die fairste L&ouml;sung. Wir
+      danken f&uuml;r Ihr Verst&auml;ndnis und Ihren Zuspruch!
       <br />
       <br />
       {/* Tickets Info 2 */}
       <div className={styles.subtitle}>Der OBERT&Ouml;NE-Pass</div>
-      f&uuml;r das volle Erlebnis und vier Konzertabende von 18. bis 22.
-      September 2024
+      f&uuml;r das volle Erlebnis und vier Konzertabende<br /> 
+      von 17. bis 21. September 2025
       <br />
       <p>
-        Kategorie A: €&nbsp;140,&mdash;
+        Kategorie A: €&nbsp;170,&mdash;
         <br />
-        Kategorie B: €&nbsp;90,&mdash;
+        Kategorie B: €&nbsp;110,&mdash;
       </p>
       <div className={styles.subtitle}>Einzeltickets</div>
-      je Konzert: 18./&thinsp;19./&thinsp;21./&thinsp;22. September 2024
+      je Konzert: 17./&thinsp;18./&thinsp;20./&thinsp;21. September 2025
       <br />
       <p>
-        Kategorie&nbsp;A: €&nbsp;45,&mdash;
+        Kategorie&nbsp;A: €&nbsp;53,&mdash;
         <br />
-        Kategorie&nbsp;B: €&nbsp;25,&mdash;
+        Kategorie&nbsp;B: €&nbsp;34,&mdash;
         <br />
         Kategorie&nbsp;C: €&nbsp;10,&mdash;
       </p>

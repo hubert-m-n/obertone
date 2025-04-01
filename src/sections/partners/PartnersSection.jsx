@@ -98,36 +98,25 @@ export default ({ onRef }) => {
         </h2>
 
         <div
-          style={{ visibility: "hidden" }}
-          className={styles.partnersFirstSection}
-          ref={contentPart1Ref}
-        >
-          {/* <a href="https://www.ortner-anlagen.at/">
-            <img src={PartnerA1Logo} />
-          </a>
-          <a href="https://www.innsbruck.info/">
-            <img src={PartnerA2Logo} />
-          </a>
-          <a href="https://www.tirol.gv.at/kunst-kultur/abteilung-kultur/">
-            <img src={PartnerA3Logo} />
-          </a> */}
-        </div>
-
-        <div className={styles.partnersSecondSection} ref={contentPart2Ref}>
+          
+          className={styles.partnersFirstSection} ref={contentPart1Ref}>
           <a href="https://www.tirol.gv.at/kunst-kultur/abteilung-kultur/">
             <img src={TirolLogo} />
           </a>
           <a href="http://innsbruck.info/">
             <img src={InnsbruckLogo} />
           </a>
-          <a href="https://gurgl-carat.com/">
-            <img src={GurglCaratLogo} />
-          </a>
           <a href="https://www.ortner-anlagen.at/">
             <img src={OrtnerLogo} />
           </a>
-          <a href="https://llb.at/">
+        </div>
+
+        <div className={styles.partnersSecondSection} ref={contentPart2Ref}>
+        <a href="https://llb.at/">
             <img src={LLBLogo} />
+          </a>
+          <a href="https://gurgl-carat.com/">
+            <img src={GurglCaratLogo} />
           </a>
           <a href="https://www.tiwag.at/">
             <img src={TiwagLogo} />

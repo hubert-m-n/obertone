@@ -179,7 +179,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <br />
               <br />
               <p>
-                Dabei wurde an 40 Konzertabenden die Musik von 130
+                Dabei wurde an 44 Konzertabenden die Musik von 140
                 KomponistInnen zum Klingen gebracht:
               </p>
               <p>
@@ -187,34 +187,37 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 Johann Sebastian Bach, Jean-Babtiste Barriere, Béla Bartók,
                 Angelo M. Bartolotti, Ludwig van Beethoven, Alain Bernaud,
                 Antonio Bertali, Giovanni Antonio Bertoli, Germo di Blasio,
-                William Bolcom, Claude Bolling, Roger Boutry, José Bragato,
-                Johannes Brahms, Bert Breit, Barbara Brodi, Benjamin Britten,
-                Dieterich Buxtehude, Arcangelo Califano, Samuel Capricornus,
-                Julio, de Caro, Mr.&thinsp;Carolo, Pintín Castellanos, Rafael
-                Catalá, Maurizio Cazzati, Fortunato Chelleri, Gaetano Chiabrano,
-                Peter Child, Juan Carlos Cobián, Francesco Corbetta, Michel
-                Corrette, François Couperin, Pedro Datta, Antoine Dard,
+                Joseph Bodin de Boismortier, William Bolcom, Claude Bolling,
+                Roger Boutry, Eugène Bozza, José Bragato, Johannes Brahms, Bert
+                Breit, Barbara Brodi, Benjamin Britten, Dieterich Buxtehude,
+                Arcangelo Califano, Samuel Capricornus, Julio, de Caro,
+                Mr.&thinsp;Carolo, Pintín Castellanos, Rafael Catalá, Maurizio
+                Cazzati, Fortunato Chelleri, Gaetano Chiabrano, Peter Child,
+                Juan Carlos Cobián, Francesco Corbetta, Michel Corrette,
+                François Couperin, Pedro Datta, Antoine Dard, Claude Debussy,
                 Pierre-Max Dubois, Henri Dutilleux, George Enescu, Philipp
-                Heinrich Erlebach,Manuel de Falla, Andrea Falconieri, Johann
+                Heinrich Erlebach, Manuel de Falla, Andrea Falconieri, Johann
                 Friedrich Fasch, Gabriel Fauré, Léo Ferré, Willem de Fesch,
-                Giovanni Battista Fontana, Jean Françaix, César Franck, Johann
-                Joseph Fux, Johann Ernst Galliard, Carlos Gardel, Francesco
-                Geminiani, George Gershwin, Alberto Ginastera, Michail Glinka,
-                Edvard Grieg, Joseph Haydn, Kyle Hovatter, Johann Nepomuk
-                Hummel, Leoš Janacek, Kaappo Järvinen, Antonio Carlos Jobim,
-                Daniel Humberto Joze, Giya Kantscheli, Johann Hieronymus
-                Kapsberger, Charles Koechlin, Igo Kranowsi, Fritz Kreisler,
-                Konrad Lang, Nenad Le&#269;i&#263;, Györgi Ligeti, Pietro
-                Locatelli, Antonio Lotti, Celso Machado, Pedro Maffia, Marin
-                Marais, Benedetto Marcello, Bohuslav Martinů, Jules Massenet,
-                Rosendo Mendizábal, Tarquinio Merula, Hubert Mittermayer
-                Nesterovskiy, Mariano Mores, Gottlieb Muffat, Santiago de
+                Gottfried Finger, Johann Fischer, Giovanni Battista Fontana,
+                Jean Françaix, César Franck, Johann Joseph Fux, Johann Ernst
+                Galliard, Carlos Gardel, Francesco Geminiani, George Gershwin,
+                Alberto Ginastera, Michail Glinka, Edvard Grieg, Joseph Haydn,
+                Kyle Hovatter, Johann Nepomuk Hummel, Leoš Janáček, Kaappo
+                Järvinen, Antonio Carlos Jobim, Daniel Humberto Joze, Giya
+                Kantscheli, Johann Hieronymus Kapsberger, Charles Koechlin, Igo
+                Kranowsi, Fritz Kreisler, Konrad Lang, Nenad Le&#269;i&#263;,
+                Györgi Ligeti, Pietro Locatelli, Antonio Lotti, Celso Machado,
+                Pedro Maffia, Marin Marais, Benedetto Marcello, Bohuslav
+                Martinů, Jules Massenet, Nicola Matteis, Rosendo Mendizábal,
+                Luigi Merci, Tarquinio Merula, Hubert Mittermayer Nesterovskiy,
+                Mariano Mores, Ennio Morricone, Gottlieb Muffat, Santiago de
                 Murcia, Chris Norz, Diego Ortiz, Arvo P&auml;rt, Giovanni
                 Battista Pergolesi, Astor Piazzolla, Werner Pirchner, Johann
-                Georg Pisendel, Giovanni B.&thinsp;Platti, Dmitri Ponomarew,
-                Francis Poulenc, Sergei Prokofjew, Sergei Rachmaninow, Gerardo
-                M.&thinsp;Rodríguez, Elliot Roman, Camille Saint-Saens, Federico
-                Maria Sardelli, Domenico Scarlatti, Christoph Schaffrath, Johann
+                Georg Pisendel, Giovanni B.&thinsp;Platti, Wiktorija Poljowa,
+                Dmitri Ponomarew, Francis Poulenc, Sergei Prokofjew, Sergei
+                Rachmaninow, Maurice Ravel, Gerardo M.&thinsp;Rodríguez, Elliot
+                Roman, Camille Saint-Saens, Federico Maria Sardelli, Domenico
+                Scarlatti, Christoph Schaffrath, Philipp Scharwenka, Johann
                 H.&thinsp;Schmelzer, Henryk Schnapper, Dmitri Schostakowitsch,
                 Franz Schubert, Robert Schumann, Bartolomeo de Selma y
                 Salaverde, Gilles Silvestrini, Howard Skempton, Myroslaw Skoryk,
@@ -330,34 +333,33 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <br />
               <ul>
                 <li>
-                  {" "}
                   bis 20% Erm&auml;ßigung für alle unsere Konzerte f&uuml;r zwei
                   Personen
                 </li>
+                <li>jedes Jahr ein Exemplar des jeweils neuesten Tonträgers &bdquo;Message from 
+                  Chamber music wonderland&ldquo; kostenlos</li>
                 <li>
-                  {" "}
-                  Frühzeitige Information über Konzerte, Programme, Künstler
+                  frühzeitige Information über Konzerte, Programme, KünstlerInnen
                 </li>
                 <li>Vorkaufsrecht auf Tickets im Vorverkauf</li>
-                <li> Sonderveranstaltungen exklusiv für Mitglieder</li>
+                <li>manchmal kleine Aufmerksamkeiten exklusiv für Mitglieder</li>
               </ul>
               <br />
               Jahresbeitrag:
               <ul>
-                <li>Clubmitglied: ab € 50,–</li>
+                <li>Clubmitglied: ab € 70,–</li>
                 <li>Förderndes Clubmitglied: ab € 150,-</li>
               </ul>
               Wenn Sie Interesse an einer Mitgliedschaft haben, bitte schreiben
               Sie uns ein Email an{" "}
               <a href="mailto:info@obertone.at">info@obertone.at </a>
-              oder schließen Sie Ihre Mitgliedschaft direkt in unserem{" "}
+              oder schließen Sie Ihre Mitgliedschaft direkt ab in unserem{" "}
               <a
                 href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=list"
                 target="_blank"
               >
                 Ticketshop
-              </a>
-              !
+              </a>!
             </>
           }
         />
