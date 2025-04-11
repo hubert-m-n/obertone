@@ -51,8 +51,8 @@ export default ({ onRef }) => (
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Jan Krigovsky, Rafael Bonavita,
-            Marcelo Nisinman, Nenad Le&#269;i&#263;, Yago Mahugo, Hubert Mittermayer
-            Nesterovskiy.
+            Marcelo Nisinman, Nenad Le&#269;i&#263;, Yago Mahugo, Hubert
+            Mittermayer Nesterovskiy.
           </div>
         </div>
         <div className={styles.programSection}>
@@ -101,19 +101,23 @@ export default ({ onRef }) => (
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Marcelo Nisinman, Yago Mahugo,
-            Rafael Bonavita, Hubert Mittermayer Nesterovskiy, Nenad
-            Le&#269;i&#263;, Jan Krigovsky.
+            Es spielen Mariya Nesterovska, Marcelo Nisinman, Yago Mahugo, Rafael
+            Bonavita, Hubert Mittermayer Nesterovskiy, Nenad Le&#269;i&#263;,
+            Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> &bdquo;Five Tango Sensations&ldquo; (arr. Nisinman)
+          <b>Astor Piazzolla:</b> &bdquo;Five Tango Sensations&ldquo; (arr.
+          Nisinman)
           <br />
-          <b>Georg Ph. Telemann:</b> Sonate in e-moll für Fagott und B.&thins;C. TWV41:e5
+          <b>Georg Ph. Telemann:</b> Sonate in e-moll für Fagott und
+          B.&thinsp;C. TWV41:e5
           <br />
-          <b>Giovanni A. Pandolfi Mealli:</b> Sonate Nr.&thinsp;4 &bdquo;La castella&ldquo; f&uuml;r Violine und B.&thinsp;C.
+          <b>Giovanni A. Pandolfi Mealli:</b> Sonate Nr.&thinsp;4 &bdquo;La
+          castella&ldquo; f&uuml;r Violine und B.&thinsp;C.
           <br />
-          <b>Otmar Nussio:</b> Variationen &uuml;ber eine Arietta von Pergolesi f&uuml;r Fagott und Klavier (1953)
+          <b>Otmar Nussio:</b> Variationen &uuml;ber eine Arietta von Pergolesi
+          f&uuml;r Fagott und Klavier (1953)
           <br />
           <b>Marcelo Nisinman:</b> Musik f&uuml;r Tangoensemble
         </div>
@@ -137,20 +141,21 @@ export default ({ onRef }) => (
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
-              <b>
-                die.geschichte.vom.soldaten
-              </b>
+              <b>die.geschichte.vom.soldaten</b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Karl Markovics, Mariya Nesterovska, Andreas Oberaigner, Hubert Mittermayer Nesterovskiy, Thomas Oberleitner, N.N., 
-            Dragan Trajkovski, Michael Oberaigner.
+            Es spielen Karl Markovics, Mariya Nesterovska, Andreas Oberaigner,
+            Hubert Mittermayer Nesterovskiy, Thomas Oberleitner, N.N., Dragan
+            Trajkovski, Michael Oberaigner.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Carl Maria v. Weber:</b> Overture zur Oper &bdquo;Abu Hassan&ldquo; J.&thinsp;106 (arr. Mittermayer Nesterovskiy)
+          <b>Carl Maria v. Weber:</b> Overture zur Oper &bdquo;Abu Hassan&ldquo;
+          J.&thinsp;106 (arr. Mittermayer Nesterovskiy)
           <br />
-          <b>Igor Strawinsky:</b> &bdquo;Die Geschichte vom Soldaten&ldquo; Musiktheater in zwei Teilen
+          <b>Igor Strawinsky:</b> &bdquo;Die Geschichte vom Soldaten&ldquo;
+          Musiktheater in zwei Teilen
         </div>
       </div>
       {/* Program 4 */}
@@ -180,14 +185,12 @@ export default ({ onRef }) => (
                 <nobr>veracini.</nobr>
                 <nobr>spohr.</nobr>
                 <nobr>vivaldi</nobr>
-
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Yago Mahugo, Nenad Le&#269;i&#263;, Rafael
-            Bonavita, Hubert Mittermayer Nesterovskiy, Jan
-            Krigovsky.
+            Es spielen Mariya Nesterovska, Yago Mahugo, Nenad Le&#269;i&#263;,
+            Rafael Bonavita, Hubert Mittermayer Nesterovskiy, Jan Krigovsky.
             <br />
             <br />
             <font size="3">
@@ -198,17 +201,21 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;6 in C-Dur f&uuml;r Fagott und B.&thinsp;C.
+          <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;6 in C-Dur f&uuml;r
+          Fagott und B.&thinsp;C.
           <br />
-          <b>Paula Matthusen:</b> &bdquo;In absentia&ldquo; f&uuml;r Violine, Klavier, Gl&auml;ser und Elektronik (2015)
+          <b>Paula Matthusen:</b> &bdquo;In absentia&ldquo; f&uuml;r Violine,
+          Klavier, Gl&auml;ser und Elektronik (2015)
           <br />
-          <b>Amanda Maier:</b> Allegro vivace aus &bdquo;6 Pi&egrave;ces&ldquo; f&uuml;r Violine und Klavier
+          <b>Amanda Maier:</b> Allegro vivace aus &bdquo;6 Pi&egrave;ces&ldquo;
+          f&uuml;r Violine und Klavier
           <br />
           <b>Girolamo Fresobaldi:</b> Canzoni a due bassi, F8.17c und F8.16c
           <br />
           <b>Peter Child:</b> Fantasia f&uuml;r Cembalo solo (1980)
           <br />
-          <b>Francesco Maria Veracini:</b> Sonate in g-moll f&uuml;r Violine und B.&thinsp;C. op.&thinsp;2, Nr.&thinsp;5
+          <b>Francesco Maria Veracini:</b> Sonate in g-moll f&uuml;r Violine und
+          B.&thinsp;C. op.&thinsp;2, Nr.&thinsp;5
           <br />
           <b>Louis Spohr:</b> Adagio f&uuml;r Fagott und Klavier
           <br />
