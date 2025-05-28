@@ -204,18 +204,23 @@ export default ({ onRef }) => (
           </a>
         </div>
       </div>
-   
+
       <p>
-      <div className={styles.mainSection}>
-        Abbonieren Sie hier bequem unseren Newsletter und seien Sie immer als Erste informiert:
+        <div className={styles.mainSection}>
+          Abbonieren Sie hier bequem unseren Newsletter und seien Sie immer als
+          Erste informiert:
         </div>
         <div className={styles.section}>
-        <iframe width="100%" height="280px" border="0" border-width="0px" 
-        src="https://emt-sghzhqx1d.sendserver.email/hp/QaaZRl-44mUC88rjXHD7dQ/signup">
-          </iframe>
-      </div>
+          <iframe
+            width="100%"
+            height="280px"
+            border="0"
+            border-width="0px"
+            src="https://emt-sghzhqx1d.sendserver.email/hp/QaaZRl-44mUC88rjXHD7dQ/signup"
+          ></iframe>
+        </div>
       </p>
-  
+
       <div className={styles.section}>
         <div>F&uuml;r den Inhalt verantwortlich:</div>
         OBERT&Ouml;NE Kammermusikverein
@@ -237,13 +242,12 @@ export default ({ onRef }) => (
         &Auml;nderungen in Programm und Besetzung vorbehalten.
       </div>
 
-
       <div className={styles.section}>
         <p>
           Bildnachweis: Bewegte Bilder von Emanuel&nbsp;Altenburger. Fotos:
-          „Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" „Programm 1&ndash;4" / von
-          Heinz&nbsp;Zak, 
-          „Thomas Oberleitner" / „Michael Oberaigner" privat.
+          „Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" / „Programm
+          1&ndash;4" von Heinz&nbsp;Zak, „Anton Kammermeier" von Hans Lepel,
+          „Thomas Oberleitner" / „Stefan Kühne" / „Michael Oberaigner" privat.
           <br />
           Alle anderen Fotos von Mariya&nbsp;Nesterovska.
           <br />

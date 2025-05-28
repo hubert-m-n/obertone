@@ -146,8 +146,8 @@ export default ({ onRef }) => (
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Karl Markovics, Mariya Nesterovska, Andreas Oberaigner,
-            Hubert Mittermayer Nesterovskiy, Thomas Oberleitner, N.N., Dragan
-            Trajkovski, Michael Oberaigner.
+            Hubert Mittermayer Nesterovskiy, Thomas Oberleitner, Stefan
+            K&uuml;hne, Anton Kammermeier, Michael Oberaigner.
           </div>
         </div>
         <div className={styles.programSection}>

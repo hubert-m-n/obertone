@@ -115,9 +115,6 @@ export default ({ onRef }) => {
         <a href="https://llb.at/">
             <img src={LLBLogo} />
           </a>
-          <a href="https://gurgl-carat.com/">
-            <img src={GurglCaratLogo} />
-          </a>
           <a href="https://www.tiwag.at/">
             <img src={TiwagLogo} />
           </a>

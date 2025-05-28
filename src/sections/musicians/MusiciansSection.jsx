@@ -12,9 +12,9 @@ import KarlMarkovicsPhoto from "images/musicians/KarlMarkovics.jpg"
 import AndreasOberaignerPhoto from "images/musicians/AndreasOberaigner.jpg"
 import MichaelOberaignerPhoto from "images/musicians/MichaelOberaigner.jpg"
 import ThomasOberleitnerPhoto from "images/musicians/ThomasOberleitner.jpg"
-import DraganTrajkovskiPhoto from "images/musicians/DraganTrajkovski.jpg"
+import StefanKuehnePhoto from "images/musicians/StefanKuehne.jpg"
 import YagoMahugoPhoto from "images/musicians/YagoMahugo.jpg"
-
+import AntonKammermeierPhoto from "images/musicians/AntonKammermeier.jpg"
 
 import MusicianTile from "./tile/MusicianTile"
 import { SECTION_NAMES } from "common/sectionNames"
@@ -114,23 +114,30 @@ const musicians = [
     im Gärtnerplatztheater München und der Camerata Salzburg.`,
   },
   {
-    name: "Dragan Trajkovski",
-    photo: DraganTrajkovskiPhoto,
-    info: `Dragan Trajkovski, Kontrabass (NMK) - Geboren in Skopje, Studium bei Velko Todevski und 
-    Veit Peter Schüßler in Skopje und Köln. Gewinner des Musikwettbewerbes der Jeunesse Musicales, 
-    Belgrad 1998. Gast in den Orchestern von Skopje, Hannover, Essen sowie Bassist verschiedenster 
-    Ensembles und Bands in Klassik und Jazz. Solokontrabassist des Tiroler Symphonieorchesters Innsbruck.`,
+    name: "Stefan Kühne",
+    photo: StefanKuehnePhoto,
+    info: `Stefan Kühne, Posaune (A) - Geboren in Hohenems, Studium bei Harald Brandt und Wolfram Arndt in Feldkirch 
+    und München. Seit 2010 Posaunist im Tiroler Symphonieorchester Innsbruck, davor bei den Dortmunder Philharmonikern.
+    Gast bei Orchestern wie Philharmonisches Orchester Lübeck, Münchner Symphoniker, West-Eastern Divan Orchestra (mit Daniel Barenboim),
+    sowie Bläserensembles wie Blechcircus.`,
+  },
+  {
+    name: "Anton Kammermeier",
+    photo: AntonKammermeierPhoto,
+    info: `Anton Kammermeier, Kontrabass (D) - Geboren in Garmisch-Partenkirchen, Studium bei bei Nabil Shehata, Wies de Boevé 
+    und Philipp Stubenrauch München, Berlin und Stuttgart. Nach Engagements in drei deutschen Rundfunkorchestern ist er seit 2024
+    Solobassist am Theater am Gärtnerplatz in München. Halbfinalist des J. M. Sperger Wettbewerbs und Preisträger internationaler
+    Wettbewerbe in Venedig, Teneriffa u.a.`,
   },
   {
     name: "Michael Oberaigner",
     photo: MichaelOberaignerPhoto,
-    info: `Michael Oberaigner, Schlagwerk (A) – geboren in Hall in Tirol, Studium in Innsbruck sowie München 
+    info: `Michael Oberaigner, Schlagwerk (A) - geboren in Hall in Tirol, Studium in Innsbruck sowie München 
     bei Raymond Curfs. Seit 2009 Solopauker des Konzerhausorchester Berlin. Gast bei Wiener Philharmonikern, 
     Philharmonia Orchestra London, Seoul Philharmonic Orchestra, Münchner Kammerorchester Wiener-, Berliner- 
     und Bayerischer Staatsoper, den Rundfunkorchestern von Berlin, Stuttgart und Hamburg sowie dem Budapest 
     Festival Orchestra. `,
   },
-
 ]
 
 export default ({ onRef }) => (
@@ -140,7 +147,7 @@ export default ({ onRef }) => (
     className={classNames(commonStyles.sectionWrapper, styles.sectionWrapper)}
   >
     <h2 className={commonStyles.titleWithBackground}>
-      K&Uuml;NSTLERiNNEN AUS ACHT L&Auml;NDERN
+      K&Uuml;NSTLERiNNEN AUS NEUN L&Auml;NDERN
     </h2>
     <div className={styles.musicians}>
       {musicians.map((musician, i) => (
