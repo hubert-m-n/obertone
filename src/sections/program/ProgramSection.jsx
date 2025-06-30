@@ -41,8 +41,8 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams</p>
             <p>
               <b>
-                scelsi.caldara
-                <nobr>veracini.</nobr>
+                scelsi.caldara.
+                <nobr>piazzolla.</nobr>
                 <nobr>silwestrow.</nobr>
                 <nobr>nisinman.</nobr>
                 <nobr>brahms</nobr>
@@ -61,11 +61,15 @@ export default ({ onRef }) => (
           <br />
           <b>Antonio Caldara:</b> Trio in E-Dur op.&thinsp;2, Nr.&thinsp;11
           <br />
+          <b>Astor Piazzolla:</b> &bdquo;Adios Nonino&ldquo; (1959; arr.
+          Nisinman, 2025)
+          <br />
           <b>Walentin Silwestrow:</b> &bdquo;Hommage an
           J.&thinsp;S.&thinsp;B.&ldquo; f&uuml;r Violine und Klavier (Kyjiw,
           2009)
           <br />
-          <b>Marcelo Nisinman:</b> Musik für Tangoensemble
+          <b>Marcelo Nisinman:</b> &bdquo;Obert&ouml;ne&ldquo; f&uuml;r
+          Bandoneon solo (2025; UA)
           <br />
           <b>Johannes Brahms:</b> Trio op.&thinsp; f&uuml;r Violine, Fagott
           (Horn) und Klavier
@@ -92,7 +96,6 @@ export default ({ onRef }) => (
             <p>
               <b>
                 piazzolla.telemann.
-                <nobr>mittermayer.</nobr>
                 <nobr>schumann.</nobr>
                 <nobr>pandolfi.</nobr>
                 <nobr>nussio.</nobr>
@@ -107,8 +110,8 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> &bdquo;Five Tango Sensations&ldquo; (arr.
-          Nisinman)
+          <b>Astor Piazzolla:</b> &bdquo;Five Tango Sensations&ldquo; (1989;
+          arr. Nisinman, 2020)
           <br />
           <b>Georg Ph. Telemann:</b> Sonate in e-moll für Fagott und
           B.&thinsp;C. TWV41:e5
@@ -119,7 +122,8 @@ export default ({ onRef }) => (
           <b>Otmar Nussio:</b> Variationen &uuml;ber eine Arietta von Pergolesi
           f&uuml;r Fagott und Klavier (1953)
           <br />
-          <b>Marcelo Nisinman:</b> Musik f&uuml;r Tangoensemble
+          <b>Astor Piazzolla:</b> &bdquo;El infierno tan temido&ldquo; (1980;
+          arr. Nisinman, 2025)
         </div>
       </div>
       {/* Program 3 */}
@@ -151,11 +155,12 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Carl Maria v. Weber:</b> Overture zur Oper &bdquo;Abu Hassan&ldquo;
-          J.&thinsp;106 (arr. Mittermayer Nesterovskiy)
           <br />
           <b>Igor Strawinsky:</b> &bdquo;Die Geschichte vom Soldaten&ldquo;
           Musiktheater in zwei Teilen
+          <br />
+          <br />
+          und <b>drei ukrainische Volkslieder</b> (instrumental)
         </div>
       </div>
       {/* Program 4 */}
@@ -210,7 +215,7 @@ export default ({ onRef }) => (
           <b>Amanda Maier:</b> Allegro vivace aus &bdquo;6 Pi&egrave;ces&ldquo;
           f&uuml;r Violine und Klavier
           <br />
-          <b>Girolamo Fresobaldi:</b> Canzoni a due bassi, F8.17c und F8.16c
+          <b>Girolamo Frescobaldi:</b> Canzoni a due bassi, F8.17c und F8.16c
           <br />
           <b>Peter Child:</b> Fantasia f&uuml;r Cembalo solo (1980)
           <br />

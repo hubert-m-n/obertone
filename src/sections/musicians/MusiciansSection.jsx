@@ -74,9 +74,9 @@ const musicians = [
     name: "Yago Mahúgo",
     photo: YagoMahugoPhoto,
     info: `Yago Mahúgo, Cembalo/Orgel – Geboren in Madrid, dort Klavierstudium, dann historische Tasteninstrumente
-     bei Tibor Szász in Freibunrg sowie bei Christophe Rousset, Kenneth Gilbert und Malcom Bilson. Preisträger der 
+     bei Tibor Szász in Freiburg sowie bei Christophe Rousset, Kenneth Gilbert und Malcom Bilson. Preisträger der 
      Cembalowettbewerbe von Budapest und Brügge. Konzerttätigkeit in Europa und Amerika als Solist und geschätzter
-     Continuospieler. Vielbeachtete Aufnahmen mit Musik von Cimarosa, Rameau, Couperin. Professor des königlischen 
+     Continuospieler. Vielbeachtete Aufnahmen mit Musik von Cimarosa, Rameau, Couperin. Professor des königlichen 
      Konservatoriums Madrid. `,
   },
   {
@@ -125,7 +125,7 @@ const musicians = [
     name: "Anton Kammermeier",
     photo: AntonKammermeierPhoto,
     info: `Anton Kammermeier, Kontrabass (D) - Geboren in Garmisch-Partenkirchen, Studium bei bei Nabil Shehata, Wies de Boevé 
-    und Philipp Stubenrauch München, Berlin und Stuttgart. Nach Engagements in drei deutschen Rundfunkorchestern ist er seit 2024
+    und Philipp Stubenrauch in München, Berlin und Stuttgart. Nach Engagements in drei deutschen Rundfunkorchestern ist er seit 2024
     Solobassist am Theater am Gärtnerplatz in München. Halbfinalist des J. M. Sperger Wettbewerbs und Preisträger internationaler
     Wettbewerbe in Venedig, Teneriffa u.a.`,
   },
