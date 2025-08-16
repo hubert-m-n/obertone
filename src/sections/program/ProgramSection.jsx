@@ -209,7 +209,7 @@ export default ({ onRef }) => (
           <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;6 in C-Dur f&uuml;r
           Fagott und B.&thinsp;C.
           <br />
-          <b>Walentyn Sylwestrow:</b> &bdquo;Lullaby&ldquo; f&uuml;r Violine,
+          <b>Walentyn Sylwestrow:</b> &bdquo;Lullaby&ldquo; f&uuml;r Violine und
           Klavier (aus Melodies of the Moments - Cycle 2015)
           <br />
           <b>Amanda Maier:</b> Allegro vivace aus &bdquo;6 Pi&egrave;ces&ldquo;
