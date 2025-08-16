@@ -183,7 +183,7 @@ export default ({ onRef }) => (
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                galliard.matthusen.
+                galliard.sylwestrow.
                 <nobr>maier.</nobr>
                 <nobr>frescobaldi.</nobr>
                 <nobr>child.</nobr>
@@ -209,8 +209,8 @@ export default ({ onRef }) => (
           <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;6 in C-Dur f&uuml;r
           Fagott und B.&thinsp;C.
           <br />
-          <b>Paula Matthusen:</b> &bdquo;In absentia&ldquo; f&uuml;r Violine,
-          Klavier, Gl&auml;ser und Elektronik (2015)
+          <b>Walentyn Sylwestrow:</b> &bdquo;Lullaby&ldquo; f&uuml;r Violine,
+          Klavier (aus Melodies of the Moments - Cycle 2015)
           <br />
           <b>Amanda Maier:</b> Allegro vivace aus &bdquo;6 Pi&egrave;ces&ldquo;
           f&uuml;r Violine und Klavier
