@@ -2,19 +2,15 @@ import React from "react"
 import classNames from "classnames"
 
 import RafaelBonavitaPhoto from "images/musicians/RafaelBonavita.jpg"
-import FrancoisGuerrierPhoto from "images/musicians/FrancoisGuerrier.jpg"
+import BertrandCuillerPhoto from "images/musicians/BertrandCullier.jpg"
 import HubertMittermayerNesterovskiyPhoto from "images/musicians/HubertMittermayerNesterovskiy.jpg"
 import JanKrigovskyPhoto from "images/musicians/JanKrigovsky.jpg"
 import MarceloNisinmanPhoto from "images/musicians/MarceloNisinman.jpg"
 import MariyaNesterovskaPhoto from "images/musicians/MariyaNesterovska.jpg"
 import NenadLecicPhoto from "images/musicians/NenadLecic.jpg"
-import KarlMarkovicsPhoto from "images/musicians/KarlMarkovics.jpg"
-import AndreasOberaignerPhoto from "images/musicians/AndreasOberaigner.jpg"
-import MichaelOberaignerPhoto from "images/musicians/MichaelOberaigner.jpg"
-import ThomasOberleitnerPhoto from "images/musicians/ThomasOberleitner.jpg"
-import StefanKuehnePhoto from "images/musicians/StefanKuehne.jpg"
-import YagoMahugoPhoto from "images/musicians/YagoMahugo.jpg"
-import AntonKammermeierPhoto from "images/musicians/AntonKammermeier.jpg"
+import GiorgiGvantseladzePhoto from "images/musicians/GiorgiGvantseladze.jpg"
+import VictorApariciPhoto from "images/musicians/VictorAparici.jpg"
+import FelipeFreitasPhoto from "images/musicians/FelipeFreitas.jpg"
 
 import MusicianTile from "./tile/MusicianTile"
 import { SECTION_NAMES } from "common/sectionNames"
@@ -71,13 +67,12 @@ const musicians = [
         Professor am Konservatorium Bratislava. Mitglied der Ars Antiqua Austria.`,
   },
   {
-    name: "Yago Mahúgo",
-    photo: YagoMahugoPhoto,
-    info: `Yago Mahúgo, Cembalo/Orgel – Geboren in Madrid, dort Klavierstudium, dann historische Tasteninstrumente
-     bei Tibor Szász in Freiburg sowie bei Christophe Rousset, Kenneth Gilbert und Malcom Bilson. Preisträger der 
-     Cembalowettbewerbe von Budapest und Brügge. Konzerttätigkeit in Europa und Amerika als Solist und geschätzter
-     Continuospieler. Vielbeachtete Aufnahmen mit Musik von Cimarosa, Rameau, Couperin. Professor des königlichen 
-     Konservatoriums Madrid. `,
+    name: "Bertrand Cuiller",
+    photo: BertrandCuillerPhoto,
+    info: `Bertrand Cuiller, Cembalo/Orgel – Geboren in ein Musikerfamilie. Studium bei Pierre Hantaï und Christophe Rousset
+    in Paris. Preisträger der internat. Cembalowettbewerbes in Brügge, weltweite Konzerttätigkeit als Solist und Kammermusiker mit 
+    Les Arts Florissants, Le Concert Spirituel u.a. Gründer und Leiter des Ensembles Le Caravansérail. Prämierte Einspielungen, u.a. 
+    der Gesamtwerke von Jean-Philippe Rameau und François Couperin.`,
   },
   {
     name: "Marcelo Nisinman",
@@ -88,55 +83,28 @@ const musicians = [
     Komposition von Kammer- und symphon. Musik, einer Kammeroper und einer Neufassung von „Maria de Buenos Aires”.`,
   },
   {
-    name: "Karl Markovics",
-    photo: KarlMarkovicsPhoto,
-    info: `Karl Markovics, Sprecher (A) – geboren in Wien, eine der facettenreichsten Personen der deutschsprachigen 
-    Film- und Theaterwelt. Schauspieler auf den großen und kleinen Bühnen, sowie in erfolgreichen internationalen TV- und Kinoproduktionen, wie dem 
-    Oscar-Prämierten Film »Die Fälscher«. Regisseur von beachteten Theater- und Operproduktionen sowie aufsehenerregenden Filme wie »Atmen«. 
-    Vielfältige Projekte, die Sprache und Musik miteinander verbinden. `,
+    name: "Giorgi Gvantseladze",
+    photo: GiorgiGvantseladzePhoto,
+    info: `Giorgi Gvantseladze, Oboe (GE) – Geboren in Tiflis, Studium ebendort bei Giorgi Beridze sowie in 
+    München und Salzburg bei François Leleux und Stefan Schilli. Früher Solooboist des Georgischen Nationalen 
+    Symphonieorchesters sowie des Frankfurter Opern- und Museumsorchesters, seit 2010 an gleicher Position 
+    an der Bayerischen Staatsoper. Als Solist, Orchester- und Kammermusiker weltweite Konzerttätigkeit, 
+    u.a.m. Berliner Philharmonikern u.d. Chamber Orchestra of Europe. 
+    `,
   },
   {
-    name: "Andreas Oberaigner",
-    photo: AndreasOberaignerPhoto,
-    info: `Andreas Oberaigner, Klarinette (A) – geboren in Hall in Tirol, Studium in Wien und Hannover 
-    bei Horst Hajek und Johannes Peitz. Konzerte in Europa und Asien u.a. mit Staatskapelle Dresden, 
-    Wiener Philharmoniker, Oper Frankfurt. Erste Preise bei nationalen Wettbewerben als Kammermusiker 
-    und Solist. Ab 2006 Stv. Soloklarinette der Duisburger Philharmoniker, seit 2024 an gleicher 
-    Position beim Gürzenichorchester Köln.`,
+    name: "Victor Rubio Aparici",
+    photo: VictorApariciPhoto,
+    info: `Victor Rubio Aparici, Klarinette (ESP).`,
   },
+
   {
-    name: "Thomas Oberleitner",
-    photo: ThomasOberleitnerPhoto,
-    info: `Thomas Oberleitner, Kornett (A) - geboren in Tirol, Studium bei Hannes Buchegger, 
-    Andreas Öttl und Florian Klingler in Salzburg und Linz. 2019–2021 Akademist der Bayerischen 
-    Staatsoper. Derzeit Solo-Trompeter im Mozarteumsorchester Salzburg (Zeitvertrag). 
-    Erste Preise bei Wettbewerben, Gast der Deutschen Radiophilharmonie, Rundfunk-Sinfonieorchester Berlin, 
-    im Gärtnerplatztheater München und der Camerata Salzburg.`,
-  },
-  {
-    name: "Stefan Kühne",
-    photo: StefanKuehnePhoto,
-    info: `Stefan Kühne, Posaune (A) - Geboren in Hohenems, Studium bei Harald Brandt und Wolfram Arndt in Feldkirch 
-    und München. Seit 2010 Posaunist im Tiroler Symphonieorchester Innsbruck, davor bei den Dortmunder Philharmonikern.
-    Gast bei Orchestern wie Philharmonisches Orchester Lübeck, Münchner Symphoniker, West-Eastern Divan Orchestra (mit Daniel Barenboim),
-    sowie Bläserensembles wie Blechcircus.`,
-  },
-  {
-    name: "Anton Kammermeier",
-    photo: AntonKammermeierPhoto,
-    info: `Anton Kammermeier, Kontrabass (D) - Geboren in Garmisch-Partenkirchen, Studium bei bei Nabil Shehata, Wies de Boevé 
-    und Philipp Stubenrauch in München, Berlin und Stuttgart. Nach Engagements in drei deutschen Rundfunkorchestern ist er seit 2024
-    Solobassist am Theater am Gärtnerplatz in München. Halbfinalist des J. M. Sperger Wettbewerbs und Preisträger internationaler
-    Wettbewerbe in Venedig, Teneriffa u.a.`,
-  },
-  {
-    name: "Michael Oberaigner",
-    photo: MichaelOberaignerPhoto,
-    info: `Michael Oberaigner, Schlagwerk (A) - geboren in Hall in Tirol, Studium in Innsbruck sowie München 
-    bei Raymond Curfs. Seit 2009 Solopauker des Konzerhausorchester Berlin. Gast bei Wiener Philharmonikern, 
-    Philharmonia Orchestra London, Seoul Philharmonic Orchestra, Münchner Kammerorchester Wiener-, Berliner- 
-    und Bayerischer Staatsoper, den Rundfunkorchestern von Berlin, Stuttgart und Hamburg sowie dem Budapest 
-    Festival Orchestra. `,
+    name: "Felipe Freitas",
+    photo: FelipeFreitasPhoto,
+    info: `Felipe Freitas, Horn (BRA) – Geboren in Rio de Janeiro, Studium ebendort bei Philip Doyle sowie in Karlsruhe 
+    bei Will Sanders. Preisträger der internationalen Wettbewerbe von Prag, Markneukirchen und Porcia. 
+    Seit 2023 Solohornist des Rotterdams Philharmonisch Orkest. Weltweite Konzerttätigkeit. Gründer der Plattform 
+    Trompa Brasilis zur Förderung brasilianischer HornistInnen.`,
   },
 ]
 
@@ -147,7 +115,7 @@ export default ({ onRef }) => (
     className={classNames(commonStyles.sectionWrapper, styles.sectionWrapper)}
   >
     <h2 className={commonStyles.titleWithBackground}>
-      K&Uuml;NSTLERiNNEN AUS NEUN L&Auml;NDERN
+      K&Uuml;NSTLERiNNEN AUS ZEHN L&Auml;NDERN
     </h2>
     <div className={styles.musicians}>
       {musicians.map((musician, i) => (

@@ -17,15 +17,15 @@ export default ({ onRef }) => (
     </h2>
     <div className={styles.content}>
       <a
-        href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=grid"
+        href="https://obertone.at"
         target="_blank"
         className={classNames(
           styles.linkButton,
           styles.ticketsPageLink,
-          commonStyles.withRoundedBorder
+          commonStyles.withRoundedBorder,
         )}
       >
-        Tickets direkt hier bestellen
+        ab 28.02. hier bestellen
       </a>
       <br />
       <br />
@@ -53,17 +53,19 @@ export default ({ onRef }) => (
       </a>
       ,{" "}
       <a
-        href="https://www.innsbruck.info/wandern/wandern/familienwanderungen/touren/tourismus-information-mieming-i.html"
+        href="https://www.innsbruck.info/destination/orte/mieming.html"
         target="_blank"
         className={classNames(styles.whiteLinkunderlined)}
       >
-        Mieming</a>{" "}
+        Mieming
+      </a>{" "}
       und&nbsp;
       <a
         href="https://www.innsbruck.info/destination/tourismus-information.html"
         target="_blank"
         className={classNames(styles.whiteLinkunderlined)}
-      >Innsbruck
+      >
+        Innsbruck
       </a>
       .
       <br />
@@ -75,20 +77,11 @@ export default ({ onRef }) => (
       OBERT&Ouml;NE-Pass sind spezielle Pl&auml;tze reserviert.
       <br />
       <br />
-      {/* Tickets Info 1b */}
-      <div className={styles.subtitle}>Preisanpassung</div>
-      Lange Zeit haben wir unsere Preise nicht erh&ouml;ht &ndash; der Großteil
-      der Tickets kostete &uuml;ber ein Jahrzehnt gleich viel, wie bei unserer
-      Gr&uuml;ndung 2014. F&uuml;r 2025 ist es notwendig, die Preise in den
-      Kategorien A und B der Situation anzupassen; die Preise der Kategorie C
-      bleiben unverändert &mdash; aus unserer Sicht die fairste L&ouml;sung. Wir
-      danken f&uuml;r Ihr Verst&auml;ndnis und Ihren Zuspruch!
-      <br />
-      <br />
       {/* Tickets Info 2 */}
       <div className={styles.subtitle}>Der OBERT&Ouml;NE-Pass</div>
-      f&uuml;r das volle Erlebnis und vier Konzertabende<br /> 
-      von 17. bis 21. September 2025
+      f&uuml;r das volle Erlebnis und vier Konzertabende
+      <br />
+      von 16. bis 20. September 2026
       <br />
       <p>
         Kategorie A: €&nbsp;170,&mdash;
@@ -96,7 +89,7 @@ export default ({ onRef }) => (
         Kategorie B: €&nbsp;110,&mdash;
       </p>
       <div className={styles.subtitle}>Einzeltickets</div>
-      je Konzert: 17./&thinsp;18./&thinsp;20./&thinsp;21. September 2025
+      je Konzert: 16./&thinsp;17./&thinsp;19./&thinsp;20. September 2026
       <br />
       <p>
         Kategorie&nbsp;A: €&nbsp;53,&mdash;
@@ -170,7 +163,7 @@ export default ({ onRef }) => (
         className={classNames(
           styles.linkButton,
           styles.directionsLink,
-          commonStyles.withRoundedBorder
+          commonStyles.withRoundedBorder,
         )}
       >
         <div>

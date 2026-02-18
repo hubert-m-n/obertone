@@ -26,7 +26,7 @@ export default ({ onRef }) => (
         <div
           className={classNames(
             styles.programSection,
-            styles.programPictureSection
+            styles.programPictureSection,
           )}
         >
           <img src={Program1Picture} className={styles.programPicture} />
@@ -35,44 +35,43 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             MITTWOCH
             <br />
-            17. SEPTEMBER 2025
+            16. SEPTEMBER 2026
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams</p>
             <p>
               <b>
-                scelsi.caldara.
-                <nobr>piazzolla.</nobr>
-                <nobr>silwestrow.</nobr>
-                <nobr>nisinman.</nobr>
-                <nobr>brahms</nobr>
+                schmelzer.cazzati.
+                <nobr>bratbury.</nobr>
+                <nobr>veracini.</nobr>
+                <nobr>mozart</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Jan Krigovsky, Rafael Bonavita,
-            Marcelo Nisinman, Nenad Le&#269;i&#263;, Yago Mahugo, Hubert
-            Mittermayer Nesterovskiy.
+            Es spielen Mariya Nesterovska, Nenad Le&#269;i&#263;, Rafael
+            Bonavita, Bertrand Cuiller, Jan Krigovsky, Giorgi Gvantseladze,
+            Victor Rubio Aparici, Felipe Freitas und Hubert Mittermayer
+            Nesterovskiy.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Giacinto Scelsi:</b> &bdquo;Mantram&ldquo; f&uuml;r Kontrabass solo
-          (1967)
+          <b>Johann Heinrich Schmelzer:</b> Triosonate &bdquo;Pastorella&ldquo;
+          (Codex Rost XIII)
           <br />
-          <b>Antonio Caldara:</b> Trio in E-Dur op.&thinsp;2, Nr.&thinsp;11
+          <b>Maurizio Cazzati:</b> Triosonate &bdquo;La Calcagnina&ldquo; (Codex
+          Rost LVI)
           <br />
-          <b>Astor Piazzolla:</b> &bdquo;Adios Nonino&ldquo; (1959; arr.
-          Nisinman, 2025)
+          <b>William Bradbury:</b>
+          &ensp;5&thinsp;&bull;&thinsp;4&thinsp;&bull;&thinsp;3&ensp;(except
+          after C)&ensp;f&uuml;r Oboe, Klarinette und Fagott (2019)
           <br />
-          <b>Walentin Silwestrow:</b> &bdquo;Hommage an
-          J.&thinsp;S.&thinsp;B.&ldquo; f&uuml;r Violine und Klavier (Kyjiw,
-          2009)
+          <b>Francesco Maria Veracini:</b> Sonate in d-moll f&uuml;r Violine und
+          Basso contunuo, I.A.2.D2
           <br />
-          <b>Marcelo Nisinman:</b> &bdquo;Obert&ouml;ne&ldquo; f&uuml;r
-          Bandoneon solo (2025; UA)
-          <br />
-          <b>Johannes Brahms:</b> Trio op.&thinsp; f&uuml;r Violine, Fagott
-          (Horn) und Klavier
+          <b>Wolfgang Amadeus Mozart:</b> Quintett in Es-Dur,{" "}
+          <nobr>KV&thinsp;452</nobr>&ensp;f&uuml;r Klavier, Oboe, Klarinette,
+          Fagott und Horn
         </div>
       </div>
       {/* Program 2 */}
@@ -80,7 +79,7 @@ export default ({ onRef }) => (
         <div
           className={classNames(
             styles.programSection,
-            styles.programPictureSection
+            styles.programPictureSection,
           )}
         >
           <img src={Program2Picture} className={styles.programPicture} />
@@ -89,41 +88,51 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             DONNERSTAG
             <br />
-            18. SEPTEMBER 2025
+            17. SEPTEMBER 2026
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                piazzolla.telemann.
-                <nobr>schumann.</nobr>
+                beethoven.rolnick.
+                <nobr>falconieri.</nobr>
+                <nobr>ortiz.</nobr>
                 <nobr>pandolfi.</nobr>
-                <nobr>nussio.</nobr>
-                <nobr>nisinman</nobr>
+                <nobr>pärt.</nobr>
+                <nobr>hamasyan.</nobr>
+                <nobr>caldara</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Marcelo Nisinman, Yago Mahugo, Rafael
-            Bonavita, Hubert Mittermayer Nesterovskiy, Nenad Le&#269;i&#263;,
-            Jan Krigovsky.
+            Es spielen Mariya Nesterovska, Nenad Le&#269;i&#263;, Jan Krigovsky,
+            Rafael Bonavita, Bertrand Cuiller, Giorgi Gvantseladze, Victor Rubio
+            Aparici, Felipe Freitas und Hubert Mittermayer Nesterovskiy.
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Astor Piazzolla:</b> &bdquo;Five Tango Sensations&ldquo; (1989;
-          arr. Nisinman, 2020)
+          <b>Ludwig van Beethoven:</b> Quintett in Es-Dur, op 16&ensp;f&uuml;r
+          Klavier, Oboe, Klarinette, Fagott und Horn
           <br />
-          <b>Georg Ph. Telemann:</b> Sonate in e-moll für Fagott und
-          B.&thinsp;C. TWV41:e5
+          <b>Neil Rolnick:</b> &bdquo;Fiddle-Faddle&ldquo; f&uuml;r Violine und
+          Elektronik (2003)
           <br />
-          <b>Giovanni A. Pandolfi Mealli:</b> Sonate Nr.&thinsp;4 &bdquo;La
-          castella&ldquo; f&uuml;r Violine und B.&thinsp;C.
+          <b>Andrea Falconieri:</b> Passacalle in g-moll
           <br />
-          <b>Otmar Nussio:</b> Variationen &uuml;ber eine Arietta von Pergolesi
-          f&uuml;r Fagott und Klavier (1953)
+          <b>Diego Ortiz:</b> Recercada Quarta sobre &bdquo;La Folia&ldquo; und
+          Recercada Primera sobre &bdquo;El Passamezzo Antiguo&ldquo;
           <br />
-          <b>Astor Piazzolla:</b> &bdquo;El infierno tan temido&ldquo; (1980;
-          arr. Nisinman, 2025)
+          <b>Giovanni A. Pandolfi Mealli:</b> Sonate Nr.&thinsp;6{" "}
+          <nobr>&bdquo;La Sabattina&ldquo;</nobr> f&uuml;r Violine und
+          B.&thinsp;C.
+          <br />
+          <b>Arvo P&auml;rt:</b> &bdquo;F&uuml;r Alina&ldquo; f&uuml;r Klavier
+          solo (1976)
+          <br />
+          <b>Tigran Hamasyan:</b> Et&uuml;de Nr.&thinsp;1 f&uuml;r Klavier solo
+          (1976)
+          <br />
+          <b>Antonio Caldara:</b> Triosonate in B-Dur op.&thinsp;2, Nr.&thinsp;2
         </div>
       </div>
       {/* Program 3 */}
@@ -131,7 +140,7 @@ export default ({ onRef }) => (
         <div
           className={classNames(
             styles.programSection,
-            styles.programPictureSection
+            styles.programPictureSection,
           )}
         >
           <img src={Program3Picture} className={styles.programPicture} />
@@ -140,27 +149,59 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             SAMSTAG
             <br />
-            20. SEPTEMBER 2025
+            19. SEPTEMBER 2026
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
-              <b>die.geschichte.vom.soldaten</b>
+              <b>
+                ligeti.marcello.
+                <nobr>falconieri.</nobr>
+                <nobr>richter.</nobr>
+                <nobr>murcia.</nobr>
+                <nobr>oconnor.</nobr>
+                <nobr>piazzolla.</nobr>
+                <nobr>nisinman.</nobr>
+                <nobr>weill.</nobr>
+                <nobr>fitkin</nobr>
+              </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Karl Markovics, Mariya Nesterovska, Andreas Oberaigner,
-            Hubert Mittermayer Nesterovskiy, Thomas Oberleitner, Stefan
-            K&uuml;hne, Anton Kammermeier, Michael Oberaigner.
+            Es spielen Mariya Nesterovska, Bertrand Cuiller, Marcelo Nisinman,
+            Rafael Bonavita, Nenad Le&#269;i&#263;, Hubert Mittermayer
+            Nesterovskiy, Jan Krigovsky.
           </div>
         </div>
         <div className={styles.programSection}>
+          <b>György Ligeti:</b> &bdquo;Hungarian Rock&ldquo; f&uuml;r Cembalo
+          solo (1978)
           <br />
-          <b>Igor Strawinsky:</b> &bdquo;Die Geschichte vom Soldaten&ldquo;
-          Musiktheater in zwei Teilen
+          <b>Benedetto Marcello:</b> Sonate Nr.&thinsp;5 in C-Dur f&uuml;r
+          Fagott und Basso continuo
           <br />
+          <b>Max Richter:</b> &bdquo;Mercy&ldquo; f&uuml;r Violine und Klavier
+          (2020)
           <br />
-          und <b>drei ukrainische Volkslieder</b> (instrumental)
+          <b>Santiago de Murcia:</b> Fandango
+          <br />
+          <b>Mark O'Connor:</b> &bdquo;Butterfly's Day Out&ldquo; und
+          &bdquo;College Hornpipe&ldquo; (1994; arr. Mittermayer Nesterovskiy
+          2026)
+          <br />
+          <b>Astor Piazzolla:</b> &bdquo;Romance del diablo&ldquo; (1965)
+          <br />
+          <b>Marcelo Nisinman:</b> &bdquo;Milonga Obsesiva&ldquo; (2025;
+          &Ouml;E) f&uuml;r Ensemble
+          <br />
+          <b>Kurt Weill:</b> &bdquo;Youkali&ldquo; f&uuml;r Violine und
+          Bandoneon (1946; arr. Ninsinman 2020)
+          <br />
+          <b>Graham Fitkin:</b> &bdquo;Wiring&ldquo; und &bdquo;Bob&ldquo;
+          f&uuml;r Fagott und Klavier (2016/1996; arr. Mittermayer Nesterovskiy
+          2026)
+          <br />
+          <b>Astor Piazzolla:</b> Fuga y Misterio (1968; arr. Nisinman 2022)
         </div>
       </div>
       {/* Program 4 */}
@@ -168,7 +209,7 @@ export default ({ onRef }) => (
         <div
           className={classNames(
             styles.programSection,
-            styles.programPictureSection
+            styles.programPictureSection,
           )}
         >
           <img src={Program4Picture} className={styles.programPicture} />
@@ -177,25 +218,25 @@ export default ({ onRef }) => (
           <div className={styles.programTitle}>
             SONNTAG
             <br />
-            21. SEPTEMBER 2025
+            20. SEPTEMBER 2026
           </div>
           <div className={styles.programDescrciption}>
             <p>18 Uhr Bernardisaal, Stift Stams.</p>
             <p>
               <b>
-                galliard.sylwestrow.
-                <nobr>maier.</nobr>
-                <nobr>frescobaldi.</nobr>
-                <nobr>child.</nobr>
-                <nobr>veracini.</nobr>
-                <nobr>spohr.</nobr>
-                <nobr>vivaldi</nobr>
+                reich.platti.
+                <nobr>nisinman.</nobr>
+                <nobr>piazzolla.</nobr>
+                <nobr>adams.</nobr>
+                <nobr>nicolai.</nobr>
+                <nobr>fischer</nobr>
               </b>
             </p>
           </div>
           <div className={styles.programDescrciptionFooter}>
-            Es spielen Mariya Nesterovska, Yago Mahugo, Nenad Le&#269;i&#263;,
-            Rafael Bonavita, Hubert Mittermayer Nesterovskiy, Jan Krigovsky.
+            Es spielen Mariya Nesterovska, Marcelo Nisinman, Nenad
+            Le&#269;i&#263;, Jan Krigovsky, Hubert Mittermayer Nesterovskiy,
+            Rafael Bonavita, Bertrand Cuiller.
             <br />
             <br />
             <font size="3">
@@ -206,25 +247,21 @@ export default ({ onRef }) => (
           </div>
         </div>
         <div className={styles.programSection}>
-          <b>Johann Ernst Galliard:</b> Sonate Nr.&thinsp;6 in C-Dur f&uuml;r
-          Fagott und B.&thinsp;C.
+          <b>Steve Reich:</b> &bdquo;Violin Phase&ldquo; f&uuml;r Violine und
+          Elektronik (1967)
           <br />
-          <b>Walentyn Sylwestrow:</b> &bdquo;Lullaby&ldquo; f&uuml;r Violine und
-          Klavier (aus Melodies of the Moments - Cycle 2015)
+          <b>Giovanni Benedetto Platti:</b> Sonata &agrave; 3 in A-Dur, <nobr>WD 683</nobr>
           <br />
-          <b>Amanda Maier:</b> Allegro vivace aus &bdquo;6 Pi&egrave;ces&ldquo;
-          f&uuml;r Violine und Klavier
+          <b>Marcelo Nisinman:</b> &bdquo;Chen's Tango&ldquo; (2010)
           <br />
-          <b>Girolamo Frescobaldi:</b> Canzoni a due bassi, F8.17c und F8.16c
+          <b>Astor Piazzolla:</b> &bdquo;Extasis&ldquo; (1963)
           <br />
-          <b>Peter Child:</b> Fantasia f&uuml;r Cembalo solo (1980)
+          <b>John Adams:</b> &bdquo;China Gates&ldquo; f&uuml;r Klavier solo (1977)
           <br />
-          <b>Francesco Maria Veracini:</b> Sonate in g-moll f&uuml;r Violine und
-          B.&thinsp;C. op.&thinsp;2, Nr.&thinsp;5
+          <b>Johann Michael Nicolai:</b> Sonata a due bassi in a-moll
           <br />
-          <b>Louis Spohr:</b> Adagio f&uuml;r Fagott und Klavier
-          <br />
-          <b>Antonio Vivaldi:</b> Triosonate in C-Dur, RV 801
+          <b>Johann Fischer:</b> &bdquo;Unterschied zwischen einen rechten Violinist und
+          gemeinen Bauern-Fiedler&ldquo; (aus Musicalische Fürsten-Lust)
         </div>
       </div>
       <p className={styles.dataprotectionText}>

@@ -11,8 +11,7 @@ import classNames from "classnames"
 import TirolLogo from "images/Tirol.png"
 import InnsbruckLogo from "images/Innsbruck.png"
 import OrtnerLogo from "images/Ortner.png"
-import GurglCaratLogo from "images/GurglCarat.png"
-import TiwagLogo from "images/Tiwag.png"
+import WienerStaedtischeLogo from "images/WienerStaedtische.png"
 import HarrysHomeLogo from "images/HarrysHome.png"
 import LLBLogo from "images/llb.png"
 
@@ -106,17 +105,18 @@ export default ({ onRef }) => {
           <a href="http://innsbruck.info/">
             <img src={InnsbruckLogo} />
           </a>
+          <a href="https://llb.at/">
+            <img src={LLBLogo} />
+          </a>
+
           <a href="https://www.ortner-anlagen.at/">
             <img src={OrtnerLogo} />
           </a>
         </div>
 
         <div className={styles.partnersSecondSection} ref={contentPart2Ref}>
-        <a href="https://llb.at/">
-            <img src={LLBLogo} />
-          </a>
-          <a href="https://www.tiwag.at/">
-            <img src={TiwagLogo} />
+          <a href="https://www.wienerstaedtische.at/">
+            <img src={WienerStaedtischeLogo} />
           </a>
           <a href="https://harrys-home.com/telfs/">
             <img src={HarrysHomeLogo} />

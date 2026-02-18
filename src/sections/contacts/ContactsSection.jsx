@@ -12,7 +12,7 @@ export default ({ onRef }) => (
     <h2
       className={classNames(
         commonStyles.titleWithBackground,
-        styles.contactsSectionTitle
+        styles.contactsSectionTitle,
       )}
     >
       Reinh&ouml;ren und Nachh&ouml;ren
@@ -40,7 +40,7 @@ export default ({ onRef }) => (
       <div
         className={classNames(
           styles.assetsLink,
-          commonStyles.withRoundedBorder
+          commonStyles.withRoundedBorder,
         )}
       >
         OBERTÖNE@home
@@ -246,8 +246,9 @@ export default ({ onRef }) => (
         <p>
           Bildnachweis: Bewegte Bilder von Emanuel&nbsp;Altenburger. Fotos:
           „Unsere Partner" / „Wir machen..." / „Toni&nbsp;Innauer" / „Programm
-          1&ndash;4" von Heinz&nbsp;Zak, „Anton Kammermeier" von Hans Lepel,
-          „Thomas Oberleitner" / „Stefan Kühne" / „Michael Oberaigner" privat.
+          1&ndash;4" von Heinz&nbsp;Zak, „Bertrand Cuiller" von Igor
+          Cortadellas, „Giorgi Gvantseladze" / „Victor Rubio Aparici" / „Felipe
+          Freitas" privat.
           <br />
           Alle anderen Fotos von Mariya&nbsp;Nesterovska.
           <br />
@@ -255,7 +256,7 @@ export default ({ onRef }) => (
           <br />
           Programmierung: Andrey Filenko
         </p>
-        ©2025 OBERT&Ouml;NE Kammermusikverein
+        ©2026 OBERT&Ouml;NE Kammermusikverein
       </div>
     </div>
   </div>

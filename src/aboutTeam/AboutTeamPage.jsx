@@ -135,7 +135,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 WAS BISHER GESCHAH
               </p>
               <p>
-                Seit dem Gründungsjahr 2014 haben 29 KünstlerInnen aus
+                Seit dem Gründungsjahr 2014 haben 32 KünstlerInnen aus
                 zw&ouml;lf Ländern das Publikum der OBERT&Ouml;NE begeistert:
               </p>
               Rafael Bonavita (Uruguay) &mdash; Gitarre / Barockgitarre
@@ -149,7 +149,9 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p>Vital Julian Frey (Schweiz) &mdash; Cembalo / Orgel</p>
               <p>François Guerrier (Frankreich) &mdash; Cembalo / Orgel</p>
               <p>Nicola Jovanović (Serbien) &mdash; Violoncello</p>
+              <p>Anton Kammermeier (Deutschland) &mdash; Kontrabass</p>
               <p>Markus Kuen (&Ouml;sterreich) &mdash; Trompete</p>
+              <p>Stefan K&uuml;hne (&Ouml;sterreich) &mdash; Posaune</p>
               <p>
                 J&aacute;n Krigovsk&yacute; (Slowakei) &mdash; Violone /
                 Kontrabass
@@ -164,6 +166,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p>Chris Norz (&Ouml;sterreich) &mdash; Drums</p>
               <p>Andreas Oberaigner (&Ouml;sterreich) &mdash; Klarinette</p>
               <p>Michael Oberaigner (&Ouml;sterreich) &mdash; Schlagwerk</p>
+              <p>Thomas Oberleitner (&Ouml;sterreich) &mdash; Trompete</p>
               <p>Robert Oberaigner (&Ouml;sterreich) &mdash; Klarinette</p>
               <p>David Pia (Schweiz) &mdash; Violoncello</p>
               <p>Iwan Podjomow (Russland) &mdash; Oboe</p>
@@ -179,7 +182,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <br />
               <br />
               <p>
-                Dabei wurde an 44 Konzertabenden die Musik von 140
+                Dabei wurde an 44 Konzertabenden die Musik von 146
                 KomponistInnen zum Klingen gebracht:
               </p>
               <p>
@@ -199,34 +202,36 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 Heinrich Erlebach, Manuel de Falla, Andrea Falconieri, Johann
                 Friedrich Fasch, Gabriel Fauré, Léo Ferré, Willem de Fesch,
                 Gottfried Finger, Johann Fischer, Giovanni Battista Fontana,
-                Jean Françaix, César Franck, Johann Joseph Fux, Johann Ernst
-                Galliard, Carlos Gardel, Francesco Geminiani, George Gershwin,
-                Alberto Ginastera, Michail Glinka, Edvard Grieg, Joseph Haydn,
-                Kyle Hovatter, Johann Nepomuk Hummel, Leoš Janáček, Kaappo
-                Järvinen, Antonio Carlos Jobim, Daniel Humberto Joze, Giya
-                Kantscheli, Johann Hieronymus Kapsberger, Charles Koechlin, Igo
-                Kranowsi, Fritz Kreisler, Konrad Lang, Nenad Le&#269;i&#263;,
-                Györgi Ligeti, Pietro Locatelli, Antonio Lotti, Celso Machado,
-                Pedro Maffia, Marin Marais, Benedetto Marcello, Bohuslav
-                Martinů, Jules Massenet, Nicola Matteis, Rosendo Mendizábal,
-                Luigi Merci, Tarquinio Merula, Hubert Mittermayer Nesterovskiy,
-                Mariano Mores, Ennio Morricone, Gottlieb Muffat, Santiago de
-                Murcia, Chris Norz, Diego Ortiz, Arvo P&auml;rt, Giovanni
-                Battista Pergolesi, Astor Piazzolla, Werner Pirchner, Johann
-                Georg Pisendel, Giovanni B.&thinsp;Platti, Wiktorija Poljowa,
-                Dmitri Ponomarew, Francis Poulenc, Sergei Prokofjew, Sergei
-                Rachmaninow, Maurice Ravel, Gerardo M.&thinsp;Rodríguez, Elliot
-                Roman, Camille Saint-Saens, Federico Maria Sardelli, Domenico
-                Scarlatti, Christoph Schaffrath, Philipp Scharwenka, Johann
-                H.&thinsp;Schmelzer, Henryk Schnapper, Dmitri Schostakowitsch,
-                Franz Schubert, Robert Schumann, Bartolomeo de Selma y
-                Salaverde, Gilles Silvestrini, Howard Skempton, Myroslaw Skoryk,
-                Bedrich Smetana, Tobias Steinberger, Igor Strawinsky, Joseph
-                Suk, Valentin Silwestrow, Osvaldo Tarantino, Georg Philipp
-                Telemann, Erkki-Sven Tüür, Francesco M.&thinsp;Veracini, Robert
-                de Visée, Giovanni B.&thinsp;Vitali, Antonio Vivaldi, Carl Maria
-                von Weber, Johann P.&thinsp;v. Westhoff, Kurt Weill, Eugene
-                Ysaye, Jan Dismas Zelenka.
+                Jean Françaix, César Franck, Girolamo Frescobaldi, Johann Joseph
+                Fux, Johann Ernst Galliard, Carlos Gardel, Francesco Geminiani,
+                George Gershwin, Alberto Ginastera, Michail Glinka, Edvard
+                Grieg, Joseph Haydn, Kyle Hovatter, Johann Nepomuk Hummel, Leoš
+                Janáček, Kaappo Järvinen, Antonio Carlos Jobim, Daniel Humberto
+                Joze, Giya Kantscheli, Johann Hieronymus Kapsberger, Charles
+                Koechlin, Igo Kranowsi, Fritz Kreisler, Konrad Lang, Nenad
+                Le&#269;i&#263;, Györgi Ligeti, Pietro Locatelli, Antonio Lotti,
+                Celso Machado, Pedro Maffia, Amanda Maier, Marin Marais,
+                Benedetto Marcello, Bohuslav Martinů, Jules Massenet, Nicola
+                Matteis, Rosendo Mendizábal, Luigi Merci, Tarquinio Merula,
+                Hubert Mittermayer Nesterovskiy, Mariano Mores, Ennio Morricone,
+                Gottlieb Muffat, Santiago de Murcia, Chris Norz, Otmar Nussio,
+                Diego Ortiz, Giovanni A. Pandolfi Mealli, Arvo P&auml;rt,
+                Giovanni Battista Pergolesi, Astor Piazzolla, Werner Pirchner,
+                Johann Georg Pisendel, Giovanni B.&thinsp;Platti, Wiktorija
+                Poljowa, Dmitri Ponomarew, Francis Poulenc, Sergei Prokofjew,
+                Sergei Rachmaninow, Maurice Ravel, Gerardo M.&thinsp;Rodríguez,
+                Elliot Roman, Camille Saint-Saens, Federico Maria Sardelli,
+                Domenico Scarlatti, Giacinto Scelsi, Christoph Schaffrath,
+                Philipp Scharwenka, Johann H.&thinsp;Schmelzer, Henryk
+                Schnapper, Dmitri Schostakowitsch, Franz Schubert, Robert
+                Schumann, Bartolomeo de Selma y Salaverde, Gilles Silvestrini,
+                Howard Skempton, Myroslaw Skoryk, Bedrich Smetana, Louis Spohr,
+                Tobias Steinberger, Igor Strawinsky, Joseph Suk, Valentin
+                Silwestrow, Osvaldo Tarantino, Georg Philipp Telemann,
+                Erkki-Sven Tüür, Francesco M.&thinsp;Veracini, Robert de Visée,
+                Giovanni B.&thinsp;Vitali, Antonio Vivaldi, Carl Maria von
+                Weber, Johann P.&thinsp;v. Westhoff, Kurt Weill, Eugene Ysaye,
+                Jan Dismas Zelenka.
               </p>
             </>
           }
@@ -307,8 +312,6 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               </nobr> und <nobr>Hubert Mittermayer Nesterovskiy</nobr>
               <br />
               Konzertmanagement: Katharina Jeske
-              <br />
-              &Ouml;ffentlichkeitsarbeit: Dr.&thinsp;Juliane Mayer
             </>
           }
         />
@@ -323,7 +326,7 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
               <p
                 className={classNames(
                   styles.aboutTeamSectionHeader,
-                  styles.clubLink
+                  styles.clubLink,
                 )}
               >
                 CLUB-MITGLIED WERDEN
@@ -336,13 +339,18 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                   bis 20% Erm&auml;ßigung für alle unsere Konzerte f&uuml;r zwei
                   Personen
                 </li>
-                <li>jedes Jahr ein Exemplar des jeweils neuesten Tonträgers &bdquo;Message from 
-                  Chamber music wonderland&ldquo; kostenlos</li>
                 <li>
-                  frühzeitige Information über Konzerte, Programme, KünstlerInnen
+                  jedes Jahr ein Exemplar des jeweils neuesten Tonträgers
+                  &bdquo;Message from Chamber music wonderland&ldquo; kostenlos
+                </li>
+                <li>
+                  frühzeitige Information über Konzerte, Programme,
+                  KünstlerInnen
                 </li>
                 <li>Vorkaufsrecht auf Tickets im Vorverkauf</li>
-                <li>manchmal kleine Aufmerksamkeiten exklusiv für Mitglieder</li>
+                <li>
+                  manchmal kleine Aufmerksamkeiten exklusiv für Mitglieder
+                </li>
               </ul>
               <br />
               Jahresbeitrag:
@@ -359,7 +367,8 @@ const AboutTeamPage = ({ lang, onChangeLang }) => {
                 target="_blank"
               >
                 Ticketshop
-              </a>!
+              </a>
+              !
             </>
           }
         />

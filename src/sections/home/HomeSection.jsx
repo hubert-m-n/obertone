@@ -99,18 +99,18 @@ export default ({ onRef }) => {
             CHAMBER MUSIC WONDERLAND
           </div>
           <div className={styles.homeSectionSubtitle}>
-            12. OBERTÖNE Kammermusiktage
+            13. OBERTÖNE Kammermusiktage
             <br />
-            17.&thinsp;&mdash;&thinsp;21. September 2025
+            16.&thinsp;&mdash;&thinsp;20. September 2026
           </div>
           <a
-            href="https://shop.ticketpay.de/organizer/XTVVA6UY?view=grid"
+            href="https://obertone.at"
             className={classNames(
               styles.ticketsLink,
               commonStyles.withRoundedBorder
             )}
           >
-            Sichern Sie gleich hier Ihre
+            ab 28.02. hier zu den
             <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
         </div>
