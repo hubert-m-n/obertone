@@ -25,7 +25,7 @@ export default ({ onRef }) => (
           commonStyles.withRoundedBorder,
         )}
       >
-        ab 28.02. hier bestellen
+        Tickets hier bestellen
       </a>
       <br />
       <br />

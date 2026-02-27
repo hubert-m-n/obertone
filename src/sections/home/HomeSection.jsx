@@ -104,13 +104,13 @@ export default ({ onRef }) => {
             16.&thinsp;&mdash;&thinsp;20. September 2026
           </div>
           <a
-            href="https://obertone.at"
+            href="https://shop.ticketpay.de/organizer/XTVVA6UY"
             className={classNames(
               styles.ticketsLink,
               commonStyles.withRoundedBorder
             )}
           >
-            ab 28.02. hier zu den
+            Buchen Sie direkt Ihre
             <div className={styles.ticketsLinkLargeText}>TICKETS</div>
           </a>
         </div>
