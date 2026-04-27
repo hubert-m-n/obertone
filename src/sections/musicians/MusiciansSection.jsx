@@ -9,7 +9,7 @@ import MarceloNisinmanPhoto from "images/musicians/MarceloNisinman.jpg"
 import MariyaNesterovskaPhoto from "images/musicians/MariyaNesterovska.jpg"
 import NenadLecicPhoto from "images/musicians/NenadLecic.jpg"
 import GiorgiGvantseladzePhoto from "images/musicians/GiorgiGvantseladze.jpg"
-import VictorApariciPhoto from "images/musicians/VictorAparici.jpg"
+import AndreasOberaignerPhoto from "images/musicians/AndreasOberaigner.jpg"
 import FelipeFreitasPhoto from "images/musicians/FelipeFreitas.jpg"
 
 import MusicianTile from "./tile/MusicianTile"
@@ -93,9 +93,12 @@ const musicians = [
     `,
   },
   {
-    name: "Victor Rubio Aparici",
-    photo: VictorApariciPhoto,
-    info: `Victor Rubio Aparici, Klarinette (ESP).`,
+    name: "Andreas Oberainger",
+    photo: AndreasOberaignerPhoto,
+    info: `Andreas Oberaigner, Klarinette (A) – Geboren in Hall in Tirol, Studium in Wien und Hannover bei Horst Hajek und Johannes
+Peitz. Konzerte in Europa und Asien u.a. mit Staatskapelle Dresden, Wiener Philharmoniker, Oper Frankfurt. Erste Preise bei
+nationalen Wettbewerben als Kammermusiker und Solist. Ab 2006 Stv. Soloklarinette der Duisburger Philharmoniker, seit
+2024 an gleicher Position beim Gürzenichorchester Köln..`,
   },
 
   {
@@ -115,7 +118,7 @@ export default ({ onRef }) => (
     className={classNames(commonStyles.sectionWrapper, styles.sectionWrapper)}
   >
     <h2 className={commonStyles.titleWithBackground}>
-      K&Uuml;NSTLERiNNEN AUS ZEHN L&Auml;NDERN
+      K&Uuml;NSTLERiNNEN AUS NEUN L&Auml;NDERN
     </h2>
     <div className={styles.musicians}>
       {musicians.map((musician, i) => (

@@ -51,7 +51,7 @@ export default ({ onRef }) => (
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Nenad Le&#269;i&#263;, Rafael
             Bonavita, Bertrand Cuiller, Jan Krigovsky, Giorgi Gvantseladze,
-            Victor Rubio Aparici, Felipe Freitas und Hubert Mittermayer
+            Andreas Oberaigner, Felipe Freitas und Hubert Mittermayer
             Nesterovskiy.
           </div>
         </div>
@@ -98,7 +98,7 @@ export default ({ onRef }) => (
                 <nobr>falconieri.</nobr>
                 <nobr>ortiz.</nobr>
                 <nobr>pandolfi.</nobr>
-                <nobr>pärt.</nobr>
+                <nobr>p&auml;rt.</nobr>
                 <nobr>hamasyan.</nobr>
                 <nobr>caldara</nobr>
               </b>
@@ -106,8 +106,8 @@ export default ({ onRef }) => (
           </div>
           <div className={styles.programDescrciptionFooter}>
             Es spielen Mariya Nesterovska, Nenad Le&#269;i&#263;, Jan Krigovsky,
-            Rafael Bonavita, Bertrand Cuiller, Giorgi Gvantseladze, Victor Rubio
-            Aparici, Felipe Freitas und Hubert Mittermayer Nesterovskiy.
+            Rafael Bonavita, Bertrand Cuiller, Giorgi Gvantseladze, Andreas
+            Oberaigner, Felipe Freitas und Hubert Mittermayer Nesterovskiy.
           </div>
         </div>
         <div className={styles.programSection}>
@@ -250,18 +250,21 @@ export default ({ onRef }) => (
           <b>Steve Reich:</b> &bdquo;Violin Phase&ldquo; f&uuml;r Violine und
           Elektronik (1967)
           <br />
-          <b>Giovanni Benedetto Platti:</b> Sonata &agrave; 3 in A-Dur, <nobr>WD 683</nobr>
+          <b>Giovanni Benedetto Platti:</b> Sonata &agrave; 3 in A-Dur,{" "}
+          <nobr>WD 683</nobr>
           <br />
           <b>Marcelo Nisinman:</b> &bdquo;Chen's Tango&ldquo; (2010)
           <br />
           <b>Astor Piazzolla:</b> &bdquo;Extasis&ldquo; (1963)
           <br />
-          <b>John Adams:</b> &bdquo;China Gates&ldquo; f&uuml;r Klavier solo (1977)
+          <b>John Adams:</b> &bdquo;China Gates&ldquo; f&uuml;r Klavier solo
+          (1977)
           <br />
           <b>Johann Michael Nicolai:</b> Sonata a due bassi in a-moll
           <br />
-          <b>Johann Fischer:</b> &bdquo;Unterschied zwischen einen rechten Violinist und
-          gemeinen Bauern-Fiedler&ldquo; (aus Musicalische Fürsten-Lust)
+          <b>Johann Fischer:</b> &bdquo;Unterschied zwischen einen rechten
+          Violinist und gemeinen Bauern-Fiedler&ldquo; (aus Musicalische
+          Fürsten-Lust)
         </div>
       </div>
       <p className={styles.dataprotectionText}>
