@@ -198,8 +198,7 @@ export default ({ onRef }) => (
           Bandoneon (1946; arr. Ninsinman 2020)
           <br />
           <b>Graham Fitkin:</b> &bdquo;Wiring&ldquo; und &bdquo;Bob&ldquo;
-          f&uuml;r Fagott und Klavier (2016/1996; arr. Mittermayer Nesterovskiy
-          2026)
+          (Fassung f&uuml;r Fagott und Klavier)
           <br />
           <b>Astor Piazzolla:</b> Fuga y Misterio (1968; arr. Nisinman 2022)
         </div>
