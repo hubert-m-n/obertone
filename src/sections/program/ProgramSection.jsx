@@ -183,11 +183,10 @@ export default ({ onRef }) => (
           <b>Max Richter:</b> &bdquo;Mercy&ldquo; f&uuml;r Violine und Klavier
           (2020)
           <br />
-          <b>Santiago de Murcia:</b> Fandango
+          <b>Santiago de Murcia:</b> Fandango (arr. Rafael Bonavita)
           <br />
           <b>Mark O'Connor:</b> &bdquo;Butterfly's Day Out&ldquo; und
-          &bdquo;College Hornpipe&ldquo; (1994; arr. Mittermayer Nesterovskiy
-          2026)
+          &bdquo;College Hornpipe&ldquo; (1994; Fassung Radix chamber ensemble)
           <br />
           <b>Astor Piazzolla:</b> &bdquo;Romance del diablo&ldquo; (1965)
           <br />
